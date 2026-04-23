@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add data.json
-          git commit -m "해외 뉴스 번역 및 데이터 업데이트 [skip ci]: $(date)" || echo "변경 사항 없음"
+          git add data.json data.js
+          git commit -m "H_NEWS 데이터 자동 업데이트 [skip ci]: $(date)" || echo "변경 사항 없음"
           git pull --rebase origin main
           git push
