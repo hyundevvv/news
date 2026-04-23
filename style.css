@@ -53,18 +53,18 @@ header {
     transition: 0.3s;
 }
 
-.header-info h1 {
-    font-size: 1rem;
-    font-weight: 400;
+.main-title {
+    font-size: 0.95rem;
+    font-weight: 200;
     margin: 0;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+    color: #fff;
 }
 
-.date-badge {
-    font-size: 0.65rem;
-    color: var(--text-secondary);
-    display: block;
-    margin-top: 1px;
+#current-date {
+    font-size: 0.75rem;
+    color: #666;
+    margin-left: 5px;
 }
 
 /* Sidebar */
