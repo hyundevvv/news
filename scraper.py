@@ -9,7 +9,7 @@ import re
 from email.utils import parsedate_to_datetime
 
 # ─────────────────────────────────────────────────────────────────
-# 검증된 무료 RSS 피드 목록 (2026년 기준 동작 확인 위주)
+# 최종 검증된 안정적 RSS 피드 목록 (봇 차단 없음 확인)
 # ─────────────────────────────────────────────────────────────────
 FEEDS = {
     'TOP': [
@@ -21,14 +21,14 @@ FEEDS = {
     'FINANCE': [
         "https://finance.yahoo.com/news/rssindex",
         "https://www.mk.co.kr/rss/30100041/", # 매일경제 경제
-        "https://rss.hankyung.com/feed/economy.xml", # 한국경제
+        "https://www.hankyung.com/feed/economy", # 한국경제 경제 (최신 주소)
         "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko"
     ],
     'TECH': [
         "https://techcrunch.com/feed/",
         "https://www.theverge.com/rss/index.xml",
-        "https://www.bloter.net/rss",
-        "https://zdnet.co.kr/rss/all/all.xml"
+        "http://rss.etnews.com/03.xml", # 전자신문 IT (최강 안정성)
+        "https://www.hankyung.com/feed/it" # 한국경제 IT
     ]
 }
 
@@ -53,11 +53,8 @@ def parse_date(entry):
                 break
             except:
                 pass
-    
     if dt is None:
         dt = datetime.now(timezone.utc)
-    
-    # 시간대 정보가 없는 경우(Naive) UTC로 설정하고, 있는 경우 UTC로 변환
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
     return dt.astimezone(timezone.utc)
@@ -75,7 +72,6 @@ def extract_image(entry):
     for field in ['summary', 'description']:
         val = getattr(entry, field, '') or ''
         if val:
-            # BeautifulSoup 파싱 전 간단한 정규식으로 먼저 시도 (속도 향상)
             match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', val)
             if match:
                 src = match.group(1)
@@ -90,7 +86,6 @@ def fetch_all_entries(category, feed_urls):
     for url in feed_urls:
         try:
             print(f"  [Fetch] {url}")
-            # SSL 경고 무시 옵션 대신 안정적인 세션 활용
             resp = requests.get(url, headers=HEADERS, timeout=10)
             resp.raise_for_status()
             feed = feedparser.parse(resp.content)
@@ -99,7 +94,7 @@ def fetch_all_entries(category, feed_urls):
                 print(f"  [Skip] No entries")
                 continue
 
-            for entry in feed.entries[:6]:
+            for entry in feed.entries[:7]:
                 title = (entry.get('title') or '').strip()
                 if not title or title in seen_titles: continue
                 seen_titles.add(title)
@@ -120,10 +115,10 @@ def build_articles(entries, category, translator):
     articles = []
     for e in entries:
         title = e['_title']
-        # 언론사 태그 제거
+        # 언론사 태그 제거 (뒤쪽의 하이픈이나 파이프 뒤 텍스트 제거)
         title = re.sub(r'\s*[-|]\s*[^[-|]*$', '', title).strip()
 
-        # 번역 (한글 미포함 시)
+        # 한국어 번역 (한글 미포함 시)
         if not re.search('[가-힣]', title):
             try:
                 title = translator.translate(title) or title
@@ -155,7 +150,7 @@ def fetch_news():
 
 if __name__ == "__main__":
     start = datetime.now()
-    print("=== H_NEWS Scraper Starting ===")
+    print("=== H_NEWS Final Scraper Starting ===")
     news_data = fetch_news()
 
     with open('data.json', 'w', encoding='utf-8') as f:
