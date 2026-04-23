@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 모든 히스토리를 가져와서 리베이스가 가능하게 함
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install feedparser requests beautifulsoup4
+          pip install feedparser requests beautifulsoup4 deep-translator
 
       - name: Run scraper
         run: python scraper.py
@@ -35,6 +35,6 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add data.json
-          git commit -m "데이터 자동 업데이트 [skip ci]: $(date)" || echo "변경 사항 없음"
-          git pull --rebase origin main # 푸시 전 최신 코드를 가져와 합침
+          git commit -m "해외 뉴스 번역 및 데이터 업데이트 [skip ci]: $(date)" || echo "변경 사항 없음"
+          git pull --rebase origin main
           git push
