@@ -2,7 +2,7 @@ import feedparser
 import json
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from deep_translator import GoogleTranslator
 import time
 import re
@@ -12,25 +12,29 @@ from email.utils import parsedate_to_datetime
 # 주식 및 금융 전문 RSS 피드 목록 (Stock-Centric)
 # ─────────────────────────────────────────────────────────────────
 FEEDS = {
-    'MARKET': [ # 시황 및 지수
+    'MARKET': [
         "https://finance.yahoo.com/news/rssindex",
         "https://www.marketwatch.com/rss/topstories",
-        "https://news.einfomax.co.kr/rss/S1N1.xml", # 연합인포맥스 시황
+        "https://news.einfomax.co.kr/rss/S1N1.xml",
         "https://rss.hankyung.com/feed/stock.xml"
     ],
-    'STOCKS': [ # 종목 및 테마
-        "https://www.investing.com/rss/news_25.rss", # Stock Market News
-        "https://rss.mt.co.kr/mt_news_stock.xml", # 머니투데이 증권
-        "https://www.mk.co.kr/rss/30100041/", # 매일경제 기업/종목
-        "https://techcrunch.com/feed/" # 나스닥 테크 성장주
+    'STOCKS': [
+        "https://www.investing.com/rss/news_25.rss",
+        "https://rss.mt.co.kr/mt_news_stock.xml",
+        "https://www.mk.co.kr/rss/30100041/",
+        "https://techcrunch.com/feed/"
     ],
-    'ECONOMY': [ # 거시경제 및 지표
+    'ECONOMY': [
         "https://www.marketwatch.com/rss/economy",
         "https://finance.yahoo.com/news/rss",
         "https://www.hankyung.com/feed/economy",
         "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko"
     ]
 }
+
+# 차단할 도메인 및 유료 키워드
+BLACKLIST_DOMAINS = ['ndsoftnews.com', 'test', 'dev.', 'localhost', 'internal']
+PAYWALL_KEYWORDS = ['[유료]', '[프리미엄]', '[구독]', '[Premium]', '[Exclusive]', '로그인 필요']
 
 PUBLISHER_LOGOS = {
     '연합': "https://www.yonhapnewstv.co.kr/static/images/common/logo.png",
@@ -87,16 +91,28 @@ def get_publisher_info(entry, url, original_title):
             if key in text:
                 found_pub = name
                 break
-    
-    logo = PUBLISHER_LOGOS.get(found_pub.lower().split('.')[0], "")
-    if not logo:
-        for key, l in PUBLISHER_LOGOS.items():
-            if key in found_pub.lower() or key in text:
-                logo = l
-                break
+    logo = ""
+    for key, l in PUBLISHER_LOGOS.items():
+        if key in found_pub.lower() or key in text:
+            logo = l
+            break
     if not logo:
         logo = "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop"
     return found_pub, logo
+
+def is_valid_article(title, url):
+    """유료 기사 및 불량 도메인을 필터링합니다."""
+    # 1. 도메인 블랙리스트 체크
+    for domain in BLACKLIST_DOMAINS:
+        if domain in url.lower():
+            return False
+    
+    # 2. 유료 키워드 체크
+    for kw in PAYWALL_KEYWORDS:
+        if kw in title:
+            return False
+            
+    return True
 
 def fetch_all_entries(category, feed_urls):
     all_entries = []
@@ -106,11 +122,17 @@ def fetch_all_entries(category, feed_urls):
             print(f"  [Fetch] {url}")
             resp = requests.get(url, headers=HEADERS, timeout=10)
             feed = feedparser.parse(resp.content)
-            for entry in feed.entries[:15]:
+            for entry in feed.entries[:20]:
                 title = (entry.get('title') or '').strip()
+                link = entry.get('link', '#')
+                
+                # 유효성 검사 (블랙리스트 및 유료 필터링)
+                if not is_valid_article(title, link):
+                    continue
+                    
                 if not title or title in seen_titles: continue
                 seen_titles.add(title)
-                all_entries.append({'_entry': entry, '_date': parse_date(entry), '_title': title, '_link': entry.get('link', '#')})
+                all_entries.append({'_entry': entry, '_date': parse_date(entry), '_title': title, '_link': link})
         except Exception as e: print(f"  [Error] {e}")
     all_entries.sort(key=lambda x: x['_date'], reverse=True)
     return all_entries[:40]
@@ -122,16 +144,13 @@ def build_articles(entries, category, translator):
         publisher, logo = get_publisher_info(e['_entry'], e['_link'], original_title)
         title = re.sub(r'\s*[-|]\s*[^[-|]*$', '', original_title).strip()
         summary = clean_text(getattr(e['_entry'], 'summary', '') or getattr(e['_entry'], 'description', ''))
-        
         if not re.search('[가-힣]', title):
             try: 
                 title = translator.translate(title) or title
                 if summary: summary = translator.translate(summary[:300]) or summary
             except: pass
-        
         image = extract_image(e['_entry'])
         if not image or 'googleusercontent' in image: image = logo
-
         articles.append({
             'title': title, 'summary': summary[:200], 'link': e['_link'],
             'date': e['_date'].strftime('%m.%d %H:%M'), 'image': image, 'publisher': publisher
@@ -139,13 +158,15 @@ def build_articles(entries, category, translator):
     return articles
 
 def fetch_news():
-    all_data = {}
+    all_data = { 'categories': {}, 'last_updated': '' }
     translator = GoogleTranslator(source='auto', target='ko')
     for category, urls in FEEDS.items():
         print(f"\n[{category}] Processing...")
         entries = fetch_all_entries(category, urls)
-        all_data[category] = build_articles(entries, category, translator)
-        print(f"[{category}] Saved {len(all_data[category])} items.")
+        all_data['categories'][category] = build_articles(entries, category, translator)
+        print(f"[{category}] Saved {len(all_data['categories'][category])} items.")
+    kst = timezone(timedelta(hours=9))
+    all_data['last_updated'] = datetime.now(kst).strftime('%Y-%m-%d %H:%M:%S KST')
     return all_data
 
 if __name__ == "__main__":

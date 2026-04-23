@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --bg: #f2f4f6; /* 토스 표준 배경색 */
+    --bg: #f2f4f6;
     --surface: #ffffff;
-    --text-primary: #191f28; /* 토스 텍스트 컬러 */
+    --text-primary: #191f28;
     --text-secondary: #4e5968;
     --text-muted: #8b95a1;
-    --accent: #3182f6; /* 토스 블루 */
-    --radius: 18px; /* 토스 감성의 부드러운 곡률 */
+    --accent: #3182f6;
+    --radius: 18px;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -20,7 +20,19 @@ body {
     word-break: keep-all;
 }
 
-/* ─── Header: Journal meets Toss ─── */
+/* ─── Top Update Bar ─── */
+.update-bar {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+/* ─── Header ─── */
 header {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
@@ -44,13 +56,9 @@ header {
 
 /* ─── Main Content ─── */
 .main-content { max-width: 1100px; margin: 0 auto; padding: 32px 20px; }
-.grid-container { 
-    display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
-    gap: 24px; 
-}
+.grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
 
-/* ─── Card: The Hybrid ─── */
+/* ─── Card ─── */
 .news-card {
     background: var(--surface);
     border-radius: var(--radius);
@@ -60,36 +68,27 @@ header {
     overflow: hidden;
 }
 
-.news-card:hover { 
-    transform: translateY(-4px); 
-    box-shadow: 0 12px 24px rgba(0,0,0,0.06); 
-}
+.news-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.06); }
 .news-card:active { transform: scale(0.97); }
 
 .thumbnail-area { position: relative; width: 100%; padding-top: 52%; background: #f1f1f1; }
 .thumbnail-area img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
 
 .card-body { padding: 24px; display: flex; flex-direction: column; flex-grow: 1; }
-.article-title { 
-    font-size: 1.2rem; font-weight: 800; line-height: 1.4; 
-    margin-bottom: 12px; color: var(--text-primary); 
-}
+.article-title { font-size: 1.2rem; font-weight: 800; line-height: 1.4; margin-bottom: 12px; color: var(--text-primary); }
 .article-summary {
     font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;
     margin-bottom: 20px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }
 
-.card-meta-info {
-    margin-top: auto; display: flex; align-items: center; gap: 8px;
-    font-size: 0.8rem; font-weight: 600;
-}
+.card-meta-info { margin-top: auto; display: flex; align-items: center; gap: 8px; font-size: 0.8rem; font-weight: 600; }
 .pub-name { color: var(--accent); }
 .author-name { color: var(--text-muted); font-weight: 500; }
 .pub-date { color: var(--text-muted); font-weight: 500; margin-left: auto; }
 
 /* ─── Mobile ─── */
 @media (max-width: 480px) {
+    .update-bar { top: 8px; right: 10px; font-size: 0.6rem; }
     .grid-container { grid-template-columns: 1fr; }
     .logo-text { font-size: 1.7rem; }
-    .article-title { font-size: 1.15rem; }
 }

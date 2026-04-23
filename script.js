@@ -1,23 +1,39 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let currentCategory = 'MARKET'; // 시황 기본값
+    let currentCategory = 'MARKET';
     const grid = document.getElementById('news-grid');
     const dateEl = document.getElementById('current-date');
+    const updateTimeEl = document.getElementById('last-updated-time');
     const today = new Date();
     
     const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
     dateEl.innerText = today.toLocaleDateString('ko-KR', options);
 
     function init() {
-        if (typeof newsData !== 'undefined' && newsData && Object.keys(newsData).length > 0) {
-            render(currentCategory);
+        if (typeof newsData !== 'undefined' && newsData) {
+            // 갱신 시간 표시
+            if (newsData.last_updated) {
+                updateTimeEl.innerText = newsData.last_updated;
+            }
+            
+            // 데이터 렌더링
+            if (newsData.categories && Object.keys(newsData.categories).length > 0) {
+                render(currentCategory);
+            } else {
+                showError("데이터가 비어 있습니다.");
+            }
         } else {
-            grid.innerHTML = `<div class="loading-state"><p>금융 데이터를 불러올 수 없습니다. scraper.py를 실행해 주세요.</p></div>`;
+            showError("데이터를 불러올 수 없습니다.");
         }
+    }
+
+    function showError(msg) {
+        grid.innerHTML = `<div class="loading-state"><p>${msg} scraper.py를 실행해 주세요.</p></div>`;
     }
 
     function render(category) {
         grid.innerHTML = '';
-        const articles = newsData[category] || [];
+        // 새로운 데이터 구조 (newsData.categories[category]) 대응
+        const articles = (newsData.categories && newsData.categories[category]) || [];
         
         if (articles.length === 0) {
             grid.innerHTML = `<div class="loading-state"><p>현재 등록된 금융 뉴스가 없습니다.</p></div>`;
