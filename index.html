@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>H_NEWS | THE MODERN JOURNAL</title>
-    <meta name="description" content="실시간 글로벌 주요 뉴스 큐레이션 서비스">
+    <title>H_NEWS | STOCK & FINANCE JOURNAL</title>
+    <meta name="description" content="실시간 국내외 증시 시황 및 종목 분석 전문 뉴스 포털">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="logo-area">
-                <h1 class="logo-text">H_NEWS</h1>
+                <h1 class="logo-text">H_NEWS <span style="font-size:0.9rem; color:#0047bb; vertical-align: middle;">STOCK</span></h1>
             </div>
             <div class="date-info" id="current-date">
-                <!-- 날짜가 자바스크립트로 주입됩니다 -->
+                <!-- 날짜 주입 -->
             </div>
             <div class="nav-wrapper">
                 <nav class="tab-nav">
-                    <button class="tab-btn active" data-category="TOP">주요 뉴스</button>
-                    <button class="tab-btn" data-category="FINANCE">경제·금융</button>
-                    <button class="tab-btn" data-category="TECH">테크·IT</button>
+                    <button class="tab-btn active" data-category="MARKET">시황·인덱스</button>
+                    <button class="tab-btn" data-category="STOCKS">종목·테마</button>
+                    <button class="tab-btn" data-category="ECONOMY">경제·지표</button>
                 </nav>
             </div>
         </div>
@@ -28,9 +28,8 @@
 
     <main class="main-content">
         <div id="news-grid" class="grid-container">
-            <!-- 기사 카드가 자바스크립트로 주입됩니다 -->
             <div class="loading-state">
-                <p>뉴스를 불러오고 있습니다...</p>
+                <p>금융 데이터를 불러오고 있습니다...</p>
             </div>
         </div>
     </main>

@@ -9,40 +9,39 @@ import re
 from email.utils import parsedate_to_datetime
 
 # ─────────────────────────────────────────────────────────────────
-# 최종 검증된 안정적 RSS 피드 목록
+# 주식 및 금융 전문 RSS 피드 목록 (Stock-Centric)
 # ─────────────────────────────────────────────────────────────────
 FEEDS = {
-    'TOP': [
-        "https://feeds.bbci.co.uk/news/rss.xml",
-        "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-        "https://www.yonhapnewstv.co.kr/browse/feed/",
-        "https://www.theguardian.com/world/rss"
-    ],
-    'FINANCE': [
+    'MARKET': [ # 시황 및 지수
         "https://finance.yahoo.com/news/rssindex",
-        "https://www.mk.co.kr/rss/30100041/", 
+        "https://www.marketwatch.com/rss/topstories",
+        "https://news.einfomax.co.kr/rss/S1N1.xml", # 연합인포맥스 시황
+        "https://rss.hankyung.com/feed/stock.xml"
+    ],
+    'STOCKS': [ # 종목 및 테마
+        "https://www.investing.com/rss/news_25.rss", # Stock Market News
+        "https://rss.mt.co.kr/mt_news_stock.xml", # 머니투데이 증권
+        "https://www.mk.co.kr/rss/30100041/", # 매일경제 기업/종목
+        "https://techcrunch.com/feed/" # 나스닥 테크 성장주
+    ],
+    'ECONOMY': [ # 거시경제 및 지표
+        "https://www.marketwatch.com/rss/economy",
+        "https://finance.yahoo.com/news/rss",
         "https://www.hankyung.com/feed/economy",
         "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko"
-    ],
-    'TECH': [
-        "https://techcrunch.com/feed/",
-        "https://www.theverge.com/rss/index.xml",
-        "http://rss.etnews.com/03.xml", 
-        "https://www.hankyung.com/feed/it"
     ]
 }
 
 PUBLISHER_LOGOS = {
-    '연합뉴스': "https://www.yonhapnewstv.co.kr/static/images/common/logo.png",
+    '연합': "https://www.yonhapnewstv.co.kr/static/images/common/logo.png",
     '매일경제': "https://www.mk.co.kr/static/common/img/mk_logo.png",
     '한국경제': "https://www.hankyung.com/img/common/hankyung_logo.png",
-    '전자신문': "https://www.etnews.com/etnews/images/common/logo.png",
-    'bbc': "https://navis.bbci.co.uk/news-app/assets/apple-touch-icon-180x180.png",
-    'nyt': "https://static01.nyt.com/images/icons/t_logo_291_black.png",
-    'techcrunch': "https://techcrunch.com/wp-content/uploads/2015/02/cropped-tc-favicon-lg.png",
-    'the verge': "https://cdn.vox-cdn.com/uploads/chorus_asset/asset/24011409/verge_logo_icon_color_2022.png",
-    'the guardian': "https://assets.guim.co.uk/images/favicons/023dafadbf5ef53e0865e4ba8a834547/114x114.png",
-    'yahoo': "https://s.yimg.com/cv/apiv2/myy/yahoo_logo_v3.png"
+    '인포맥스': "https://news.einfomax.co.kr/image/logo.png",
+    '머니투데이': "https://www.mt.co.kr/favicon.ico",
+    'yahoo': "https://s.yimg.com/cv/apiv2/myy/yahoo_logo_v3.png",
+    'marketwatch': "https://www.marketwatch.com/favicon.ico",
+    'investing': "https://www.investing.com/favicon.ico",
+    'techcrunch': "https://techcrunch.com/wp-content/uploads/2015/02/cropped-tc-favicon-lg.png"
 }
 
 HEADERS = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' }
@@ -77,14 +76,27 @@ def extract_image(entry):
         if match: return match.group(1)
     return None
 
-def get_publisher_name(entry, url):
+def get_publisher_info(entry, url, original_title):
+    text = (url + " " + original_title).lower()
     if hasattr(entry, 'source') and 'title' in entry.source:
-        return entry.source.title
-    low_url = url.lower()
-    mapping = {'bbc': 'BBC News', 'nytimes': 'NYT', 'mk.co.kr': '매일경제', 'hankyung': '한국경제', 'etnews': '전자신문', 'yonhap': '연합뉴스TV', 'techcrunch': 'TechCrunch', 'theverge': 'The Verge', 'guardian': 'The Guardian', 'yahoo': 'Yahoo Finance'}
-    for key, name in mapping.items():
-        if key in low_url: return name
-    return "Global News"
+        found_pub = entry.source.title
+    else:
+        mapping = {'einfomax': '연합인포맥스', 'mt.co.kr': '머니투데이', 'mk.co.kr': '매일경제', 'hankyung': '한국경제', 'marketwatch': 'MarketWatch', 'investing': 'Investing.com', 'yahoo': 'Yahoo Finance', 'techcrunch': 'TechCrunch'}
+        found_pub = "Financial News"
+        for key, name in mapping.items():
+            if key in text:
+                found_pub = name
+                break
+    
+    logo = PUBLISHER_LOGOS.get(found_pub.lower().split('.')[0], "")
+    if not logo:
+        for key, l in PUBLISHER_LOGOS.items():
+            if key in found_pub.lower() or key in text:
+                logo = l
+                break
+    if not logo:
+        logo = "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop"
+    return found_pub, logo
 
 def fetch_all_entries(category, feed_urls):
     all_entries = []
@@ -106,15 +118,11 @@ def fetch_all_entries(category, feed_urls):
 def build_articles(entries, category, translator):
     articles = []
     for e in entries:
-        raw_title = e['_title']
-        publisher = get_publisher_name(e['_entry'], e['_link'])
-        title = re.sub(r'\s*[-|]\s*[^[-|]*$', '', raw_title).strip()
-        
-        # 기사 요약 및 작성자 추출
+        original_title = e['_title']
+        publisher, logo = get_publisher_info(e['_entry'], e['_link'], original_title)
+        title = re.sub(r'\s*[-|]\s*[^[-|]*$', '', original_title).strip()
         summary = clean_text(getattr(e['_entry'], 'summary', '') or getattr(e['_entry'], 'description', ''))
-        author = getattr(e['_entry'], 'author', '') or getattr(e['_entry'], 'dc_creator', '')
         
-        # 번역
         if not re.search('[가-힣]', title):
             try: 
                 title = translator.translate(title) or title
@@ -122,17 +130,11 @@ def build_articles(entries, category, translator):
             except: pass
         
         image = extract_image(e['_entry'])
-        if not image or 'googleusercontent' in image:
-            image = PUBLISHER_LOGOS.get(publisher.lower().split()[0], "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop")
+        if not image or 'googleusercontent' in image: image = logo
 
         articles.append({
-            'title': title,
-            'summary': summary[:200], # 최대 200자
-            'author': author,
-            'link': e['_link'],
-            'date': e['_date'].strftime('%m.%d %H:%M'),
-            'image': image,
-            'publisher': publisher
+            'title': title, 'summary': summary[:200], 'link': e['_link'],
+            'date': e['_date'].strftime('%m.%d %H:%M'), 'image': image, 'publisher': publisher
         })
     return articles
 
@@ -148,7 +150,7 @@ def fetch_news():
 
 if __name__ == "__main__":
     start = datetime.now()
-    print("=== H_NEWS Scraper Starting ===")
+    print("=== H_NEWS Stock Scraper Starting ===")
     news_data = fetch_news()
     with open('data.js', 'w', encoding='utf-8') as f:
         f.write(f"const newsData = {json.dumps(news_data, ensure_ascii=False, indent=4)};")
