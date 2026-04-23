@@ -38,16 +38,16 @@ PAYWALL_KEYWORDS = ['[유료]', '[프리미엄]', '[구독]', '[Premium]', '[Exc
 HEADERS = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' }
 
 def fetch_indices():
-    """주요 증시 지수를 수집합니다."""
+    """야후 파이낸스 API를 사용하여 주요 증시 지수를 정확하게 수집합니다."""
     indices = []
+    symbols = "^KS11,^KQ11,^IXIC,^GSPC,KRW=X"
+    url = f"https://query1.finance.yahoo.com/v7/finance/quote?symbols={symbols}"
+    
     try:
-        # 야후 파이낸스에서 주요 지수 추출 (심플 크롤링)
-        url = "https://finance.yahoo.com/world-indices"
-        resp = requests.get(url, headers=HEADERS, timeout=10)
-        soup = BeautifulSoup(resp.content, 'html.parser')
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        data = resp.json()
         
-        # 관심 지수 매핑
-        targets = {
+        mapping = {
             '^KS11': 'KOSPI', 
             '^KQ11': 'KOSDAQ', 
             '^IXIC': 'NASDAQ', 
@@ -55,26 +55,29 @@ def fetch_indices():
             'KRW=X': 'USD/KRW'
         }
         
-        # 최신 야후 파이낸스 레이아웃 대응 (정적 파싱)
-        # 실제 운영시에는 API나 더 안정적인 테이블 파싱 필요
-        rows = soup.find_all('tr')
-        for row in rows:
-            symbol_tag = row.find('a')
-            if symbol_tag and symbol_tag.text in targets:
-                name = targets[symbol_tag.text]
-                price = row.find_all('td')[2].text
-                change_percent = row.find_all('td')[4].text
-                indices.append({'name': name, 'price': price, 'change': change_percent})
-        
-        # 환율 추가 (별도 처리 가능성 대비)
-        if len(indices) < 3: # 파싱 실패 시 기본값 (UI 유지용)
-             indices = [
-                {'name': 'KOSPI', 'price': '2,712.50', 'change': '+0.45%'},
-                {'name': 'NASDAQ', 'price': '16,274.50', 'change': '-0.12%'},
-                {'name': 'S&P 500', 'price': '5,214.20', 'change': '+0.11%'}
-             ]
+        results = data.get('quoteResponse', {}).get('result', [])
+        for item in results:
+            symbol = item.get('symbol')
+            name = mapping.get(symbol, symbol)
+            price = item.get('regularMarketPrice', 0.0)
+            change = item.get('regularMarketChangePercent', 0.0)
+            
+            # 포맷팅: 1,234.56 형식 및 부호 추가
+            formatted_price = "{:,.2f}".format(price)
+            formatted_change = "{:+.2f}%".format(change)
+            
+            indices.append({
+                'name': name,
+                'price': formatted_price,
+                'change': formatted_change
+            })
+            
+        print(f"[Indices] Successfully fetched {len(indices)} items.")
     except Exception as e:
-        print(f"Index fetch error: {e}")
+        print(f"Index API Error: {e}")
+        # API 오류 시에만 최소한의 안전장치 (실제 데이터와 구분되도록 처리)
+        indices = [{"name": "Check Connection", "price": "0.00", "change": "0.00%"}]
+        
     return indices
 
 def parse_date(entry):
@@ -150,8 +153,7 @@ def fetch_news():
     all_data = { 'categories': {}, 'indices': [], 'last_updated': '' }
     translator = GoogleTranslator(source='auto', target='ko')
     
-    # 1. 지수 정보 수집
-    print("[Indices] Fetching major indices...")
+    # 1. 지수 정보 수집 (API 방식)
     all_data['indices'] = fetch_indices()
     
     # 2. 뉴스 카테고리 수집
