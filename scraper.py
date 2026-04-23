@@ -49,25 +49,44 @@ def load_existing_data():
     return {}
 
 def fetch_indices():
+    """요청하신 5대 지수(코스피, 코스닥, 나스닥, 달러, 엔화)를 수집합니다."""
     indices = []
-    symbols = "^KS11,^KQ11,^IXIC,^GSPC,KRW=X"
+    # KOSPI, KOSDAQ, NASDAQ, USD/KRW, JPY/KRW
+    symbols = "^KS11,^KQ11,^IXIC,KRW=X,JPYKRW=X"
     url = f"https://query1.finance.yahoo.com/v7/finance/quote?symbols={symbols}"
+    
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
         data = resp.json()
-        mapping = {'^KS11': 'KOSPI', '^KQ11': 'KOSDAQ', '^IXIC': 'NASDAQ', '^GSPC': 'S&P 500', 'KRW=X': 'USD/KRW'}
+        
+        mapping = {
+            '^KS11': 'KOSPI', 
+            '^KQ11': 'KOSDAQ', 
+            '^IXIC': 'NASDAQ', 
+            'KRW=X': 'USD/KRW',
+            'JPYKRW=X': 'JPY/KRW'
+        }
+        
         results = data.get('quoteResponse', {}).get('result', [])
-        for item in results:
-            symbol = item.get('symbol')
-            name = mapping.get(symbol, symbol)
-            price = item.get('regularMarketPrice', 0.0)
-            change = item.get('regularMarketChangePercent', 0.0)
-            indices.append({
-                'name': name,
-                'price': "{:,.2f}".format(price),
-                'change': "{:+.2f}%".format(change)
-            })
-    except: pass
+        # 요청한 순서대로 정렬하기 위해 mapping 기반으로 재구성
+        temp_dict = {item['symbol']: item for item in results}
+        
+        for sym in symbols.split(','):
+            item = temp_dict.get(sym)
+            if item:
+                name = mapping.get(sym, sym)
+                price = item.get('regularMarketPrice', 0.0)
+                change = item.get('regularMarketChangePercent', 0.0)
+                
+                indices.append({
+                    'name': name,
+                    'price': "{:,.2f}".format(price),
+                    'change': "{:+.2f}%".format(change)
+                })
+        
+        print(f"[Indices] Fetched {len(indices)} core indices.")
+    except Exception as e:
+        print(f"Index API Error: {e}")
     return indices
 
 def parse_date(entry):
@@ -154,12 +173,10 @@ def fetch_news():
     translator = GoogleTranslator(source='auto', target='ko')
     all_data['indices'] = fetch_indices()
     for category, urls in FEEDS.items():
-        print(f"[{category}] Processing...")
         new_entries = fetch_all_entries(category, urls)
         new_articles = build_articles(new_entries, translator)
         existing_list = existing_data.get('categories', {}).get(category, [])
-        all_data['categories'][category] = merge_and_trim(existing_list, new_articles, 40) # 40개로 제한
-        print(f"[{category}] Saved {len(all_data['categories'][category])} articles.")
+        all_data['categories'][category] = merge_and_trim(existing_list, new_articles, 40)
     kst = timezone(timedelta(hours=9))
     all_data['last_updated'] = datetime.now(kst).strftime('%Y-%m-%d %H:%M:%S KST')
     return all_data
