@@ -32,22 +32,21 @@ FEEDS = {
     ]
 }
 
-# 언론사별 로고 매핑 (이미지 없을 때 사용)
+# 언론사별 로고 매핑
 PUBLISHER_LOGOS = {
+    '연합뉴스': "https://www.yonhapnewstv.co.kr/static/images/common/logo.png",
+    '매일경제': "https://www.mk.co.kr/static/common/img/mk_logo.png",
+    '한국경제': "https://www.hankyung.com/img/common/hankyung_logo.png",
+    '전자신문': "https://www.etnews.com/etnews/images/common/logo.png",
     'bbc': "https://navis.bbci.co.uk/news-app/assets/apple-touch-icon-180x180.png",
     'nyt': "https://static01.nyt.com/images/icons/t_logo_291_black.png",
-    'yonhap': "https://www.yonhapnewstv.co.kr/static/images/common/logo.png",
-    'mk': "https://www.mk.co.kr/static/common/img/mk_logo.png",
-    'hankyung': "https://www.hankyung.com/img/common/hankyung_logo.png",
-    'etnews': "https://www.etnews.com/etnews/images/common/logo.png",
     'techcrunch': "https://techcrunch.com/wp-content/uploads/2015/02/cropped-tc-favicon-lg.png",
     'verge': "https://cdn.vox-cdn.com/uploads/chorus_asset/asset/24011409/verge_logo_icon_color_2022.png",
-    'guardian': "https://assets.guim.co.uk/images/favicons/023dafadbf5ef53e0865e4ba8a834547/114x114.png"
+    'guardian': "https://assets.guim.co.uk/images/favicons/023dafadbf5ef53e0865e4ba8a834547/114x114.png",
+    'yahoo': "https://s.yimg.com/cv/apiv2/myy/yahoo_logo_v3.png"
 }
 
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
-}
+HEADERS = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' }
 
 def parse_date(entry):
     dt = None
@@ -73,13 +72,25 @@ def extract_image(entry):
         if match: return match.group(1)
     return None
 
-def get_fallback_image(url, title):
-    """URL이나 제목에서 언론사를 식별하여 로고를 반환합니다."""
-    lower_url = url.lower()
-    for key, logo in PUBLISHER_LOGOS.items():
-        if key in lower_url:
-            return logo
-    return "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop"
+def get_publisher_info(url, original_title):
+    text = (url + " " + original_title).lower()
+    mapping = {
+        '연합뉴스': '연합뉴스', '매일경제': '매일경제', '한국경제': '한국경제', '전자신문': '전자신문',
+        'bbc': 'BBC News', 'nyt': 'NYT', 'techcrunch': 'TechCrunch', 'verge': 'The Verge',
+        'guardian': 'The Guardian', 'yahoo': 'Yahoo Finance'
+    }
+    found_pub = "Global News"
+    for key, name in mapping.items():
+        if key in text:
+            found_pub = name
+            break
+    logo = PUBLISHER_LOGOS.get(found_pub.lower().split()[0], PUBLISHER_LOGOS.get(found_pub, ''))
+    if not logo:
+        # 키워드 매칭 실패시 개별 언론사 로직
+        if '연합' in found_pub: logo = PUBLISHER_LOGOS['연합뉴스']
+        elif 'finance' in found_pub.lower(): logo = PUBLISHER_LOGOS['yahoo']
+        else: logo = "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop"
+    return found_pub, logo
 
 def fetch_all_entries(category, feed_urls):
     all_entries = []
@@ -89,33 +100,29 @@ def fetch_all_entries(category, feed_urls):
             print(f"  [Fetch] {url}")
             resp = requests.get(url, headers=HEADERS, timeout=10)
             feed = feedparser.parse(resp.content)
-            for entry in feed.entries[:15]: # 수집량 확대
+            for entry in feed.entries[:15]:
                 title = (entry.get('title') or '').strip()
                 if not title or title in seen_titles: continue
                 seen_titles.add(title)
                 all_entries.append({'_entry': entry, '_date': parse_date(entry), '_title': title, '_link': entry.get('link', '#')})
         except Exception as e: print(f"  [Error] {e}")
     all_entries.sort(key=lambda x: x['_date'], reverse=True)
-    return all_entries[:40] # 결과물 확대 (12개 -> 40개)
+    return all_entries[:40]
 
 def build_articles(entries, category, translator):
     articles = []
     for e in entries:
-        title = e['_title']
-        title = re.sub(r'\s*[-|]\s*[^[-|]*$', '', title).strip()
+        original_title = e['_title']
+        publisher, logo = get_publisher_info(e['_link'], original_title)
+        title = re.sub(r'\s*[-|]\s*[^[-|]*$', '', original_title).strip()
         if not re.search('[가-힣]', title):
             try: title = translator.translate(title) or title
             except: pass
-        
         image = extract_image(e['_entry'])
-        if not image or 'googleusercontent' in image: # 구글 뉴스의 저화질 아이콘 등 제외
-            image = get_fallback_image(e['_link'], title)
-
+        if not image or 'googleusercontent' in image: image = logo
         articles.append({
-            'title': title,
-            'link': e['_link'],
-            'date': e['_date'].strftime('%m.%d %H:%M'),
-            'image': image
+            'title': title, 'link': e['_link'], 'date': e['_date'].strftime('%m.%d %H:%M'),
+            'image': image, 'publisher': publisher
         })
     return articles
 
