@@ -7,6 +7,7 @@ from deep_translator import GoogleTranslator
 import time
 import re
 from email.utils import parsedate_to_datetime
+import os
 
 # ─────────────────────────────────────────────────────────────────
 # 주식 및 금융 전문 RSS 피드 목록
@@ -37,47 +38,36 @@ PAYWALL_KEYWORDS = ['[유료]', '[프리미엄]', '[구독]', '[Premium]', '[Exc
 
 HEADERS = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36' }
 
+def load_existing_data():
+    if not os.path.exists('data.js'): return {}
+    try:
+        with open('data.js', 'r', encoding='utf-8') as f:
+            content = f.read()
+            json_match = re.search(r'const newsData = (\{.*\});', content, re.DOTALL)
+            if json_match: return json.loads(json_match.group(1))
+    except: pass
+    return {}
+
 def fetch_indices():
-    """야후 파이낸스 API를 사용하여 주요 증시 지수를 정확하게 수집합니다."""
     indices = []
     symbols = "^KS11,^KQ11,^IXIC,^GSPC,KRW=X"
     url = f"https://query1.finance.yahoo.com/v7/finance/quote?symbols={symbols}"
-    
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
         data = resp.json()
-        
-        mapping = {
-            '^KS11': 'KOSPI', 
-            '^KQ11': 'KOSDAQ', 
-            '^IXIC': 'NASDAQ', 
-            '^GSPC': 'S&P 500', 
-            'KRW=X': 'USD/KRW'
-        }
-        
+        mapping = {'^KS11': 'KOSPI', '^KQ11': 'KOSDAQ', '^IXIC': 'NASDAQ', '^GSPC': 'S&P 500', 'KRW=X': 'USD/KRW'}
         results = data.get('quoteResponse', {}).get('result', [])
         for item in results:
             symbol = item.get('symbol')
             name = mapping.get(symbol, symbol)
             price = item.get('regularMarketPrice', 0.0)
             change = item.get('regularMarketChangePercent', 0.0)
-            
-            # 포맷팅: 1,234.56 형식 및 부호 추가
-            formatted_price = "{:,.2f}".format(price)
-            formatted_change = "{:+.2f}%".format(change)
-            
             indices.append({
                 'name': name,
-                'price': formatted_price,
-                'change': formatted_change
+                'price': "{:,.2f}".format(price),
+                'change': "{:+.2f}%".format(change)
             })
-            
-        print(f"[Indices] Successfully fetched {len(indices)} items.")
-    except Exception as e:
-        print(f"Index API Error: {e}")
-        # API 오류 시에만 최소한의 안전장치 (실제 데이터와 구분되도록 처리)
-        indices = [{"name": "Check Connection", "price": "0.00", "change": "0.00%"}]
-        
+    except: pass
     return indices
 
 def parse_date(entry):
@@ -126,42 +116,50 @@ def fetch_all_entries(category, feed_urls):
                 seen_titles.add(title)
                 all_entries.append({'_entry': entry, '_date': parse_date(entry), '_title': title, '_link': link})
         except: pass
-    all_entries.sort(key=lambda x: x['_date'], reverse=True)
-    return all_entries[:40]
+    return all_entries
 
-def build_articles(entries, category, translator):
+def build_articles(entries, translator):
     articles = []
     for e in entries:
         title = re.sub(r'\s*[-|]\s*[^[-|]*$', '', e['_title']).strip()
         summary = clean_text(getattr(e['_entry'], 'summary', '') or getattr(e['_entry'], 'description', ''))
         publisher = getattr(e['_entry'], 'source', {}).get('title', 'Finance News')
-        
         if not re.search('[가-힣]', title):
             try: 
                 title = translator.translate(title) or title
                 if summary: summary = translator.translate(summary[:300]) or summary
             except: pass
-        
         image = extract_image(e['_entry']) or "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop"
         articles.append({
             'title': title, 'summary': summary[:200], 'link': e['_link'],
-            'date': e['_date'].strftime('%m.%d %H:%M'), 'image': image, 'publisher': publisher
+            'date': e['_date'].strftime('%m.%d %H:%M'), 'image': image, 'publisher': publisher,
+            '_timestamp': int(e['_date'].timestamp())
         })
     return articles
 
+def merge_and_trim(existing_list, new_list, limit=40):
+    combined = new_list + existing_list
+    unique_list = []
+    seen_links = set()
+    for item in combined:
+        if item['link'] not in seen_links:
+            unique_list.append(item)
+            seen_links.add(item['link'])
+    unique_list.sort(key=lambda x: x.get('_timestamp', 0), reverse=True)
+    return unique_list[:limit]
+
 def fetch_news():
+    existing_data = load_existing_data()
     all_data = { 'categories': {}, 'indices': [], 'last_updated': '' }
     translator = GoogleTranslator(source='auto', target='ko')
-    
-    # 1. 지수 정보 수집 (API 방식)
     all_data['indices'] = fetch_indices()
-    
-    # 2. 뉴스 카테고리 수집
     for category, urls in FEEDS.items():
         print(f"[{category}] Processing...")
-        entries = fetch_all_entries(category, urls)
-        all_data['categories'][category] = build_articles(entries, category, translator)
-    
+        new_entries = fetch_all_entries(category, urls)
+        new_articles = build_articles(new_entries, translator)
+        existing_list = existing_data.get('categories', {}).get(category, [])
+        all_data['categories'][category] = merge_and_trim(existing_list, new_articles, 40) # 40개로 제한
+        print(f"[{category}] Saved {len(all_data['categories'][category])} articles.")
     kst = timezone(timedelta(hours=9))
     all_data['last_updated'] = datetime.now(kst).strftime('%Y-%m-%d %H:%M:%S KST')
     return all_data
