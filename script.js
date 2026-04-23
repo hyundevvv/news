@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
     menuBtn.addEventListener('click', toggleSidebar);
     overlay.addEventListener('click', toggleSidebar);
 
-    // GitHub Raw URL for live data (Now working with Public Repo!)
-    const DATA_URL = 'https://raw.githubusercontent.com/hyundevvv/news/main/data.json';
+    // Use jsDelivr for faster and more stable data fetching from GitHub
+    const DATA_URL = 'https://cdn.jsdelivr.net/gh/hyundevvv/news@main/data.json';
 
     // Initial fetch
     async function init() {
@@ -31,9 +31,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch(DATA_URL + '?t=' + new Date().getTime());
             if (!response.ok) throw new Error('Network error');
             newsData = await response.json();
+            console.log('Sync complete. Countries found:', Object.keys(newsData));
             render(currentCountry);
         } catch (e) {
-            console.error(e);
+            console.error('Sync error:', e);
             grid.innerHTML = `<div class="loading-state"><p>Failed to sync data.</p></div>`;
         }
     }
