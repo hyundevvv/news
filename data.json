@@ -1,50 +1,99 @@
 {
-    "KR": [],
+    "KR": [
+        {
+            "title": "탁구로봇이 인간 선수 이겼다…피지컬 AI 시대 성큼",
+            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RVTZwS25aajNSM1JmbVZGMnZYOTBVOUJ4LTJ3bmN2WTNNUUNYR0FWRV9UZTNEX3hya2NnbGRURlRFajJCN0wzaTFwcHZjZTdKQUJuYnluSEdDRGEzWld0UWw1dFVXTGl5VVZj?oc=5",
+            "date": "Thu, 23 Apr 2026 02:08:00 GMT",
+            "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
+        },
+        {
+            "title": "“이재용이 오디오회사 왜 샀지?” 싶었는데…첨단전장사업 핵심됐다",
+            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PTVZfUDRWc1RRMDdvTUdOU29PY2pOYjF6V040TzNpTnltOWxrMjZRN3dJQkhSMFZUOTJISUQ2dlJnQ1pOQmo5eDBwdXFyZGpSTUdhNGFn?oc=5",
+            "date": "Wed, 22 Apr 2026 22:03:30 GMT",
+            "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
+        },
+        {
+            "title": "6분만에 완전 충전, 최장 1500㎞ 주행…韓 기업들 '초비상'",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBLU2N0TDRrck96REpXSkRSdjM4QnE1MWNhd0k0TzZJU2E4bUNybTI3WnlmWmpvUUdnT29ITXZNVWIxTHhCOTJVaVBJeGtoQ3VzdlB4OFY1bTFDZ9IBVEFVX3lxTE5NU01lLVpTZXNfZjF4cHpFZXdJaUhvN3VURy13Q2NRWlltZ1dRbF9zVmFPRWFwZmdWUXpvS0Rad0xxekU3bTllMWxOVDRBblo0Vll2VQ?oc=5",
+            "date": "Wed, 22 Apr 2026 11:00:08 GMT",
+            "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
+        },
+        {
+            "title": "10만원 넘더니 신고가 터졌다…외국인들 삼전 던지고 '올인' [종목 집중탐구]",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tQU5mWEpFOXlQRzc3b1ZqbVJRUXo1VVUxTU5PaTNRMnliWkdrYlQyNU5ldWhVVHZkQ0V0aHl0MkdQY2FRQzQ1SHR4MldmS2tVZFl2Ti0wY1hCZ9IBVEFVX3lxTFBtTm1ZbHJyejQ4aDd1X2hzUkN0TjZza1dzVFlTcHBhdk9GTWYtWTcwZkZ6R3dzWFRZSjM3S182MWliVTR4MzJFaDZPczNHSE9abkpXRg?oc=5",
+            "date": "Thu, 23 Apr 2026 01:15:32 GMT",
+            "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
+        },
+        {
+            "title": "SWIFT-리플, 적대적 경쟁 끝났다…글로벌 은행 60% '양다리' 융합 가속",
+            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcENJMTdHMWdpUlhJelJ1NWtkaDJzZUl1U0lzQ1pZeVl4YWZFemwwNHVnQ0ZSYlVzR3dkWFZDdHdPVjVrd29kb1VjM052TkhvckszRk0tZ3V4eFJWR0NhblJKal9zOGZpRHJQNTVfcGFEM3JIZHB0a205Qm0zUUNSOUc1ZHF2TC1l?oc=5",
+            "date": "Tue, 21 Apr 2026 22:07:23 GMT",
+            "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
+        },
+        {
+            "title": "소형모듈원전 모형에 쏠린 눈",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdmhkVXdZcXVFSG5QYy1WYTF5a2JBdHRvLTZDelQ2MC1uTW8xS0dOTGRGOTBKWTV6SUJCd1prb0VFSzJrSHE4UUhjbFRXSjFsSnFGUFpsbzMwRjVRWmpreDAya2xqM0JoclZIa3dGaGh0QV9RSmF5amkzdnJVeVNmWlJZd00xWHhpYmdIQmln?oc=5",
+            "date": "Wed, 22 Apr 2026 10:13:00 GMT",
+            "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
+        },
+        {
+            "title": "[단독] 삼천리, 비상경영체제 돌입…중동발 에너지 위기·재생에너지 전환 탓",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSmVscXZ4cmZiR3JEZXpnMzJrdTN3el9BWmIwVmE1dUp5OWtTaEVKNUFTQ1ZJZ1VsVjhFekZtdHVDLUMxalRERzFOaDdNcEVlYjhkampobk1kSUZjUlJ0Ul9XSElDR2FhWEFWNmJFNzlQUFpnWnM3MWdreElFWm5BMWUtcjgtQl8xa1hlSlZYZVXSAaQBQVVfeXFMT1l2dHRmMHVTSnVWVm1pUFFHb3JuaDFyT09NbHg3bkVQZVRyS3M0c2RzS2Z6c2phZXNUbllVVWU1bTdEUElKZ3hDc1FYbWl4UlVsbGVrN1I2T2kyeDlMSlRZdWtzd1gxNFF4cG1RNEtNYTU3VnhucHg5cHFjZVFIUW1xeXRka05ick4xTm9SM0Jvamo4bVFhb25rN09aZnpIcWstT2Q?oc=5",
+            "date": "Wed, 22 Apr 2026 01:09:00 GMT",
+            "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
+        },
+        {
+            "title": "너무 똑똑해서 감춰둔 AI… 전 세계가 ‘미토스’에 떤다",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYUZ1eFdXTE96VzIyblk1R205WnN0LXdoSFFvenBHVUhTNTRHdnN3U2ZpNzFaTnZXMG9pZVdWcjB2NnE1dF92RWR1TWlNUlMwV1pVT182dUJNQmVnem5yX1lpWnJ1VmZmWE5LZEpVMF9tNHNkcHJQQWhZNzNSMndlU2lKNA?oc=5",
+            "date": "Wed, 22 Apr 2026 07:16:00 GMT",
+            "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
+        }
+    ],
     "US": [
         {
-            "title": "Base Mac Mini Sold Out From Apple Online Store - MacRumors",
+            "title": "Base Mac Mini는 Apple 온라인 스토어에서 매진되었습니다.",
             "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQblkwXzJuRVZyZjJoN0x6QlZVaDdIM05BZW1oUklfNjJndlN1OVdvdl8wX0UwWWhDUUttWHc0X3d4TzdEdmxYbjRoSFJDOC1Za3JwdjNkWjZpRk1vMmhoRjdZQTVBOXdZcnlQTTR5SWMyZ0dnUFVRbGphMUFSZ3V0aUtPQ2dwN2tLNkVlOA?oc=5",
             "date": "Wed, 22 Apr 2026 21:59:44 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "Sam Altman’s Orb Company Promoted a Bruno Mars Partnership That Doesn't Exist - WIRED",
+            "title": "Sam Altman의 Orb Company는 존재하지 않는 Bruno Mars 파트너십을 홍보했습니다.",
             "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcy1CaUNuUnRzSWdLSjJjZ2VPU21tSUlzVFFPUXJpY1d6b2M0Qjcyc3ZoTnpIWS1vcGluaUQyNWFMcmNfMXVKLTV3ZVd0VXJUbllveDRNRGFvRnZ1MmdoZjlOOHRIU3h5cTI4X1UzMnJPcDFOVU1HRU9xeVk2YnVvcmRUeFI3Zw?oc=5",
             "date": "Wed, 22 Apr 2026 22:11:00 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "Anker Soundcore Space 2 Headphones Are a Top Value Alternative to Bose and Sony - CNET",
+            "title": "Anker Soundcore Space 2 헤드폰은 Bose 및 Sony의 최고 가치 대안입니다.",
             "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMXNkREdFb0lGWGxKdXBneWstdzFOWm5jcTZPT1o2VVg3X0VfTjVHeWRnTDFHVGk0QUo0ZTVhUFl6d2ltaDdpZXBPQ0x2RC1Xdmx3RzMxel84bEVFM3RyZ2dsTkJyMGZ0VzhoOVBWS05PdkpVdGtxcG5aQnJUQXBnd09wdw?oc=5",
             "date": "Wed, 22 Apr 2026 16:00:00 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "Google updates Workspace to make AI your new office intern - TechCrunch",
+            "title": "Google, AI를 새로운 사무실 인턴으로 만들기 위해 Workspace 업데이트",
             "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWtIa1JEeE1QY01lZ19lVGVhekptWjY0dHZ5dWN1R3dOLUZpWDlhdDFtNzJ4R190ZGRaa3ZGSmdJUzhnajdCc1I1cld6OXZnZDRsN0UxbXZuZ1ZEUmM1R2ROc1dHbDcyX2liS213V0gtM2ZZS1ZyRENZZHNoY2tyd1I0dVJMYWtVVkl4UWdyTDU0UXRlbFB6eA?oc=5",
             "date": "Wed, 22 Apr 2026 22:44:26 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "Xbox cuts prices for Game Pass but ends day-one Call of Duty access - BBC",
+            "title": "Xbox는 Game Pass 가격을 인하하지만 첫날 Call of Duty 액세스는 종료합니다.",
             "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XSWhfakxYdjBZYlNpV05QUlhrd1RCZm1zZ2p5RVdDNlVxemVNcS1rQ0p1OWNORkFLTTRJRmRPOHZiU2ZVd2tvMkV5UUxUX254S1BlbW9HNkJxdw?oc=5",
             "date": "Wed, 22 Apr 2026 12:03:10 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "Control: Ultimate Edition is out for the iPhone and iPad - Engadget",
+            "title": "Control: Ultimate Edition이 iPhone 및 iPad용으로 출시되었습니다.",
             "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX2t2TWZiUVpIVnU2dzA4eEpWS3JyREdJNGNJcnlFMnJISklqbFJaTTc1dFg0UW5aekowQXN0Y1JCSmhTNlRxV1pESXRsdmNpbWZURElpVERobjFJYzh6RE16RW1fZHdhWGpQWUFjZVRKU2dRMmc5c2ZlOG85RXd0UWtqSlJyRUJjcUtTTGNzMzVLcU9qa2Z2YXhrdm85T3RqMFFodA?oc=5",
             "date": "Wed, 22 Apr 2026 15:05:32 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "Gamers sue Nintendo over tariff refunds, saying consumers should get the money back [Update] - Game File | Stephen Totilo",
+            "title": "게이머들, 소비자가 돈을 돌려받아야 한다며 관세 환급 문제로 닌텐도 고소",
             "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6Q29YcDRIbDFFaDVydDJ5VWlqZFdYRWs0Rk10djI0bmhYR1JadkJXREFRalZMRUI0MW5UaDdHS2swdEY3bUpWbEkxWk5GSFJSdXZzeC1aSlpGYkVTXzhkOTRvMWIwcGRUZ20zMFZfYWcyZERpeGc?oc=5",
             "date": "Wed, 22 Apr 2026 13:57:31 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "Oppo releases new high-end tablet internationally with 120 Hz display - Notebookcheck",
+            "title": "Oppo, 120Hz 디스플레이를 갖춘 새로운 고급 태블릿을 국제적으로 출시",
             "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLU00R29iM081TnNXRkJ5SWs2VkpEenR6RVhsLVBzdGxFcWFRb3dsc0Z2MlEtbDVTY051NUlDRktVT0xWYUtLN1JMa0E3QjlyM3o2ckxxZkNWeGFHRmhZTENCbXhEcjk3X0JyRkxXZV9lV1dHNEh0NER0MVA5NC1Hb3FCWTNRcU5FOUpvekU1Q29tSlQxZEcwSGluOEoyajBRSm1JdjExYklRSEF1bEZVaUZZVnA?oc=5",
             "date": "Tue, 21 Apr 2026 18:25:00 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
@@ -52,51 +101,51 @@
     ],
     "JP": [
         {
-            "title": "人気ユーチューバー、Ｘポスト自動翻訳で「日本人のイメージが悪く…」「国全体の印象下がる」（日刊スポーツ） - Yahoo!ニュース",
+            "title": "인기 유튜버, X포스트 자동 번역으로 「일본인의 이미지가 나쁘다…」 「국가 전체의 인상 내려간다」",
             "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KajBGN1JKNUpCOVFJc1FScUpYZGFDamdwMGRmdjRhZWNRMFZZbXdoWlVPN1dka3RER3lFT1gyTFpOa3pxRkxNQ3FQTERPYkpMck0yTTZ4MHBDcWZsOVdOV2c4R0JnUEZPT013VkRlYlRMM3pTTDl5OEpWaDFJQlk?oc=5",
             "date": "Thu, 23 Apr 2026 02:19:52 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "グーグルが新型AIチップ発表、学習と推論2種類-エヌビディアに攻勢（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
+            "title": "구글이 신형 AI칩 발표, 학습과 추론 2종류 - 엔비디아에 공세 (TBS CROSS DIG with Bloomberg)",
             "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZUjYtMWQ3UjR1cW4yUzhNb2cyQjIxRU5FcTJQM21SVFh3eFI5OFN2VmZZZklERlFuNWZrSHBuUkdVbHotX3Y0LW1YdFJZVUJmek5fckJLN05NLVFINm8yNDlxMl9pMmlDU2VQYm5uMW8xd0Z1eFRrUUZkVjlRcnM?oc=5",
             "date": "Wed, 22 Apr 2026 20:32:20 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "マイクロソフトがWindows 11ユーザーに明言、「2026年最良のウイルス対策ソフトはこれだ」 - Forbes JAPAN",
+            "title": "마이크로소프트가 윈도우 11 유저에게 명언, \"2026년 최상의 안티바이러스 소프트웨어는 이것이다\"",
             "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fWW1neWY0T0RzNDBVS2xvbU9TQ3JOQWZNVWpDVy10NUVBV0RXVkpPR3BfMzdkbktyTHNqb1diUXkxb2JoMXBManpFdUpSYXVfZGcwRURTUnU?oc=5",
             "date": "Wed, 22 Apr 2026 03:30:00 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "AIロボット、卓球で人間に勝つ 全国大会選手と対戦、ソニーが開発（朝日新聞） - Yahoo!ニュース",
+            "title": "AI 로봇, 탁구에서 인간을 이긴다 전국 대회 선수와 대전, 소니가 개발(아사히 신문)",
             "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EZ01MLUJQZnNQUHVsbnlBRFRPbFUyb1Z5bzRyOGVlWlBSTUY0UGFaQVNUUVdXZm9JMkVBcHhRbV9nQy03Q2NrVzQ1U2lFbzRZOFFCd2FBTHlZZkR0NDhKdGQ4em55S1JuZE0wXzdRM0pvVXFfZTNkc1pYZGZRc0k?oc=5",
             "date": "Wed, 22 Apr 2026 15:00:00 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "スマートウォッチ「wena X」の支援額が4億円を突破　単品支援プランを追加 - ITmedia Mobile - ITmedia",
+            "title": "스마트 워치 「wena X」의 지원액이 4억엔을 돌파 단품 지원 플랜을 추가",
             "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9hdWJrOFZMcG4yOXUtbDRfcGJUTnBfSmdrZ3JKOUFnOXBGejUtMmNzdE9LZEdLYWdSVGg4T2laaEY0MEstNDFLQ3BWSmhpRHRTZG9LbTJBaXF5a0wtU1BoY291ZlIxUVdMNXZmN05EMNIBaEFVX3lxTE5GMnAxZ1UyU0VHUGhZNW9oX3R2R0ZhMDh0S25kX0hNM2FiRXNrUHg1S2lLY2t2RUhhbFoyOUh6LVl5UDQwME9nYzIzYWZYRXZ1Tk81QXR1aXEwa0VtaUlubUlYRnU2UTM2?oc=5",
             "date": "Wed, 22 Apr 2026 05:40:00 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "Google、「Gemini 3.1 Pro」搭載の自律型リサーチAI「Deep Research／Research Max」発表 - ITmedia",
+            "title": "Google, 「Gemini 3.1 Pro」탑재의 자율형 리서치 AI 「Deep Research/Research Max」 발표",
             "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBLXgzM3hKMnpoUmhyQ1BScWNNYzVZTjdRYlZzQWtnRE1Ea0RjMWU4YzRXR25KanotRzZtV1UxY0Jvbml1TTJsTk1SMVc2LVFLYTV6b185TkxrWFdSQmJjMEFGSjVjbk5WX0NsR2ZPVQ?oc=5",
             "date": "Wed, 22 Apr 2026 06:37:00 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "会社の看板に書かれた「謎の文字」を思わず二度見 難解な日本語に「これは読めない」「知らなかった」（LIMO） - Yahoo!ニュース",
+            "title": "회사의 간판에 쓰여진 「수수께끼의 문자」를 무심코 두 번 보고 난해한 일본어에 「이것은 읽을 수 없다」 「몰랐다」(LIMO)",
             "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4tZHlCeGdvWnVXV1F5bmFBTzNFX1dzRGFPbWxtYXdOVFRRdW91T3FXMXVJbEdkek93clppVm1hVERnbWkwQ29WNURnNllndkFKNDVISEk4MVVQcC15a2FJbWhxSzJINFBZZnVMQTg1XzctR3o1Sl8xVWZnbmV5OHM?oc=5",
             "date": "Wed, 22 Apr 2026 21:25:57 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         },
         {
-            "title": "「ロボットは血を流さない」 ウクライナ軍、歩兵の代わりに無人兵器を投入 戦場で優位に（CNN.co.jp） - Yahoo!ニュース",
-            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVNFJpbTZFemxFbnpqMC1NTWQ4bm9VeGRXczJiU3BpSjNVRDlGNXJMZkppcVdmenpaQ3FkQzZMbnRpY044ZVNpWEJDWGhma2N0eVN2RlA5RU91NTRhM0JTVHNoNGk2Qzh5REEzeE8xb1ZCaU1OWG4ybUtqbjdiSkk?oc=5",
-            "date": "Wed, 22 Apr 2026 07:50:00 GMT",
+            "title": "마이크로소프트의 신 IME 「Copilot Keyboard」가 정식판에~그리고 그 녀석이 돌아왔다! /안정성이나 동작 속도가 대폭 향상",
+            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02djlRRlRoOGhBWXZZUDlhSHVLZ1dGTjdvNC1QdGdQNFUzN205ZXFfSzRJOTYxWHVNX19LQ1F5dGUxN0FUSkd2SC1yR2dwUTB4NDAzUGJMZ3hKV2JhR2lkcG9LMFV5VURR?oc=5",
+            "date": "Thu, 23 Apr 2026 01:02:35 GMT",
             "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw"
         }
     ]
