@@ -3,26 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Anti-Gravity | Premium News Curation</title>
+    <title>Anti-Gravity News</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Sidebar -->
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-header">REGIONS</div>
+        <ul class="sidebar-menu">
+            <li class="active" data-country="KR">🇰🇷 South Korea</li>
+            <li data-country="US">🇺🇸 United States</li>
+            <li data-country="JP">🇯🇵 Japan</li>
+        </ul>
+    </nav>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+
     <header>
-        <div class="logo">ANTI-GRAVITY</div>
-        <p class="tagline">Tech Insights in Zero Gravity</p>
+        <button id="menu-btn" class="menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+        <div class="header-info">
+            <h1 id="main-title">최근 뉴스</h1>
+            <span id="current-date" class="date-badge"></span>
+        </div>
     </header>
 
     <main id="news-grid" class="grid-container">
-        <!-- News cards will be injected here -->
         <div class="loading-state">
             <div class="loader"></div>
-            <p>Loading Universe...</p>
+            <p>Syncing with Universe...</p>
         </div>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Anti-Gravity News. All rights reserved.</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>

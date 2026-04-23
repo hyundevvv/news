@@ -1,46 +1,80 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const grid = document.getElementById('news-grid');
+    let newsData = {};
+    let currentCountry = 'KR';
 
-    async function fetchNews() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('overlay');
+    const menuBtn = document.getElementById('menu-btn');
+    const grid = document.getElementById('news-grid');
+    const dateEl = document.getElementById('current-date');
+
+    // Display today's date
+    const today = new Date();
+    const formattedToday = `${today.getFullYear()}.${String(today.getMonth() + 1).padStart(2, '0')}.${String(today.getDate()).padStart(2, '0')}`;
+    dateEl.innerText = formattedToday;
+
+    // Sidebar toggle logic
+    const toggleSidebar = () => {
+        sidebar.classList.toggle('active');
+        overlay.classList.toggle('active');
+    };
+
+    menuBtn.addEventListener('click', toggleSidebar);
+    overlay.addEventListener('click', toggleSidebar);
+
+    // Initial fetch
+    async function init() {
         try {
-            // Using cache busting to ensure we always get the latest news
             const response = await fetch('data.json?t=' + new Date().getTime());
-            if (!response.ok) throw new Error('Network response was not ok');
-            const data = await response.json();
-            renderNews(data);
-        } catch (error) {
-            console.error('Fetch error:', error);
-            grid.innerHTML = `<p class="error">Failed to synchronize with the universe. Please try again later.</p>`;
+            if (!response.ok) throw new Error('Network error');
+            newsData = await response.json();
+            render(currentCountry);
+        } catch (e) {
+            console.error(e);
+            grid.innerHTML = `<div class="loading-state"><p>Failed to sync data.</p></div>`;
         }
     }
 
-    function renderNews(articles) {
-        grid.innerHTML = ''; // Clear loading state
+    // Render articles for the selected country
+    function render(country) {
+        grid.innerHTML = '';
+        const articles = newsData[country] || [];
+        
+        if (articles.length === 0) {
+            grid.innerHTML = `<div class="loading-state"><p>No news available for this region.</p></div>`;
+            return;
+        }
 
-        articles.forEach(article => {
+        articles.forEach(item => {
             const card = document.createElement('div');
             card.className = 'news-card';
-            card.onclick = () => window.open(article.link, '_blank');
-
-            // Format date (Google News usually gives 'Thu, 23 Apr 2026 01:23:45 GMT')
-            const dateObj = new Date(article.date);
-            const formattedDate = isNaN(dateObj.getTime()) ? article.date : `${dateObj.getMonth() + 1}.${dateObj.getDate()}`;
-
+            card.onclick = () => window.open(item.link, '_blank');
+            
             card.innerHTML = `
                 <div class="thumbnail-container">
-                    <img src="${article.image}" alt="${article.title}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop'">
+                    <img src="${item.image}" alt="" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop'">
                 </div>
                 <div class="content">
-                    <div>
-                        <span class="category">${article.category}</span>
-                        <h2 class="title">${article.title}</h2>
-                    </div>
-                    <span class="date">${formattedDate}</span>
+                    <h2 class="title">${item.title}</h2>
                 </div>
             `;
             grid.appendChild(card);
         });
     }
 
-    fetchNews();
+    // Country selection logic
+    document.querySelectorAll('.sidebar-menu li').forEach(li => {
+        li.addEventListener('click', () => {
+            const activeLi = document.querySelector('.sidebar-menu li.active');
+            if (activeLi) activeLi.classList.remove('active');
+            
+            li.classList.add('active');
+            currentCountry = li.dataset.country;
+            
+            render(currentCountry);
+            toggleSidebar();
+        });
+    });
+
+    init();
 });
