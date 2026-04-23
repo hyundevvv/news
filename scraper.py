@@ -44,14 +44,23 @@ HEADERS = {
 }
 
 def parse_date(entry):
+    dt = None
     for attr in ['published', 'updated', 'created']:
         raw = getattr(entry, attr, None)
         if raw:
             try:
-                return parsedate_to_datetime(raw)
+                dt = parsedate_to_datetime(raw)
+                break
             except:
                 pass
-    return datetime.now(timezone.utc)
+    
+    if dt is None:
+        dt = datetime.now(timezone.utc)
+    
+    # 시간대 정보가 없는 경우(Naive) UTC로 설정하고, 있는 경우 UTC로 변환
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
 
 def extract_image(entry):
     # 1. media:content / media:thumbnail
