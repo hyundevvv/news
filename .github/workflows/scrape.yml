@@ -7,6 +7,10 @@ on:
     - cron: "*/30 0-14,21-23 * * *"
   workflow_dispatch:
 
+# 자동 커밋을 위한 쓰기 권한 추가
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
