@@ -22,10 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
     menuBtn.addEventListener('click', toggleSidebar);
     overlay.addEventListener('click', toggleSidebar);
 
+    // GitHub Raw URL for live data without Vercel redeploys
+    const DATA_URL = 'https://raw.githubusercontent.com/hyundevvv/news/main/data.json';
+
     // Initial fetch
     async function init() {
         try {
-            const response = await fetch('data.json?t=' + new Date().getTime());
+            const response = await fetch(DATA_URL + '?t=' + new Date().getTime());
             if (!response.ok) throw new Error('Network error');
             newsData = await response.json();
             render(currentCountry);
