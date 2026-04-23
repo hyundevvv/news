@@ -153,7 +153,7 @@ if __name__ == "__main__":
     print("=== H_NEWS Final Scraper Starting ===")
     news_data = fetch_news()
 
-    with open('data.json', 'w', encoding='utf-8') as f:
-        json.dump(news_data, f, ensure_ascii=False, indent=4)
+    with open('data.js', 'w', encoding='utf-8') as f:
+        f.write(f"const newsData = {json.dumps(news_data, ensure_ascii=False, indent=4)};")
 
     print(f"\n=== Done! ({datetime.now() - start}) ===")

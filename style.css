@@ -87,10 +87,11 @@ header {
 /* ─── Grid ─── */
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr; /* 모바일 1열 필수 */
-    gap: 16px;
-    padding: 4px 16px 40px;
-    max-width: 540px;
+    /* 해상도에 따라 자동으로 열 개수 조절 (최소 280px 확보) */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px; /* 3개 이상 나오도록 전체 너비 확장 */
     margin: 0 auto;
 }
 
@@ -102,7 +103,8 @@ header {
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1);
+    transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.2s;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
 }
 
 .news-card:active {
