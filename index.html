@@ -8,22 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- 지수 티커 바 -->
+    <div class="ticker-container">
+        <div id="ticker-wrapper" class="ticker-wrapper">
+            <!-- 지수 정보 주입 -->
+        </div>
+    </div>
+
     <header>
         <div class="update-bar">
-            최종 갱신: <span id="last-updated-time">-</span>
+            UPDATED: <span id="last-updated-time">-</span>
         </div>
         <div class="header-container">
             <div class="logo-area">
-                <h1 class="logo-text">H_NEWS <span style="font-size:0.9rem; color:#0047bb; vertical-align: middle;">STOCK</span></h1>
-            </div>
-            <div class="date-info" id="current-date">
-                <!-- 날짜 주입 -->
+                <h1 class="logo-text">H_NEWS <span style="font-size:0.8rem; color:#0047bb;">STOCK</span></h1>
             </div>
             <div class="nav-wrapper">
                 <nav class="tab-nav">
-                    <button class="tab-btn active" data-category="MARKET">시황·인덱스</button>
-                    <button class="tab-btn" data-category="STOCKS">종목·테마</button>
-                    <button class="tab-btn" data-category="ECONOMY">경제·지표</button>
+                    <button class="tab-btn active" data-category="MARKET">시황</button>
+                    <button class="tab-btn" data-category="STOCKS">종목</button>
+                    <button class="tab-btn" data-category="ECONOMY">경제</button>
                 </nav>
             </div>
         </div>
@@ -31,9 +35,7 @@
 
     <main class="main-content">
         <div id="news-grid" class="grid-container">
-            <div class="loading-state">
-                <p>금융 데이터를 불러오고 있습니다...</p>
-            </div>
+            <!-- 뉴스 카드 주입 -->
         </div>
     </main>
 
