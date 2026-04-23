@@ -7,23 +7,23 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # 깃허브 서버가 저장소에 쓰기 권한을 갖도록 설정
+  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4 # 최신 버전으로 업데이트
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5 # 최신 버전으로 업데이트
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
 
       - name: Install dependencies
         run: |
-          pip install feedparser
+          pip install feedparser requests beautifulsoup4
 
       - name: Run scraper
         run: python scraper.py
@@ -33,5 +33,5 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add data.json
-          git commit -m "데이터 자동 업데이트: $(date)" || echo "변경 사항 없음"
+          git commit -m "네이버 뉴스 및 썸네일 수집 업데이트: $(date)" || echo "변경 사항 없음"
           git push
