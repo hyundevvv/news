@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let currentCategory = 'MARKET';
+    let currentCategory = 'K-MARKET'; // 국내증시를 기본값으로 변경
     const grid = document.getElementById('news-grid');
     const updateTimeEl = document.getElementById('last-updated-time');
     const tickerWrapper = document.getElementById('ticker-wrapper');
@@ -12,9 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    /**
-     * XSS 방지를 위한 HTML 특수문자 치환 함수
-     */
     function escapeHTML(str) {
         if (!str) return "";
         return str.replace(/[&<>"']/g, function(m) {
@@ -30,24 +27,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderTicker(indices) {
         if (!indices || indices.length === 0) return;
-        
         const content = indices.map(idx => {
             const isUp = idx.change.includes('+');
             const class_name = isUp ? 'up' : 'down';
-            // 보안을 위해 각 필드 이스케이프 처리
-            const safeName = escapeHTML(idx.name);
-            const safePrice = escapeHTML(idx.price);
-            const safeChange = escapeHTML(idx.change);
-
             return `
                 <div class="ticker-item ${class_name}">
-                    <span class="name">${safeName}</span>
-                    <span class="price">${safePrice}</span>
-                    <span class="change">${safeChange}</span>
+                    <span class="name">${escapeHTML(idx.name)}</span>
+                    <span class="price">${escapeHTML(idx.price)}</span>
+                    <span class="change">${escapeHTML(idx.change)}</span>
                 </div>
             `;
         }).join('');
-        
         tickerWrapper.innerHTML = content + content;
     }
 
@@ -55,11 +45,15 @@ document.addEventListener('DOMContentLoaded', () => {
         grid.innerHTML = '';
         const articles = (newsData.categories && newsData.categories[category]) || [];
         
+        if (articles.length === 0) {
+            grid.innerHTML = '<div class="loading-state"><p>데이터를 불러오는 중입니다. 잠시만 기다려 주세요.</p></div>';
+            return;
+        }
+
         articles.forEach(item => {
             const card = document.createElement('article');
             card.className = 'news-card';
             
-            // 모든 외부 데이터 보안 처리
             const safeTitle = escapeHTML(item.title);
             const safeSummary = escapeHTML(item.summary);
             const safePub = escapeHTML(item.publisher);
@@ -91,6 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             grid.appendChild(card);
         });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     function copyToClipboard(text) {

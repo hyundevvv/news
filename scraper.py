@@ -10,26 +10,32 @@ from email.utils import parsedate_to_datetime
 import os
 
 # ─────────────────────────────────────────────────────────────────
-# 주식 및 금융 전문 RSS 피드 목록
+# 주식 및 금융 전문 RSS 피드 목록 (4분할 개편)
 # ─────────────────────────────────────────────────────────────────
 FEEDS = {
-    'MARKET': [
+    'K-MARKET': [ # 국내 증시
+        "https://news.einfomax.co.kr/rss/S1N1.xml", # 연합인포맥스 시황
+        "https://rss.hankyung.com/feed/stock.xml", # 한경 증권
+        "https://rss.mt.co.kr/mt_news_stock.xml", # 머투 증권
+        "https://www.mk.co.kr/rss/30100041/" # 매경 기업/종목
+    ],
+    'GLOBAL': [ # 해외 증시
         "https://finance.yahoo.com/news/rssindex",
         "https://www.marketwatch.com/rss/topstories",
-        "https://news.einfomax.co.kr/rss/S1N1.xml",
-        "https://rss.hankyung.com/feed/stock.xml"
-    ],
-    'STOCKS': [
         "https://www.investing.com/rss/news_25.rss",
-        "https://rss.mt.co.kr/mt_news_stock.xml",
-        "https://www.mk.co.kr/rss/30100041/",
-        "https://techcrunch.com/feed/"
+        "https://techcrunch.com/feed/" # 나스닥 테크주
     ],
-    'ECONOMY': [
+    'MACRO': [ # 거시경제 / 지표
         "https://www.marketwatch.com/rss/economy",
         "https://finance.yahoo.com/news/rss",
         "https://www.hankyung.com/feed/economy",
         "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko"
+    ],
+    'INDUSTRY': [ # 산업 / 테마 (AI, 반도체 등)
+        "https://www.zdnet.co.kr/newsrss/all.xml", # 테크 산업
+        "https://rss.hankyung.com/feed/it.xml", # 한경 IT
+        "https://www.mk.co.kr/rss/50300011/", # 매경 IT/과학
+        "https://www.theverge.com/rss/index.xml" # 글로벌 테크/산업
     ]
 }
 
@@ -49,44 +55,24 @@ def load_existing_data():
     return {}
 
 def fetch_indices():
-    """요청하신 5대 지수(코스피, 코스닥, 나스닥, 달러, 엔화)를 수집합니다."""
     indices = []
-    # KOSPI, KOSDAQ, NASDAQ, USD/KRW, JPY/KRW
     symbols = "^KS11,^KQ11,^IXIC,KRW=X,JPYKRW=X"
     url = f"https://query1.finance.yahoo.com/v7/finance/quote?symbols={symbols}"
-    
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
         data = resp.json()
-        
-        mapping = {
-            '^KS11': 'KOSPI', 
-            '^KQ11': 'KOSDAQ', 
-            '^IXIC': 'NASDAQ', 
-            'KRW=X': 'USD/KRW',
-            'JPYKRW=X': 'JPY/KRW'
-        }
-        
+        mapping = {'^KS11': 'KOSPI', '^KQ11': 'KOSDAQ', '^IXIC': 'NASDAQ', 'KRW=X': 'USD/KRW', 'JPYKRW=X': 'JPY/KRW'}
         results = data.get('quoteResponse', {}).get('result', [])
-        # 요청한 순서대로 정렬하기 위해 mapping 기반으로 재구성
         temp_dict = {item['symbol']: item for item in results}
-        
         for sym in symbols.split(','):
             item = temp_dict.get(sym)
             if item:
-                name = mapping.get(sym, sym)
-                price = item.get('regularMarketPrice', 0.0)
-                change = item.get('regularMarketChangePercent', 0.0)
-                
                 indices.append({
-                    'name': name,
-                    'price': "{:,.2f}".format(price),
-                    'change': "{:+.2f}%".format(change)
+                    'name': mapping.get(sym, sym),
+                    'price': "{:,.2f}".format(item.get('regularMarketPrice', 0.0)),
+                    'change': "{:+.2f}%".format(item.get('regularMarketChangePercent', 0.0))
                 })
-        
-        print(f"[Indices] Fetched {len(indices)} core indices.")
-    except Exception as e:
-        print(f"Index API Error: {e}")
+    except: pass
     return indices
 
 def parse_date(entry):
@@ -142,7 +128,7 @@ def build_articles(entries, translator):
     for e in entries:
         title = re.sub(r'\s*[-|]\s*[^[-|]*$', '', e['_title']).strip()
         summary = clean_text(getattr(e['_entry'], 'summary', '') or getattr(e['_entry'], 'description', ''))
-        publisher = getattr(e['_entry'], 'source', {}).get('title', 'Finance News')
+        publisher = getattr(e['_entry'], 'source', {}).get('title', 'Finance')
         if not re.search('[가-힣]', title):
             try: 
                 title = translator.translate(title) or title
@@ -157,7 +143,7 @@ def build_articles(entries, translator):
     return articles
 
 def merge_and_trim(existing_list, new_list, limit=40):
-    combined = new_list + existing_list
+    combined = new_list + (existing_list or [])
     unique_list = []
     seen_links = set()
     for item in combined:
@@ -173,6 +159,7 @@ def fetch_news():
     translator = GoogleTranslator(source='auto', target='ko')
     all_data['indices'] = fetch_indices()
     for category, urls in FEEDS.items():
+        print(f"[{category}] Processing...")
         new_entries = fetch_all_entries(category, urls)
         new_articles = build_articles(new_entries, translator)
         existing_list = existing_data.get('categories', {}).get(category, [])
