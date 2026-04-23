@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     menuBtn.addEventListener('click', toggleSidebar);
     overlay.addEventListener('click', toggleSidebar);
 
-    // GitHub Raw URL for live data without Vercel redeploys
+    // GitHub Raw URL for live data (Now working with Public Repo!)
     const DATA_URL = 'https://raw.githubusercontent.com/hyundevvv/news/main/data.json';
 
     // Initial fetch
