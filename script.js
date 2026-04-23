@@ -2,50 +2,35 @@ document.addEventListener('DOMContentLoaded', () => {
     let newsData = {};
     let currentCountry = 'KR';
 
-    const sidebar = document.getElementById('sidebar');
-    const overlay = document.getElementById('overlay');
-    const menuBtn = document.getElementById('menu-btn');
     const grid = document.getElementById('news-grid');
     const dateEl = document.getElementById('current-date');
 
-    // Display today's date
+    // 오늘 날짜 표시
     const today = new Date();
-    const formattedToday = `${today.getFullYear()}.${String(today.getMonth() + 1).padStart(2, '0')}.${String(today.getDate()).padStart(2, '0')}`;
-    dateEl.innerText = formattedToday;
+    dateEl.innerText = `${today.getFullYear()}.${String(today.getMonth() + 1).padStart(2, '0')}.${String(today.getDate()).padStart(2, '0')}`;
 
-    // Sidebar toggle logic
-    const toggleSidebar = () => {
-        sidebar.classList.toggle('active');
-        overlay.classList.toggle('active');
-    };
-
-    menuBtn.addEventListener('click', toggleSidebar);
-    overlay.addEventListener('click', toggleSidebar);
-
-    // Use jsDelivr for faster and more stable data fetching from GitHub
+    // GitHub Raw 데이터 (공개 저장소)
     const DATA_URL = 'https://cdn.jsdelivr.net/gh/hyundevvv/news@main/data.json';
 
-    // Initial fetch
     async function init() {
         try {
             const response = await fetch(DATA_URL + '?t=' + new Date().getTime());
             if (!response.ok) throw new Error('Network error');
             newsData = await response.json();
-            console.log('Sync complete. Countries found:', Object.keys(newsData));
+            console.log('Sync complete. Countries:', Object.keys(newsData));
             render(currentCountry);
         } catch (e) {
             console.error('Sync error:', e);
-            grid.innerHTML = `<div class="loading-state"><p>Failed to sync data.</p></div>`;
+            grid.innerHTML = `<div class="loading-state"><p>데이터를 불러올 수 없습니다.</p></div>`;
         }
     }
 
-    // Render articles for the selected country
     function render(country) {
         grid.innerHTML = '';
         const articles = newsData[country] || [];
-        
+
         if (articles.length === 0) {
-            grid.innerHTML = `<div class="loading-state"><p>No news available for this region.</p></div>`;
+            grid.innerHTML = `<div class="loading-state"><p>해당 지역의 뉴스가 없습니다.</p></div>`;
             return;
         }
 
@@ -53,30 +38,35 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'news-card';
             card.onclick = () => window.open(item.link, '_blank');
-            
+
+            // 날짜 포맷 MM.DD
+            const dateObj = new Date(item.date);
+            const dateStr = isNaN(dateObj)
+                ? item.date
+                : `${String(dateObj.getMonth() + 1).padStart(2, '0')}.${String(dateObj.getDate()).padStart(2, '0')}`;
+
             card.innerHTML = `
                 <div class="thumbnail-container">
                     <img src="${item.image}" alt="" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop'">
                 </div>
                 <div class="content">
                     <h2 class="title">${item.title}</h2>
+                    <div class="card-meta">
+                        <span class="card-date">${dateStr}</span>
+                    </div>
                 </div>
             `;
             grid.appendChild(card);
         });
     }
 
-    // Country selection logic
-    document.querySelectorAll('.sidebar-menu li').forEach(li => {
-        li.addEventListener('click', () => {
-            const activeLi = document.querySelector('.sidebar-menu li.active');
-            if (activeLi) activeLi.classList.remove('active');
-            
-            li.classList.add('active');
-            currentCountry = li.dataset.country;
-            
+    // 탭 버튼 클릭 이벤트
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelector('.tab-btn.active')?.classList.remove('active');
+            btn.classList.add('active');
+            currentCountry = btn.dataset.country;
             render(currentCountry);
-            toggleSidebar();
         });
     });
 

@@ -1,42 +1,34 @@
 <!DOCTYPE html>
 <html lang="ko">
-<!-- Deployment Refresh: 2026-04-23 11:45 -->
-
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Anti-Gravity News</title>
+    <meta name="description" content="국내외 최신 기술 뉴스 큐레이션">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Sidebar -->
-    <nav id="sidebar" class="sidebar">
-        <div class="sidebar-header">REGIONS</div>
-        <ul class="sidebar-menu">
-            <li class="active" data-country="KR">🇰🇷 South Korea</li>
-            <li data-country="US">🇺🇸 United States</li>
-            <li data-country="JP">🇯🇵 Japan</li>
-        </ul>
-    </nav>
-
-    <!-- Overlay -->
-    <div id="overlay" class="overlay"></div>
 
     <header>
-        <button id="menu-btn" class="menu-btn" aria-label="Menu">
-            <span></span><span></span><span></span>
-        </button>
-        <div class="header-info">
-            <h1 class="main-title">최근 뉴스 — <span id="current-date"></span></h1>
+        <div class="header-top">
+            <div class="header-left">
+                <span class="logo-text">ANTI-GRAVITY</span>
+                <span id="current-date" class="date-badge"></span>
+            </div>
         </div>
+
+        <!-- 상단 탭 네비게이션 -->
+        <nav class="tab-nav">
+            <button class="tab-btn active" data-country="KR">🇰🇷 국내</button>
+            <button class="tab-btn" data-country="US">🇺🇸 미국</button>
+            <button class="tab-btn" data-country="JP">🇯🇵 일본</button>
+        </nav>
     </header>
 
     <main id="news-grid" class="grid-container">
         <div class="loading-state">
             <div class="loader"></div>
-            <p>Syncing with Universe...</p>
+            <p>뉴스를 불러오는 중...</p>
         </div>
     </main>
 
