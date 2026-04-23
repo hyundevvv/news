@@ -32,7 +32,6 @@ FEEDS = {
     ]
 }
 
-# 언론사 로고 (이미지 추출 실패시 최후의 수단)
 PUBLISHER_LOGOS = {
     '연합뉴스': "https://www.yonhapnewstv.co.kr/static/images/common/logo.png",
     '매일경제': "https://www.mk.co.kr/static/common/img/mk_logo.png",
@@ -61,14 +60,17 @@ def parse_date(entry):
     if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
     return dt.astimezone(timezone.utc)
 
+def clean_text(html_text):
+    if not html_text: return ""
+    soup = BeautifulSoup(html_text, 'html.parser')
+    text = soup.get_text()
+    return re.sub(r'\s+', ' ', text).strip()
+
 def extract_image(entry):
-    # 1. RSS 표준 태그
     if hasattr(entry, 'media_content') and entry.media_content:
         return entry.media_content[0].get('url', '')
     if hasattr(entry, 'media_thumbnail') and entry.media_thumbnail:
         return entry.media_thumbnail[0].get('url', '')
-    
-    # 2. HTML 요약에서 img 태그 파싱
     for field in ['summary', 'description']:
         val = getattr(entry, field, '') or ''
         match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', val)
@@ -76,31 +78,13 @@ def extract_image(entry):
     return None
 
 def get_publisher_name(entry, url):
-    """엔트리 데이터에서 실제 언론사 이름을 추출합니다."""
-    # 1. 구글 뉴스 전용 source 태그
     if hasattr(entry, 'source') and 'title' in entry.source:
         return entry.source.title
-    
-    # 2. URL 기반 판별
     low_url = url.lower()
-    if 'bbc' in low_url: return 'BBC News'
-    if 'nytimes' in low_url: return 'The New York Times'
-    if 'mk.co.kr' in low_url: return '매일경제'
-    if 'hankyung' in low_url: return '한국경제'
-    if 'etnews' in low_url: return '전자신문'
-    if 'yonhap' in low_url: return '연합뉴스TV'
-    if 'techcrunch' in low_url: return 'TechCrunch'
-    if 'theverge' in low_url: return 'The Verge'
-    if 'guardian' in low_url: return 'The Guardian'
-    if 'yahoo' in low_url: return 'Yahoo Finance'
-    
+    mapping = {'bbc': 'BBC News', 'nytimes': 'NYT', 'mk.co.kr': '매일경제', 'hankyung': '한국경제', 'etnews': '전자신문', 'yonhap': '연합뉴스TV', 'techcrunch': 'TechCrunch', 'theverge': 'The Verge', 'guardian': 'The Guardian', 'yahoo': 'Yahoo Finance'}
+    for key, name in mapping.items():
+        if key in low_url: return name
     return "Global News"
-
-def get_publisher_logo(pub_name):
-    low_name = pub_name.lower()
-    for key, logo in PUBLISHER_LOGOS.items():
-        if key in low_name: return logo
-    return "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop"
 
 def fetch_all_entries(category, feed_urls):
     all_entries = []
@@ -124,22 +108,27 @@ def build_articles(entries, category, translator):
     for e in entries:
         raw_title = e['_title']
         publisher = get_publisher_name(e['_entry'], e['_link'])
-        
-        # 제목 정제 (끝부분의 언론사명 제거)
         title = re.sub(r'\s*[-|]\s*[^[-|]*$', '', raw_title).strip()
         
-        # 한국어 번역
+        # 기사 요약 및 작성자 추출
+        summary = clean_text(getattr(e['_entry'], 'summary', '') or getattr(e['_entry'], 'description', ''))
+        author = getattr(e['_entry'], 'author', '') or getattr(e['_entry'], 'dc_creator', '')
+        
+        # 번역
         if not re.search('[가-힣]', title):
-            try: title = translator.translate(title) or title
+            try: 
+                title = translator.translate(title) or title
+                if summary: summary = translator.translate(summary[:300]) or summary
             except: pass
         
-        # 이미지 추출
         image = extract_image(e['_entry'])
         if not image or 'googleusercontent' in image:
-            image = get_publisher_logo(publisher)
+            image = PUBLISHER_LOGOS.get(publisher.lower().split()[0], "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop")
 
         articles.append({
             'title': title,
+            'summary': summary[:200], # 최대 200자
+            'author': author,
             'link': e['_link'],
             'date': e['_date'].strftime('%m.%d %H:%M'),
             'image': image,
@@ -163,4 +152,4 @@ if __name__ == "__main__":
     news_data = fetch_news()
     with open('data.js', 'w', encoding='utf-8') as f:
         f.write(f"const newsData = {json.dumps(news_data, ensure_ascii=False, indent=4)};")
-    print(f"\n=== Done! ({datetime.now() - start}) ===")
+    print(f"\n=== Done! ({datetime.now() - start}) ===\n")
