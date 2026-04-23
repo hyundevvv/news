@@ -3,48 +3,53 @@ document.addEventListener('DOMContentLoaded', () => {
     const grid = document.getElementById('news-grid');
     const dateEl = document.getElementById('current-date');
     const today = new Date();
-    dateEl.innerText = `${today.getFullYear()}.${String(today.getMonth() + 1).padStart(2, '0')}.${String(today.getDate()).padStart(2, '0')}`;
+    
+    // 헤더 날짜 표시 (요일 포함)
+    const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+    dateEl.innerText = today.toLocaleDateString('ko-KR', options);
 
     function init() {
         if (typeof newsData !== 'undefined' && newsData && Object.keys(newsData).length > 0) {
             render(currentCategory);
         } else {
-            grid.innerHTML = `<div class="loading-state"><p>데이터를 불러오는 중입니다...</p></div>`;
+            grid.innerHTML = `<div class="loading-state"><p>뉴스 데이터를 불러오는 중입니다...</p></div>`;
         }
     }
 
     function render(category) {
         grid.innerHTML = '';
         const articles = newsData[category] || [];
+        
         if (articles.length === 0) {
-            grid.innerHTML = `<div class="loading-state"><p>기사가 없습니다.</p></div>`;
+            grid.innerHTML = `<div class="loading-state"><p>현재 등록된 기사가 없습니다.</p></div>`;
             return;
         }
 
         articles.forEach(item => {
-            const card = document.createElement('div');
+            const card = document.createElement('article');
             card.className = 'news-card';
             card.onclick = () => window.open(item.link, '_blank');
             
             const publisher = item.publisher || 'Global News';
-            const dateDisplay = item.date || '';
+            const dateStr = item.date || '';
 
             card.innerHTML = `
-                <div class="thumbnail-container">
+                <div class="thumbnail-area">
                     <img src="${item.image}" alt="" loading="lazy" 
                         onerror="this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=800&auto=format&fit=crop'">
                 </div>
-                <div class="content">
-                    <div class="publisher-row">
-                        <span class="publisher-tag">${publisher}</span>
-                        <div class="dot"></div>
-                        <span class="card-date">${dateDisplay}</span>
+                <div class="card-body">
+                    <div class="category-label">${category}</div>
+                    <h2 class="article-title">${item.title}</h2>
+                    <div class="card-meta-info">
+                        <span class="pub-name">${publisher}</span>
+                        <span class="pub-date">${dateStr}</span>
                     </div>
-                    <h2 class="title">${item.title}</h2>
                 </div>
             `;
             grid.appendChild(card);
         });
+        
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 

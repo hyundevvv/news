@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>H_NEWS - 글로벌 뉴스 큐레이션</title>
-    <meta name="description" content="글로벌 주요 뉴스 및 주식·금융 한국어 큐레이션">
+    <title>H_NEWS | THE MODERN JOURNAL</title>
+    <meta name="description" content="실시간 글로벌 주요 뉴스 큐레이션 서비스">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <div class="header-top">
-            <div class="header-left">
-                <span class="logo-text">H_NEWS</span>
-                <span id="current-date" class="date-badge"></span>
+        <div class="header-container">
+            <div class="logo-area">
+                <h1 class="logo-text">H_NEWS</h1>
+            </div>
+            <div class="date-info" id="current-date">
+                <!-- 날짜가 자바스크립트로 주입됩니다 -->
+            </div>
+            <div class="nav-wrapper">
+                <nav class="tab-nav">
+                    <button class="tab-btn active" data-category="TOP">주요 뉴스</button>
+                    <button class="tab-btn" data-category="FINANCE">경제·금융</button>
+                    <button class="tab-btn" data-category="TECH">테크·IT</button>
+                </nav>
             </div>
         </div>
-
-        <!-- 주제별 탭 네비게이션 -->
-        <nav class="tab-nav">
-            <button class="tab-btn active" data-category="TOP">🔥 주요</button>
-            <button class="tab-btn" data-category="FINANCE">📈 주식·금융</button>
-            <button class="tab-btn" data-category="TECH">💻 기술</button>
-        </nav>
     </header>
 
-    <main id="news-grid" class="grid-container">
-        <div class="loading-state">
-            <div class="loader"></div>
-            <p>뉴스를 불러오는 중...</p>
+    <main class="main-content">
+        <div id="news-grid" class="grid-container">
+            <!-- 기사 카드가 자바스크립트로 주입됩니다 -->
+            <div class="loading-state">
+                <p>뉴스를 불러오고 있습니다...</p>
+            </div>
         </div>
     </main>
 
