@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --bg: #f2f4f6;
+    --bg: #f9fafb; /* 더 맑은 배경 */
     --surface: #ffffff;
-    --text-primary: #191f28;
-    --text-secondary: #4e5968;
-    --text-muted: #8b95a1;
+    --text-primary: #111827; /* 더 깊은 블랙 */
+    --text-secondary: #4b5563;
+    --text-muted: #9ca3af;
     --accent: #3182f6;
-    --radius: 24px;
-    --shadow: 0 4px 20px rgba(0,0,0,0.05);
+    --accent-bg: rgba(49, 130, 246, 0.05);
+    --border: #f3f4f6;
+    --radius-lg: 28px;
+    --radius-md: 16px;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -17,67 +19,114 @@ body {
     background: var(--bg);
     color: var(--text-primary);
     font-family: 'Pretendard', -apple-system, sans-serif;
-    line-height: 1.4;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
 }
 
+/* ─── Premium Header ─── */
 header {
     position: sticky; top: 0; z-index: 100;
-    background: rgba(242, 244, 246, 0.85);
-    backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
-    padding: 24px 20px 8px;
-    display: flex; flex-direction: column; align-items: center; text-align: center;
+    background: rgba(249, 250, 251, 0.8);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    padding: 32px 20px 12px;
+    display: flex; flex-direction: column; align-items: center;
 }
 
-.logo-text { font-size: 1.5rem; font-weight: 900; letter-spacing: -0.04em; margin-bottom: 4px; }
-.date-badge { font-size: 0.85rem; font-weight: 500; color: var(--text-muted); margin-bottom: 16px; }
+.logo-text {
+    font-size: 1.75rem; font-weight: 900; letter-spacing: -0.05em;
+    background: linear-gradient(135deg, #111827 0%, #3182f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 6px;
+}
+
+.date-badge { font-size: 0.9rem; font-weight: 600; color: var(--text-muted); margin-bottom: 24px; }
 
 .tab-nav {
-    display: flex; gap: 8px; padding: 4px;
-    background: rgba(0,0,0,0.03); border-radius: 16px; margin-bottom: 16px;
+    display: flex; gap: 4px; padding: 6px;
+    background: #eeeef0; border-radius: 20px; margin-bottom: 20px;
 }
 
 .tab-btn {
-    padding: 8px 20px; border: none; border-radius: 12px;
-    font-size: 0.9rem; font-weight: 700; cursor: pointer;
-    background: transparent; color: var(--text-secondary); transition: 0.2s;
+    padding: 10px 24px; border: none; border-radius: 16px;
+    font-size: 0.95rem; font-weight: 700; cursor: pointer;
+    background: transparent; color: var(--text-secondary); transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tab-btn.active { background: #fff; color: var(--accent); box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.tab-btn.active {
+    background: var(--surface); color: var(--accent);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
 
+/* ─── Responsive Grid ─── */
 .grid-container {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 24px; padding: 24px; max-width: 1200px; margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 32px; padding: 20px 24px 60px;
+    max-width: 1200px; margin: 0 auto;
 }
 
+/* ─── Premium News Card ─── */
 .news-card {
-    background: var(--surface); border-radius: var(--radius);
-    overflow: hidden; display: flex; flex-direction: column; cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1); box-shadow: var(--shadow);
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.news-card:hover { transform: translateY(-6px); box-shadow: 0 12px 32px rgba(0,0,0,0.08); }
-.news-card:active { transform: scale(0.96); }
-
-.thumbnail-container { position: relative; width: 100%; padding-top: 56%; background: #eee; }
-.thumbnail-container img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-
-.content { padding: 20px; display: flex; flex-direction: column; flex: 1; }
-.title {
-    font-size: 1.05rem; font-weight: 700; color: var(--text-primary);
-    margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical; overflow: hidden; line-height: 1.5;
+.news-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    border-color: rgba(49, 130, 246, 0.2);
 }
 
-.card-footer {
-    margin-top: auto; display: flex; justify-content: space-between; align-items: center;
-    padding-top: 12px; border-top: 1px solid rgba(0,0,0,0.04);
+.news-card:active { transform: scale(0.97); }
+
+.thumbnail-container {
+    position: relative; width: 100%; padding-top: 60%; /* 황금 비율 */
+    background: #f3f4f6; overflow: hidden;
+}
+
+.thumbnail-container img {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.news-card:hover .thumbnail-container img {
+    transform: scale(1.05);
+}
+
+.content { padding: 28px; display: flex; flex-direction: column; flex: 1; }
+
+.publisher-row {
+    display: flex; align-items: center; gap: 8px; margin-bottom: 14px;
 }
 
 .publisher-tag {
-    font-size: 0.75rem; font-weight: 700; color: var(--accent);
-    background: rgba(49, 130, 246, 0.08); padding: 2px 8px; border-radius: 6px;
+    font-size: 0.8rem; font-weight: 800; color: var(--accent);
+    text-transform: uppercase; letter-spacing: 0.02em;
 }
 
-.card-date { font-size: 0.75rem; color: var(--text-muted); }
+.dot { width: 3px; height: 3px; background: var(--text-muted); border-radius: 50%; }
 
-.loading-state { grid-column: 1 / -1; text-align: center; padding: 120px 20px; color: var(--text-muted); }
+.card-date { font-size: 0.8rem; font-weight: 500; color: var(--text-muted); }
+
+.title {
+    font-size: 1.2rem; font-weight: 700; color: var(--text-primary);
+    line-height: 1.5; margin-bottom: 12px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ─── Skeleton / Loading ─── */
+.loading-state { grid-column: 1 / -1; text-align: center; padding: 140px 20px; color: var(--text-muted); }
+
+@media (max-width: 480px) {
+    .grid-container { grid-template-columns: 1fr; gap: 20px; padding: 16px; }
+    .title { font-size: 1.1rem; }
+    .logo-text { font-size: 1.5rem; }
+}
