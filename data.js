@@ -2,6 +2,186 @@ const newsData = {
     "categories": {
         "K-MARKET": [
             {
+                "title": "상장 3개월 만에 주가 2배↑·시총 1조↑…투자자 몰린 바이오주",
+                "summary": "머니투데이 증권부가 선정한 9월 셋째주(15~19일) 베스트리포트는 총 3건입니다. 한승연·박혜성 NH투자증권 연구원이 지투지바이오를 분석한 '글로벌 제약사 롱액팅 니즈 확대 국면', 김홍식·이상훈 하나증권 연구원이 아이씨티케이에 대해 쓴 'SKT 이어 KT까지 해킹 파문, ICTK가 대안일 수 있다', 김형태·송혜수 연구원이 티씨케이에 대해 작성한 '업황",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025092114541910435",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025092114541910435_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "[부고]전우진(하나증권 유성금융센터장)씨 장인상",
+                "summary": "■박태우씨 별세, 전우진씨(하나증권 유성금융센터장) 빙부상=21일 대전성심장례식장 VIP 1호실, 발인 23일, 장지 대전추모공원. (042)522-4494. ...",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025092116144328218",
+                "date": "04.28 22:02",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "MBK, 롯데카드 '보안투자 소홀' 억울 \"71억→128억, 꾸준히 확대\"",
+                "summary": "대규모 해킹사고가 발생한 롯데카드와 관련 대주주인 MBK파트너스가 인수 이후 보안투자를 소홀히 한 것 아니냐는 비판에 대해 사실이 아니라고 해명했다. 보안투자 비용은 2019년 71억원에서 올해 128억원으로 꾸준히 확대해왔다는 설명이다. MBK는 21일 설명문을 내고 \"일각에서 사이버 침해 사고의 원인을 주주사들의 보안 투자·관리 소홀로 지적하고 있으나 ",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025092115442719296",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025092115442719296_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "\"삼전 나만 없어\" 포모에 울상이라면…\"덜 오른 이것 사라\" 전문가 조언",
+                "summary": "지난주 코스피는 사상 최고치 경신을 이어가며 '9월 약세론'을 비껴갔다. 외국인 투자자가 이달에만 삼성전자, SK하이닉스 등에 5조원 넘게 투자하며 반도체주가 코스피 전반의 상승을 이끌었다는 분석이다. 가파른 상승세로 코스피는 차익실현 수요에 따른 숨 고르기에 들어설 가능성이 거론되는 가운데 미국 금리 인하로 유동성이 풍부한 만큼 바이오주, 성장주, 호텔·",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025092109442190196",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025092109442190196_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "베트남에 녹아든 오리온..\"브랜드 자체로 아우라, 꾸준히 사랑받길\"",
+                "summary": "오리온 베트남 법인이 올해 하반기 저당 초코파이와 커스타드(현지 제품명 쿠스타스) 신제품을 출시한다. 베트남에도 불고 있는 '헬시 플레저(Healthy Pleasure)' 트렌드에 맞춘 것으로 오리온이 스낵기업을 넘어 건강까지 생각하는 종합 식품기업으로 거듭나겠다는 목표를 담은 행보의 일환이다. 지난 12일(현지시간) 베트남 호치민에 있는 오리온 베트남 법",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091809402156732",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025091809402156732_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "\"씹고 뜯고 맛보고~ '이가탄' 상장\"...꽁꽁 언 IPO 시장 녹일까",
+                "summary": "코스피가 이달 들어 연일 최고점을 경신하며 강세를 보이고 있지만 IPO(기업공개) 시장은 잠잠하다. 이달 신규 상장이 1곳에 그치면서 상장 기업 수가 급감한 영향이다. 21일 금융투자업계에 따르면 이달 신규 상장 기업은 에스투더블유(S2W) 단 1곳이다. 지난 19일 상장한 에스투더블유는 상장 당일 공모가(1만3200원) 대비 1만750원(81.44%) 오",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091915031850229",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025091915031850229_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "\"아침밥·간식으로 초코파이\"…슈퍼마켓 먼지 닦으며 쌓은 정, 통했다[르포]",
+                "summary": "\"제일 잘 나가는 제품이요? 단연 초코파이죠.\" 지난 12일(현지시간) 오후에 들어간 베트남 호치민 푸누언군(Phu Nhuan)의 작은 전통 상점의 주인 꾸옥(Quoc)씨(56세)는 가장 잘 팔리는 제품이 무엇인지를 묻는 질문에 손가락으로 가게 뒷쪽 선반에 놓인 오리온 초코파이 박스를 가리키며 이렇게 말했다. 그러면서 \"오리온과 초코파이가 한국 브랜드라는 ",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091715504036818",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025091715504036818_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "\"우리 애가 좋아해\" 한국 과자 쇼핑…'K간식 열풍' 앓는 베트남",
+                "summary": "지난 12일(현지시간) 오후 베트남 호치민 시내에 있는 이마트 고밥(Go Vap)점. 자동문을 통과해 들어가자 베트남 특유의 습한 공기가 가시고 한국 쇼핑몰에서 익숙해진 시원한 에어컨 바람이 얼굴에 와닿았다. 낮 시간대였지만 적지 않은 고객들이 카트를 끌고 쇼핑 중이었다. 그 옆에는 이마트의 노브랜드 상품을 비롯해 오리온과 농심 등이 만든 한국 스낵과 라면",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091714001332187",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025091714001332187_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "한국 배터리주는 아직인데…최고가 새로 쓴 CATL의 이유[차이나는 중국]",
+                "summary": "지난 17일 중국 최대 배터리업체 CATL 주가가 사상 최고치를 경신했다. 2021년 말 CATL이 2차전지 열풍을 타고 찍은 고점을 거의 4년 만에 회복한 것이다. CATL 시가총액은 1조7200억위안(약 335조원)으로 불어났다. LG에너지솔루션 시총(82조원)의 4배가 넘는다. LG에너지솔루션은 상장 이후 최고 62만9000원까지 상승했으나 같은 날인",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091814040379933",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025091814040379933_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "\"마통 1억 되죠?\" 회계사 합격증 내밀어도…2000만원도 못 받고 당혹",
+                "summary": "올해 회계사 시험에 최종 합격한 합격생들을 대상으로 하는 시중은행 전문직 대출 한도가 예년에 비해 크게 줄었다. 6월 말 금융당국의 가계 부채 관리 강화방안이 발표된 이후 신용대출 한도도 연 소득 이내에서 부여하도록 방침이 바뀐 영향이다. 21일 금융권 등에 따르면 이달 초 제60회 공인회계사시험 합격자가 발표된 이후 시중은행에서는 회계사 합격자를 대상으로",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091916001241288",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025091916001241288_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "[종목상담소 주식민원처리반 1부] '미투온 vs 아이시티케이' ... 다음주 승자는?",
+                "summary": "▶▶▶ 발굴! 유망주 ▶ 박소운 어드바이저 미투온(201490) -소셜카지노 게임 전문기업 -북미, 유럽 등 글로벌 주요 시장 타겟 -게임 내 코인 결제 기능 ▶ 김성준 어드바이저 아이씨티케이(456010) -물리적 복제 불가능한 VIA-PUF칩 생산업체 -국내 통신사 인프라 확장시 PUF칩 적용 가능성 -전세계 유일 상용화 업체로 글로벌 공급 기대 시청 ",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025092008567030343",
+                "date": "04.28 22:02",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "[주식민원처리반 2부] 스마트레이더시스템 vs 파크시스템스, 매매 포인트는?",
+                "summary": "▶ 진행 - 김은성 앵커 ▶ 출연 - 박태준 MTNW 어드바이저 이은지 MTNW 어드바이저 ▶▶▶ 다음 주 종목 포인트 박태준 공략주 - 스마트레이더시스템 - 세계 최고 수준의 레이다 센서 기술력 보유 - LG이노텍이 지분 4.9% 확보 - LG이노텍 활용, 차세대 전장· 모빌리티 사업 모델 기대 - 목표가 10,500원 / 손절가 8,200원 이은지 공략",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025092008567046660",
+                "date": "04.28 22:02",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "[고래사냥] '블루엠텍, 아이씨티케이, 주성엔지니어링, 한컴위드!' 오늘 장 궁금종목 분석",
+                "summary": "▶▶▶ 싹쓰리 Up&Down - 엔비디아, 인텔에 50억 달러 지분투자 - 엔비디아-인텔 PC· 데이터센터용 칩 공동개발 예정 - 엔비디아-인텔 계약에 파운드리 사업은 미포함 - 엔비디아-인텔 CPU· GPU 통합 제품 개발 기대감 - 인텍플러스, 대만서 CoWoS 검사장비 퀄테스트 시작 - 주성엔지니어링, 반도체 ALD 증착 장비 기술력 ↑ ▶▶▶오늘 장",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025092008567082363",
+                "date": "04.28 22:02",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "[주식민원처리반 3부] '녹십자, 실리콘투' 월요일에 선택할 이 종목은?",
+                "summary": "▶▶▶ 다음 주 시장 예보 ▶ 정종택 어드바이저 : 다음 주 시장은 [Rotation]이다 ▶ 이슬이 어드바이저 : 다음 주 시장은 [방어와 선택 중심]이다 ▶▶▶ 월요일엔 이 종목 ▶ 정종택 어드바이저 <녹십자(006280)> -안정성· 유통· 수급 안정화 속 ‘알리글로’ 성장 -CEX 공정으로 차별화… 전문 약국 채널 집중 전략 -자회사 지씨셀과 ABO",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025092008567073596",
+                "date": "04.28 22:02",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "\"한국서 미중 정상 만난다\" 또 훈풍…미 증시 최고치 랠리[뉴욕마감]",
+                "summary": "뉴욕증시 3대 지수가 연방준비제도(Fed·연준)의 기준금리 인하 효과에 힘입어 19일(현지시간) 일제히 최고치를 경신했다. 이날 뉴욕증권거래소에서 다우존스30산업평균지수는 전장보다 172.85포인트(0.37%) 오른 4만6315.27에 거래를 마쳤다. S&P500지수는 32.40포인트(0.49%) 오른 6664.36에, 기술주 중심의 나스닥종합지수는 160",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025092007265376004",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025092007265376004_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "로봇이 사람보다 낫다...퇴직연금 수익률 최대 44%",
+                "summary": "증권사 로보어드바이저(RA) 기반 퇴직연금 수익률이 최근 크게 뛰고 있다. 금융투자업계는 RA가 저조한 퇴직연금 가입률을높이는 상품이 될 수 있을 것으로 기대하고 있다. 20일 증권업계에 따르면 KB증권은 다음달 RA를 통해 자금을 운용하는 퇴직연금 상품을 출시할 예정이다. 한국투자증권과 미래에셋생명, 신한투자증권 등도 조만간 RA가 투자하는 퇴직연금 상품",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091914252024940",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025091914252024940_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "첨단전략산업 육성에 15조 채권 발행…기업 대출금리 영향은?",
+                "summary": "내년 15조원 규모 시작으로 첨단전략산업기금채권 발행이 채권 시장 수급에 영향을 미칠지 주목된다. 이재명 정부가 국민성장펀드를 150조원 규모로 윤석열 정부 계획 대비 50조원 늘리면서 정부보증 첨단전략산업기금채가 시장에 풀린다. 20일 금융투자협회 채권정보센터에 따르면 1년 만기 산업은행채(산금채) 금리는 전날 2.526%로 마감했다. 전월 대비 3.5B",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091916394955204",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025091916394955204_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "\"8만전자 찍는데 우리는\" 개미 속 태우는 현대차…증권가 엇갈린 시선",
+                "summary": "현대차 주가가 관세 충격과 대미 투자 지연 여파로 부진을 면치 못하고 있다. 증권가에서도 현대차를 둘러싸고 엇갈린 전망을 내놓았다. 19일 현대차는 전 거래일 대비 4500원(2.06%) 하락한 21만4000원에 마감했다. 지난해 정부 기업가치 제고 프로그램 훈풍 속에 강세를 보였던 현대차가 올해는 대미 관세 여파로 힘을 쓰지 못하고 있다. 6월 이후 코스",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091915355269638",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025091915355269638_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "\"美 주식, 다음주엔 팔고 10월에 사라\"…계절적 약세 맞을까[오미주]",
+                "summary": "미국 증시가 18일(현지시간) 또 다시 사상최고가를 경신했다. 다우존스지수는 올들어 5번째, S&P500지수와 나스닥지수는 올들어 각각 26번째와 27번째 신고점 기록이다. 여기에 이날은 소형주지수인 러셀2000지수까지 사상최고가를 새로 썼다. 러셀2000지수가 신고점을 기록하기는 2021년 이후 처음이다. 블룸버그는 \"미국 증시 4대 지수가 동시에 사상최",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091915232065521",
+                "date": "04.28 22:02",
+                "image": "https://thumb.mt.co.kr/06/2025/09/2025091915232065521_1.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
+                "title": "[수익 내비게이터] 국책과제 정부출연금 증가 추세…AI 반도체 기술력 입증 '에이직랜드' VS 글로벌 시장 프리미엄 가전 브랜드로 경쟁력 강화 'LG전자'",
+                "summary": "오늘을 정리하고 내일을 준비할 때! 어드바이저가 준비한 내일 장 수익 내비게이터는? ▶ 진행 - 김솔지 앵커 ▶ 출연 - 오민 MTNW 어드바이저, 이흥일 MTNW 어드바이저 오민 어드바이저 종목 A/S * 8/25 매수일 삼성전자 +13.2% (최고가기준) * 8/13 매수일 원익머트리얼즈 +24.1% (최고가기준) # '오민 어드바이저'의 내일 장 수익",
+                "link": "https://news.mt.co.kr/mtview.php?no=2025091917247059952",
+                "date": "04.28 22:02",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413720
+            },
+            {
                 "title": "올 청년 정책에 30조 … 구직수당 月 10만원 인상",
                 "summary": "정부가 올해 청년정책에 총 30조원 규모 예산을 투입하고 주거와 일자리 전반에 청년층 지원을 강화하기로 했다. 청년층을 대상으로 주택 6만7000가구를 공급하는 동시에 취업지원수당..",
                 "link": "https://www.mk.co.kr/news/economy/12029964",
@@ -173,186 +353,6 @@ const newsData = {
                 "_timestamp": 1777393353
             },
             {
-                "title": "상장 3개월 만에 주가 2배↑·시총 1조↑…투자자 몰린 바이오주",
-                "summary": "머니투데이 증권부가 선정한 9월 셋째주(15~19일) 베스트리포트는 총 3건입니다. 한승연·박혜성 NH투자증권 연구원이 지투지바이오를 분석한 '글로벌 제약사 롱액팅 니즈 확대 국면', 김홍식·이상훈 하나증권 연구원이 아이씨티케이에 대해 쓴 'SKT 이어 KT까지 해킹 파문, ICTK가 대안일 수 있다', 김형태·송혜수 연구원이 티씨케이에 대해 작성한 '업황",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025092114541910435",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025092114541910435_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "[부고]전우진(하나증권 유성금융센터장)씨 장인상",
-                "summary": "■박태우씨 별세, 전우진씨(하나증권 유성금융센터장) 빙부상=21일 대전성심장례식장 VIP 1호실, 발인 23일, 장지 대전추모공원. (042)522-4494. ...",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025092116144328218",
-                "date": "04.28 15:58",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "MBK, 롯데카드 '보안투자 소홀' 억울 \"71억→128억, 꾸준히 확대\"",
-                "summary": "대규모 해킹사고가 발생한 롯데카드와 관련 대주주인 MBK파트너스가 인수 이후 보안투자를 소홀히 한 것 아니냐는 비판에 대해 사실이 아니라고 해명했다. 보안투자 비용은 2019년 71억원에서 올해 128억원으로 꾸준히 확대해왔다는 설명이다. MBK는 21일 설명문을 내고 \"일각에서 사이버 침해 사고의 원인을 주주사들의 보안 투자·관리 소홀로 지적하고 있으나 ",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025092115442719296",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025092115442719296_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "\"삼전 나만 없어\" 포모에 울상이라면…\"덜 오른 이것 사라\" 전문가 조언",
-                "summary": "지난주 코스피는 사상 최고치 경신을 이어가며 '9월 약세론'을 비껴갔다. 외국인 투자자가 이달에만 삼성전자, SK하이닉스 등에 5조원 넘게 투자하며 반도체주가 코스피 전반의 상승을 이끌었다는 분석이다. 가파른 상승세로 코스피는 차익실현 수요에 따른 숨 고르기에 들어설 가능성이 거론되는 가운데 미국 금리 인하로 유동성이 풍부한 만큼 바이오주, 성장주, 호텔·",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025092109442190196",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025092109442190196_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "베트남에 녹아든 오리온..\"브랜드 자체로 아우라, 꾸준히 사랑받길\"",
-                "summary": "오리온 베트남 법인이 올해 하반기 저당 초코파이와 커스타드(현지 제품명 쿠스타스) 신제품을 출시한다. 베트남에도 불고 있는 '헬시 플레저(Healthy Pleasure)' 트렌드에 맞춘 것으로 오리온이 스낵기업을 넘어 건강까지 생각하는 종합 식품기업으로 거듭나겠다는 목표를 담은 행보의 일환이다. 지난 12일(현지시간) 베트남 호치민에 있는 오리온 베트남 법",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091809402156732",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025091809402156732_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "\"씹고 뜯고 맛보고~ '이가탄' 상장\"...꽁꽁 언 IPO 시장 녹일까",
-                "summary": "코스피가 이달 들어 연일 최고점을 경신하며 강세를 보이고 있지만 IPO(기업공개) 시장은 잠잠하다. 이달 신규 상장이 1곳에 그치면서 상장 기업 수가 급감한 영향이다. 21일 금융투자업계에 따르면 이달 신규 상장 기업은 에스투더블유(S2W) 단 1곳이다. 지난 19일 상장한 에스투더블유는 상장 당일 공모가(1만3200원) 대비 1만750원(81.44%) 오",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091915031850229",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025091915031850229_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "\"아침밥·간식으로 초코파이\"…슈퍼마켓 먼지 닦으며 쌓은 정, 통했다[르포]",
-                "summary": "\"제일 잘 나가는 제품이요? 단연 초코파이죠.\" 지난 12일(현지시간) 오후에 들어간 베트남 호치민 푸누언군(Phu Nhuan)의 작은 전통 상점의 주인 꾸옥(Quoc)씨(56세)는 가장 잘 팔리는 제품이 무엇인지를 묻는 질문에 손가락으로 가게 뒷쪽 선반에 놓인 오리온 초코파이 박스를 가리키며 이렇게 말했다. 그러면서 \"오리온과 초코파이가 한국 브랜드라는 ",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091715504036818",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025091715504036818_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "\"우리 애가 좋아해\" 한국 과자 쇼핑…'K간식 열풍' 앓는 베트남",
-                "summary": "지난 12일(현지시간) 오후 베트남 호치민 시내에 있는 이마트 고밥(Go Vap)점. 자동문을 통과해 들어가자 베트남 특유의 습한 공기가 가시고 한국 쇼핑몰에서 익숙해진 시원한 에어컨 바람이 얼굴에 와닿았다. 낮 시간대였지만 적지 않은 고객들이 카트를 끌고 쇼핑 중이었다. 그 옆에는 이마트의 노브랜드 상품을 비롯해 오리온과 농심 등이 만든 한국 스낵과 라면",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091714001332187",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025091714001332187_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "한국 배터리주는 아직인데…최고가 새로 쓴 CATL의 이유[차이나는 중국]",
-                "summary": "지난 17일 중국 최대 배터리업체 CATL 주가가 사상 최고치를 경신했다. 2021년 말 CATL이 2차전지 열풍을 타고 찍은 고점을 거의 4년 만에 회복한 것이다. CATL 시가총액은 1조7200억위안(약 335조원)으로 불어났다. LG에너지솔루션 시총(82조원)의 4배가 넘는다. LG에너지솔루션은 상장 이후 최고 62만9000원까지 상승했으나 같은 날인",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091814040379933",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025091814040379933_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "\"마통 1억 되죠?\" 회계사 합격증 내밀어도…2000만원도 못 받고 당혹",
-                "summary": "올해 회계사 시험에 최종 합격한 합격생들을 대상으로 하는 시중은행 전문직 대출 한도가 예년에 비해 크게 줄었다. 6월 말 금융당국의 가계 부채 관리 강화방안이 발표된 이후 신용대출 한도도 연 소득 이내에서 부여하도록 방침이 바뀐 영향이다. 21일 금융권 등에 따르면 이달 초 제60회 공인회계사시험 합격자가 발표된 이후 시중은행에서는 회계사 합격자를 대상으로",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091916001241288",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025091916001241288_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "[종목상담소 주식민원처리반 1부] '미투온 vs 아이시티케이' ... 다음주 승자는?",
-                "summary": "▶▶▶ 발굴! 유망주 ▶ 박소운 어드바이저 미투온(201490) -소셜카지노 게임 전문기업 -북미, 유럽 등 글로벌 주요 시장 타겟 -게임 내 코인 결제 기능 ▶ 김성준 어드바이저 아이씨티케이(456010) -물리적 복제 불가능한 VIA-PUF칩 생산업체 -국내 통신사 인프라 확장시 PUF칩 적용 가능성 -전세계 유일 상용화 업체로 글로벌 공급 기대 시청 ",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025092008567030343",
-                "date": "04.28 15:58",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "[주식민원처리반 2부] 스마트레이더시스템 vs 파크시스템스, 매매 포인트는?",
-                "summary": "▶ 진행 - 김은성 앵커 ▶ 출연 - 박태준 MTNW 어드바이저 이은지 MTNW 어드바이저 ▶▶▶ 다음 주 종목 포인트 박태준 공략주 - 스마트레이더시스템 - 세계 최고 수준의 레이다 센서 기술력 보유 - LG이노텍이 지분 4.9% 확보 - LG이노텍 활용, 차세대 전장· 모빌리티 사업 모델 기대 - 목표가 10,500원 / 손절가 8,200원 이은지 공략",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025092008567046660",
-                "date": "04.28 15:58",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "[고래사냥] '블루엠텍, 아이씨티케이, 주성엔지니어링, 한컴위드!' 오늘 장 궁금종목 분석",
-                "summary": "▶▶▶ 싹쓰리 Up&Down - 엔비디아, 인텔에 50억 달러 지분투자 - 엔비디아-인텔 PC· 데이터센터용 칩 공동개발 예정 - 엔비디아-인텔 계약에 파운드리 사업은 미포함 - 엔비디아-인텔 CPU· GPU 통합 제품 개발 기대감 - 인텍플러스, 대만서 CoWoS 검사장비 퀄테스트 시작 - 주성엔지니어링, 반도체 ALD 증착 장비 기술력 ↑ ▶▶▶오늘 장",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025092008567082363",
-                "date": "04.28 15:58",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "[주식민원처리반 3부] '녹십자, 실리콘투' 월요일에 선택할 이 종목은?",
-                "summary": "▶▶▶ 다음 주 시장 예보 ▶ 정종택 어드바이저 : 다음 주 시장은 [Rotation]이다 ▶ 이슬이 어드바이저 : 다음 주 시장은 [방어와 선택 중심]이다 ▶▶▶ 월요일엔 이 종목 ▶ 정종택 어드바이저 <녹십자(006280)> -안정성· 유통· 수급 안정화 속 ‘알리글로’ 성장 -CEX 공정으로 차별화… 전문 약국 채널 집중 전략 -자회사 지씨셀과 ABO",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025092008567073596",
-                "date": "04.28 15:58",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "\"한국서 미중 정상 만난다\" 또 훈풍…미 증시 최고치 랠리[뉴욕마감]",
-                "summary": "뉴욕증시 3대 지수가 연방준비제도(Fed·연준)의 기준금리 인하 효과에 힘입어 19일(현지시간) 일제히 최고치를 경신했다. 이날 뉴욕증권거래소에서 다우존스30산업평균지수는 전장보다 172.85포인트(0.37%) 오른 4만6315.27에 거래를 마쳤다. S&P500지수는 32.40포인트(0.49%) 오른 6664.36에, 기술주 중심의 나스닥종합지수는 160",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025092007265376004",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025092007265376004_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "로봇이 사람보다 낫다...퇴직연금 수익률 최대 44%",
-                "summary": "증권사 로보어드바이저(RA) 기반 퇴직연금 수익률이 최근 크게 뛰고 있다. 금융투자업계는 RA가 저조한 퇴직연금 가입률을높이는 상품이 될 수 있을 것으로 기대하고 있다. 20일 증권업계에 따르면 KB증권은 다음달 RA를 통해 자금을 운용하는 퇴직연금 상품을 출시할 예정이다. 한국투자증권과 미래에셋생명, 신한투자증권 등도 조만간 RA가 투자하는 퇴직연금 상품",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091914252024940",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025091914252024940_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "첨단전략산업 육성에 15조 채권 발행…기업 대출금리 영향은?",
-                "summary": "내년 15조원 규모 시작으로 첨단전략산업기금채권 발행이 채권 시장 수급에 영향을 미칠지 주목된다. 이재명 정부가 국민성장펀드를 150조원 규모로 윤석열 정부 계획 대비 50조원 늘리면서 정부보증 첨단전략산업기금채가 시장에 풀린다. 20일 금융투자협회 채권정보센터에 따르면 1년 만기 산업은행채(산금채) 금리는 전날 2.526%로 마감했다. 전월 대비 3.5B",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091916394955204",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025091916394955204_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "\"8만전자 찍는데 우리는\" 개미 속 태우는 현대차…증권가 엇갈린 시선",
-                "summary": "현대차 주가가 관세 충격과 대미 투자 지연 여파로 부진을 면치 못하고 있다. 증권가에서도 현대차를 둘러싸고 엇갈린 전망을 내놓았다. 19일 현대차는 전 거래일 대비 4500원(2.06%) 하락한 21만4000원에 마감했다. 지난해 정부 기업가치 제고 프로그램 훈풍 속에 강세를 보였던 현대차가 올해는 대미 관세 여파로 힘을 쓰지 못하고 있다. 6월 이후 코스",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091915355269638",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025091915355269638_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "\"美 주식, 다음주엔 팔고 10월에 사라\"…계절적 약세 맞을까[오미주]",
-                "summary": "미국 증시가 18일(현지시간) 또 다시 사상최고가를 경신했다. 다우존스지수는 올들어 5번째, S&P500지수와 나스닥지수는 올들어 각각 26번째와 27번째 신고점 기록이다. 여기에 이날은 소형주지수인 러셀2000지수까지 사상최고가를 새로 썼다. 러셀2000지수가 신고점을 기록하기는 2021년 이후 처음이다. 블룸버그는 \"미국 증시 4대 지수가 동시에 사상최",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091915232065521",
-                "date": "04.28 15:58",
-                "image": "https://thumb.mt.co.kr/06/2025/09/2025091915232065521_1.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
-                "title": "[수익 내비게이터] 국책과제 정부출연금 증가 추세…AI 반도체 기술력 입증 '에이직랜드' VS 글로벌 시장 프리미엄 가전 브랜드로 경쟁력 강화 'LG전자'",
-                "summary": "오늘을 정리하고 내일을 준비할 때! 어드바이저가 준비한 내일 장 수익 내비게이터는? ▶ 진행 - 김솔지 앵커 ▶ 출연 - 오민 MTNW 어드바이저, 이흥일 MTNW 어드바이저 오민 어드바이저 종목 A/S * 8/25 매수일 삼성전자 +13.2% (최고가기준) * 8/13 매수일 원익머트리얼즈 +24.1% (최고가기준) # '오민 어드바이저'의 내일 장 수익",
-                "link": "https://news.mt.co.kr/mtview.php?no=2025091917247059952",
-                "date": "04.28 15:58",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777391911
-            },
-            {
                 "title": "“아직도 엄카 쓰니, 난 하나 만들었어”…5월부터 초등생도 체크카드 만든다",
                 "summary": "여신전문금융업법 시행령 의결 발급 연령 만12세→7세로 하향미성년자의 체크카드 발급 연령이 대폭 낮아지고, 소상공인의 카드 가맹 절차도 간소화된다. 금융위원회는 28일 국무회의에서..",
                 "link": "https://www.mk.co.kr/news/economy/12029574",
@@ -364,367 +364,592 @@ const newsData = {
         ],
         "GLOBAL": [
             {
-                "title": "공매도 사기 의혹으로 블레이즈 주가 급락",
+                "title": "거대 광산업체 Grupo Mexico, 1분기 이익 35% 증가 발표",
                 "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/blaize-stock-tumbles-on-short-seller-fraud-allegations-93CH-4642281",
-                "date": "04.28 15:58",
+                "link": "https://www.investing.com/news/stock-market-news/mining-giant-grupo-mexico-reports-q1-profit-up-35-4643208",
+                "date": "04.28 22:02",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1777391914
+                "_timestamp": 1777413722
             },
             {
-                "title": "FedEx, UPS는 고객에게 관세 환급금을 반환하겠다고 약속",
+                "title": "Seagate는 AI 붐으로 강력한 데이터 스토리지 수요가 증가함에 따라 긍정적인 분기를 전망합니다.",
                 "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/fedex-ups-vow-to-return-tariff-refunds-to-customers-4642277",
-                "date": "04.28 15:58",
+                "link": "https://www.investing.com/news/stock-market-news/seagate-forecasts-upbeat-quarter-as-ai-boom-powers-strong-datastorage-demand-4642960",
+                "date": "04.28 22:02",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1777391914
+                "_timestamp": 1777413722
             },
             {
-                "title": "폴란드 주식은 거래 종료 후 하락합니다. WIG30 0.78% 하락",
+                "title": "Authentic Brands Group CEO는 소매업체가 거래를 통해 2026년 매출 500억 달러를 돌파할 수 있다고 말했습니다.",
                 "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/poland-stocks-lower-at-close-of-trade-wig30-down-078-4642275",
-                "date": "04.28 15:58",
+                "link": "https://www.investing.com/news/stock-market-news/authentic-brands-group-ceo-says-retailer-could-top-50-billion-in-2026-revenue-through-deals-4643204",
+                "date": "04.28 22:02",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1777391914
+                "_timestamp": 1777413722
             },
             {
-                "title": "터키 주식은 거래 마감 후 하락세를 보이고 있습니다. BIST 100 1.81% 하락",
+                "title": "월마트 멕시코 사업부, 1분기에 이익 증가",
                 "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/turkey-stocks-lower-at-close-of-trade-bist-100-down-181-4642263",
-                "date": "04.28 15:58",
+                "link": "https://www.investing.com/news/stock-market-news/walmart-mexico-units-profit-ticks-up-in-first-quarter-4643134",
+                "date": "04.28 22:02",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1777391914
+                "_timestamp": 1777413722
             },
             {
-                "title": "덴마크 주식은 거래 마감 시 상승합니다. OMX 코펜하겐 20 0.30% 증가",
+                "title": "부킹 홀딩스(Booking Holdings), 중동 갈등 심화로 연간 매출 성장 전망 하향",
                 "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/denmark-stocks-higher-at-close-of-trade-omx-copenhagen-20-up-030-4642261",
-                "date": "04.28 15:58",
+                "link": "https://www.investing.com/news/stock-market-news/booking-holdings-quarterly-profit-rises-4642955",
+                "date": "04.28 22:02",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1777391914
+                "_timestamp": 1777413722
             },
             {
-                "title": "Universal Health Services 주가는 보험 보조금 문제로 6.8% 하락",
+                "title": "멕시코 주식은 거래 마감시 하락합니다. S&P/BMV IPC 1.06% 하락",
                 "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/universal-health-services-shares-drop-68-on-insurance-subsidy-concerns-93CH-4642257",
-                "date": "04.28 15:58",
+                "link": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-106-4643159",
+                "date": "04.28 22:02",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1777391914
+                "_timestamp": 1777413722
             },
             {
-                "title": "JetBlue는 높은 연료비로 인해 분기별 손실이 확대됨에 따라 용량 축소 및 요금 인상을 계획하고 있습니다.",
+                "title": "콜롬비아 주식은 거래 마감시 하락합니다. 콜캡 1.02% 하락",
                 "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/jetblues-quarterly-loss-widens-as-high-fuel-costs-dent-margin-recovery-4641041",
-                "date": "04.28 15:58",
+                "link": "https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-102-4643151",
+                "date": "04.28 22:02",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1777391914
+                "_timestamp": 1777413722
             },
             {
-                "title": "미국 노숙자 수년간 증가세 이어져 안정화될 듯",
+                "title": "러시아 증시는 거래 마감 후 하락세를 보이고 있습니다. MOEX 러시아 지수는 1.27% 하락",
                 "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/us-homelessness-may-be-stabilizing-after-years-of-increases-93CH-4642237",
-                "date": "04.28 15:58",
+                "link": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-127-4643140",
+                "date": "04.28 22:02",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1777391914
+                "_timestamp": 1777413722
             },
             {
-                "title": "Elon Musk, Sam Altman, OpenAI 재판을 위해 법정에 출석",
+                "title": "Robinhood의 분기별 이익은 약한 거래 수익으로 인해 예상치를 하회했습니다.",
                 "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/openai-trial-pitting-elon-musk-against-sam-altman-kicks-off-4640752",
-                "date": "04.28 15:58",
+                "link": "https://www.investing.com/news/stock-market-news/robinhood-quarterly-profit-rises-on-trading-strength-4642877",
+                "date": "04.28 22:02",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1777391914
+                "_timestamp": 1777413722
             },
             {
-                "title": "Galaxy, 암호화폐 가격 하락으로 1분기 2억 1600만 달러 손실 기록",
+                "title": "버크셔의 듀라셀, 미국 판사 판결에 따라 배터리 비밀에 대한 BASF 소송에 직면해야 함",
                 "summary": "",
-                "link": "https://finance.yahoo.com/markets/crypto/articles/galaxy-posts-216-million-q1-154200246.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/cryptoprowl_304/cc53b87ca8e9519512b49e5d7dc327e0",
+                "link": "https://www.investing.com/news/stock-market-news/berkshires-duracell-must-face-basf-lawsuit-over-battery-secrets-us-judge-rules-4643137",
+                "date": "04.28 22:02",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413722
+            },
+            {
+                "title": "RH의 최근 40% 하락이 매수 기회를 나타낼 수 있을까요?",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/could-rh-recent-40-slide-133000899.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/marketbeat_955/702c9282ac0078032d41ab83f73df2bb",
+                "publisher": "MarketBeat",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "BP, 이란 전쟁 이후 점유율 20% 상승, 모든 슈퍼메이저 선두",
+                "summary": "",
+                "link": "https://finance.yahoo.com/sectors/energy/articles/bp-shares-20-since-iran-133000793.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/oilprice.com/19285a48100a50a504ddf744780f7d3b",
+                "publisher": "Oilprice.com",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "On Holding AG (ONON)는 여러 역풍으로 인해 미끄러졌습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/holding-ag-onon-slipped-due-132847118.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/250360aeed9f5fcdd509a09bf9890410",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "Strategy는 홀딩스의 상위 800,000개 토큰으로 2억 5500만 달러 규모의 비트코인을 구매합니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/crypto/articles/strategy-buys-255-million-bitcoin-132400203.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/cryptoprowl_304/63237ad213bf73d32f7c0e168ce84051",
                 "publisher": "CryptoProwl",
-                "_timestamp": 1777391913
+                "_timestamp": 1777413721
             },
             {
-                "title": "Mizuho, ​​Amazon 가격 목표를 325달러로 인상: AWS가 2026년의 진정한 AI 승자입니까?",
+                "title": "거시 경제 불확실성으로 인해 Red Rock Resorts (RRR)가 하락했습니다.",
                 "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/mizuho-raises-amazon-price-target-154009955.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/24_7_wall_st__718/ff11d1a7a56d94979968e8f4653a41a1",
-                "publisher": "24/7 Wall St.",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "오늘의 주식 시장: OpenAI 관련 주식이 흔들리면서 S&P 500과 Nasdaq이 하락했습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-april-28-225503310.html",
-                "date": "04.28 15:58",
-                "image": "https://s.yimg.com/uu/api/res/1.2/rxZT2gY_OQkfVU7thOX96w--~B/aD0yMDYwO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/111d22fd-e161-468e-8b81-87b0df8c5ad4",
-                "publisher": "Yahoo Finance",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "GM 수익 최고 추정치, 대법원 판결로 관세 비용 절감 후 회사 이익 전망 상향 조정",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/article/gm-earnings-top-estimates-company-raises-profit-forecast-after-supreme-court-ruling-reduces-tariff-costs-143121594.html",
-                "date": "04.28 15:58",
-                "image": "https://s.yimg.com/uu/api/res/1.2/H0Qu.0pbjnrKX6Grc67FAg--~B/aD00NDczO3c9NjcwNjthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/77bfd8a1-1bb9-4fa1-86bb-9718dafa5267",
-                "publisher": "Yahoo Finance",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "오늘의 주식 시장: Nasdaq은 OpenAI 보고서에서 고통을 느낍니다. Sanmina 급등, Nvidia 공유 슬라이드(생방송)",
-                "summary": "",
-                "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-openai-nvidia-nvda-stock/?src=A00220&yptr=yahoo",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/ibd.com/4f1fa106a49c603c17f0aadb20cc8971",
-                "publisher": "Investor's Business Daily",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "캘리포니아 억만장자 세금이 11월 투표에 가까워졌습니다: 알아야 할 사항",
-                "summary": "",
-                "link": "https://finance.yahoo.com/personal-finance/taxes/article/california-billionaire-tax-moves-closer-to-november-ballot-what-to-know-152556443.html",
-                "date": "04.28 15:58",
-                "image": "https://s.yimg.com/uu/api/res/1.2/495X7lrnJoszSFR_XnvJ0Q--~B/aD0yNjE4O3c9MzkyNzthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/b939c735-b8a3-496c-b875-194ff7c3524c",
-                "publisher": "Yahoo Personal Finance",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "맥도날드의 천재",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/genius-mcdonald-154007325.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/24_7_wall_st__718/4e74d32bf36e6a5a11b748c16eaf6e1a",
-                "publisher": "24/7 Wall St.",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "오늘의 기술주: Oracle, AMD 및 기타 AI 중심 기업이 하락하고 Big Tech 수익이 확정되었습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-magnificent-seven-113535737.html",
-                "date": "04.28 15:58",
-                "image": "https://s.yimg.com/uu/api/res/1.2/VWEMqYqrPB3ZH1d281pRig--~B/aD0yMTM4O3c9MzIwNzthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/bc51f65f-9e17-4d44-8ae9-840701b66e9f",
-                "publisher": "Yahoo Finance",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "Nvidia, AI 칩 주식은 OpenAI 자금 조달 문제로 하락",
-                "summary": "",
-                "link": "https://www.investors.com/news/technology/chip-stocks-falls-openai-funding-concerns/?src=A00220&yptr=yahoo",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/ibd.com/391be7f187b0f12f0f903e8b5ae6f635",
-                "publisher": "Investor's Business Daily",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "Celestica 수익, 강력한 지침. 그러나 AI 주식은 급락합니다.",
-                "summary": "",
-                "link": "https://www.investors.com/news/technology/celestica-stock-celestica-earnings-ai-play/?src=A00220&yptr=yahoo",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/ibd.com/e52595e12dc711a65f2922175bd7e4ec",
-                "publisher": "Investor's Business Daily",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "TruckSmarter, SONAR와 협력하여 자동차 운송업체에 TRAC 현물 요금 제공",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/commodities/articles/trucksmarter-partners-sonar-deliver-trac-150600670.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/freightwaves_373/cfe885a760e446f9fdf50bea9ce8844e",
-                "publisher": "FreightWaves",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "모건스탠리, 실적 발표 앞두고 샌디스크 주가 전망 재설정",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-resets-sandisk-stock-153934953.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/thestreet_881/938f5e8ac7641850937c63679e7dcd02",
-                "publisher": "TheStreet",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "GM, 이익 전망 상향, 관세 환급 예정",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/gm-lifts-profit-outlook-flags-150344438.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/reuters.com/7fd426f2118394d877cefeb1519251fe",
-                "publisher": "Reuters",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "노바티스 요요(Yo-Yoes), 제네릭이 1분기 매출을 한 입 베어 물면서",
-                "summary": "",
-                "link": "https://www.investors.com/news/technology/novartis-stock-novartis-earnings-q1-2026/?src=A00220&yptr=yahoo",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/ibd.com/32f277fba7fe6df916d2c6b0d2e31e45",
-                "publisher": "Investor's Business Daily",
-                "_timestamp": 1777391913
-            },
-            {
-                "title": "Salesforce(CRM)가 탄력적인 비즈니스 모델이 되는 이유는 무엇입니까?",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/makes-salesforce-crm-resilient-business-145446211.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/4ef0bf0d70c14c7d9ca3d34bcf332ab4",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/red-rock-resorts-rrr-slid-131943674.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/13cf654f884f01415812b4c8bf0a60fb",
                 "publisher": "Insider Monkey",
-                "_timestamp": 1777391913
+                "_timestamp": 1777413721
             },
             {
-                "title": "기술적 평가: 중기 강세",
+                "title": "랠리가 뜨거워지면서 나스닥에서 매수할 최고의 인공지능(AI) 성장주",
                 "summary": "",
-                "link": "https://finance.yahoo.com/research/reports/ARGUS_46868_TechnicalAnalysis_1777374135000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-                "date": "04.28 15:58",
-                "image": "https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
-                "publisher": "Argus Research",
-                "_timestamp": 1777391913
+                "link": "https://finance.yahoo.com/markets/stocks/articles/best-artificial-intelligence-ai-growth-132000541.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/motleyfool.com/b4fd725f9d839d958d3eadb839c84d0f",
+                "publisher": "Motley Fool",
+                "_timestamp": 1777413721
             },
             {
-                "title": "회사가 가입자 전망에 대한 분석가 추정치를 놓치면서 Spotify 주식 탱크",
+                "title": "제너럴 모터스(GM) 주식이 어렵지만 매력적인 강세 거래를 제공하는 이유",
                 "summary": "",
-                "link": "https://finance.yahoo.com/markets/article/spotify-stock-tanks-as-company-misses-analyst-estimates-on-subscriber-outlook-145211593.html",
-                "date": "04.28 15:58",
-                "image": "https://s.yimg.com/uu/api/res/1.2/z.lYlukPbjesp.ZgzmgOGQ--~B/aD0yOTI1O3c9NDM4NzthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/b9101d62-1ec8-4eaa-b925-4d2b1dc02516",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/why-general-motors-gm-stock-131502598.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/575aab14ae3e8d50733fda47bcfa75dc",
+                "publisher": "Barchart",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "4달러 가스와 미국 테플론 소비자: Yahoo Finance 커뮤니티의 반응",
+                "summary": "",
+                "link": "https://finance.yahoo.com/news/4-gas-and-the-teflon-us-consumer-yahoo-finance-community-reacts-131302102.html",
+                "date": "04.28 22:02",
+                "image": "https://s.yimg.com/os/creatr-uploaded-images/2026-04/a2438570-4235-11f1-bb9a-3abefd4b7aba",
                 "publisher": "Yahoo Finance",
-                "_timestamp": 1777391913
+                "_timestamp": 1777413721
             },
             {
-                "title": "Thermo Fisher는 미생물학 사업을 Astorg에 10억 달러에 매각하기로 합의했습니다.",
+                "title": "시카고 버스 운전사는 미국인에게 1년에 15억 달러의 손실을 입힌 정교한 사기의 희생양이 되었습니다. 작동 방식은 다음과 같습니다.",
                 "summary": "",
-                "link": "https://finance.yahoo.com/sectors/healthcare/articles/thermo-fisher-agrees-sell-microbiology-153801098.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/medical_device_network_744/433ec5339c4e913e2dd1258f727fd5f0",
-                "publisher": "Medical Device Network",
-                "_timestamp": 1777391913
+                "link": "https://finance.yahoo.com/markets/crypto/articles/chicago-bus-driver-falls-victim-131300436.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/moneywise_ecomm_711/abb505fef82a93030700e4b4ec0264ec",
+                "publisher": "Moneywise",
+                "_timestamp": 1777413721
             },
             {
-                "title": "중기적인 어려움 속에서도 장기적인 마진 개선을 위한 ELV(Elevance Health) 위치",
+                "title": "AI에 대한 우려의 증가로 1분기 CoStar Group(CSGP)에 타격",
                 "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/elevance-health-elv-positioned-long-144830642.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/a7c1a5f21b4e9e905a9c3115375db4b8",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/rising-ai-fears-hurt-costar-133425968.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/017174cc5c9e8720a5075e82fe7b59ea",
                 "publisher": "Insider Monkey",
-                "_timestamp": 1777391913
+                "_timestamp": 1777413721
             },
             {
-                "title": "Oracle, AMD 및 CoreWeave 주식은 OpenAI가 판매, 사용자 목표를 놓쳤다는 보고서 이후 하락합니다.",
+                "title": "Hilltop Residential, 총 약정 금액 2억 8,800만 달러로 자금 조달 마감",
                 "summary": "",
-                "link": "https://finance.yahoo.com/markets/article/oracle-amd-and-coreweave-stocks-sink-after-report-says-openai-missed-sales-user-targets-130600628.html",
-                "date": "04.28 15:58",
-                "image": "https://s.yimg.com/uu/api/res/1.2/iV7eGg6LFofvjNsjW9srtw--~B/aD0zMzIyO3c9NDk4NDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/68a0a0fb-2a1d-4499-96ba-da60234b148c",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/hilltop-residential-closes-fund-288m-131934763.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/multifamily_dive_727/a4b763745b4f43952494a8305e369447",
+                "publisher": "Multifamily Dive",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "엔비디아의 폭발적인 랠리가 곧 끝날 것인가?",
+                "summary": "",
+                "link": "https://finance.yahoo.com/news/will-nvidias-explosive-rally-end-soon-133429771.html",
+                "date": "04.28 22:02",
+                "image": "https://s.yimg.com/os/creatr-uploaded-images/2026-04/50b19ac0-4236-11f1-b6e7-68b5dadcc156",
                 "publisher": "Yahoo Finance",
-                "_timestamp": 1777391913
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "AI 에이전트는 Palantir의 날개를 잘라 PLTR 주식에 대한 중요한 테스트를 만들 가능성이 높습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/ai-agents-likely-clip-palantir-133505578.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/dab763ed4e03384ec407c6c01b4184a8",
+                "publisher": "Barchart",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "Verizon 주식은 놀라운 모바일 가입자 증가로 급등했습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/article/verizon-stock-jumps-on-surprise-mobile-subscriber-gain-130946369.html",
+                "date": "04.28 22:02",
+                "image": "https://s.yimg.com/uu/api/res/1.2/g5xl.Ua8lAXUjLhXrmeIeg--~B/aD0zMjA1O3c9NDgwNjthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/f5f1c00c-7598-4537-bd1d-a5121f9b4ea5",
+                "publisher": "Yahoo Finance",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "Tesla(TSLA)의 물리적 AI 리더십을 향한 움직임",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-move-toward-physical-130606579.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/2f1bf47b64f185ad29af8e89f576d5c3",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "Simpson Thacher & Bartlett은 2026년 1분기 가치 기준으로 유럽 M&A 법률 고문 순위에서 1위를 차지했으며, CMS가 거래량 기준으로 선두를 달리고 있습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/simpson-thacher-bartlett-tops-europe-133257397.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/private_banker_international_938/ec89f52a8ea1ec22cd6dfc309aff0b03",
+                "publisher": "Private Banker International",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "lululemon Athletica의 2026년 1분기 수익 보고서에서 기대할 사항",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/expect-lululemon-athleticas-q1-2026-133516772.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/04f65634c68d0c3589ab960b31ca64c0",
+                "publisher": "Barchart",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "Micron Technology의 2026년 3분기 수익 보고서에서 기대할 사항",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/expect-micron-technologys-q3-2026-130651343.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/7ad70eb4f0fe0219527f3dcac4789db7",
+                "publisher": "Barchart",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "수익 미리보기: Best Buy 보고서에서 기대할 수 있는 사항",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-best-buys-133700236.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/6fb106aef5e5f08cebe9aab88df7ee30",
+                "publisher": "Barchart",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "Baron 집중 성장 펀드는 투자자 낙관론이 높아지면서 Hyatt Hotels Corporation의 (H) 할인이 줄어들 것으로 예상합니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/baron-focused-growth-fund-expects-133757736.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/317006e7731be9b6101f4fe2a8ab3f12",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1777413721
+            },
+            {
+                "title": "이는 현재 미국 투자자들이 직면한 가장 중요한 질문이며 이란과는 아무런 관련이 없습니다.",
+                "summary": "칩 주식은 포물선 랠리에서 후퇴했으며, 투자자들이 이 부문의 더 깊은 매도가 더 넓은 주식 시장에 타격을 줄 것이라고 걱정하는 기술적, 역사적 이유가 있습니다.",
+                "link": "https://www.marketwatch.com/story/this-is-the-most-critical-question-facing-u-s-investors-right-now-and-it-has-nothing-to-do-with-iran-45bc8f2e?mod=mw_rss_topstories",
+                "date": "04.28 21:52",
+                "image": "https://images.mktw.net/im-44974173",
+                "publisher": "Finance",
+                "_timestamp": 1777413120
+            },
+            {
+                "title": "하락장에서 암호화폐를 구매하는 것이 AI 붐을 활용하는 더 저렴한 방법일 수 있는 이유",
+                "summary": "인공 지능은 현재 금융 시장에서 가장 혼잡한 거래 중 하나일 수 있습니다. 그러나 현재 약세장에 빠져 있는 비트코인은 AI 붐을 활용하는 더 저렴한 방법이 될 수 있습니다.",
+                "link": "https://www.marketwatch.com/story/buying-crypto-in-a-bear-market-is-a-cheaper-way-to-play-the-ai-boom-this-former-tiger-management-executive-says-868096eb?mod=mw_rss_topstories",
+                "date": "04.28 21:43",
+                "image": "https://images.mktw.net/im-46726882",
+                "publisher": "Finance",
+                "_timestamp": 1777412580
+            },
+            {
+                "title": "Elon Musk-Sam Altman 재판이 이제 막 시작되었습니다. 여기에 위험이 있습니다.",
+                "summary": "Musk는 OpenAI가 이익 추구를 위해 핵심 임무를 포기했다고 주장하지만 OpenAI의 변호사는 'Musk 씨가 원하는 대로 하지 않았기 때문에 우리가 여기 있습니다'라고 말합니다.",
+                "link": "https://www.marketwatch.com/story/the-elon-musk-sam-altman-trial-has-just-begun-heres-whats-at-stake-01df4a4c?mod=mw_rss_topstories",
+                "date": "04.28 21:28",
+                "image": "https://images.mktw.net/im-41742015",
+                "publisher": "Finance",
+                "_timestamp": 1777411680
+            },
+            {
+                "title": "AI 방지 일자리 5개를 채용하고 있습니다. 이들이 지불하는 금액과 구하는 방법은 다음과 같습니다.",
+                "summary": "현재 AI에 취약하지 않은 직업은 몇 가지 공통된 특성을 공유합니다. 즉, 물리적 존재, 전문 교육 또는 실시간 인간 상호 작용이 필요합니다.",
+                "link": "https://www.marketwatch.com/story/these-5-ai-proof-jobs-are-hiring-heres-how-much-they-pay-and-how-to-get-them-8ef4b0f7?mod=mw_rss_topstories",
+                "date": "04.28 21:17",
+                "image": "https://images.mktw.net/im-24069435",
+                "publisher": "Finance",
+                "_timestamp": 1777411020
+            },
+            {
+                "title": "스타벅스는 예상보다 빠르게 고객을 매장으로 다시 유도하고 있습니다.",
+                "summary": "우베 마끼아또와 기타 메뉴 변경, 더 빠른 서비스, 개선된 로열티 프로그램을 통해 더 많은 고객을 확보하려는 스타벅스의 계획은 성과를 거두었습니다.",
+                "link": "https://www.marketwatch.com/story/starbucks-is-getting-customers-back-into-its-stores-faster-than-expected-f4ee80ab?mod=mw_rss_topstories",
+                "date": "04.28 21:13",
+                "image": "https://images.mktw.net/im-89959183",
+                "publisher": "Finance",
+                "_timestamp": 1777410780
+            },
+            {
+                "title": "아이도 없고 돌봄도 없다: 솔로 노인들이 인생의 중요한 결정을 위해 전문적인 '친척'을 고용하고 있다",
+                "summary": "그들은 재정적 안정과 은퇴 계획을 갖고 있지만 이를 옹호할 권한이 있는 사람이 부족합니다.",
+                "link": "https://www.marketwatch.com/story/they-have-millions-in-the-bank-but-without-kids-who-makes-their-life-or-death-decisions-78874d8c?mod=mw_rss_topstories",
+                "date": "04.28 21:09",
+                "image": "https://images.mktw.net/im-61601788",
+                "publisher": "Finance",
+                "_timestamp": 1777410540
+            },
+            {
+                "title": "정부는 수익 보고에 간섭하고 있지만 Tesla, Amazon 및 기타 시장 슈퍼스타들은 문제가 없음을 증명합니다.",
+                "summary": "투자자들은 단기적인 사고에 갇혀 있지 않습니다. 하지만 SEC는 여전히 반기별 수익 보고를 원합니다.",
+                "link": "https://www.marketwatch.com/story/the-sec-fears-were-trapped-in-short-term-thinking-tesla-and-amazon-prove-investors-play-the-long-game-4181fa55?mod=mw_rss_topstories",
+                "date": "04.28 21:06",
+                "image": "https://images.mktw.net/im-71650612",
+                "publisher": "Finance",
+                "_timestamp": 1777410360
+            },
+            {
+                "title": "더 높은 인플레이션이 진행되고 있습니다. 연준은 금리를 인상하기 전에 이 점을 분명히 해야 합니다.",
+                "summary": "연준의 의사소통은 투자자들이 금리 인상 가능성을 포함한 위험을 관리하는 데 도움이 될 것입니다.",
+                "link": "https://www.marketwatch.com/story/higher-inflation-is-on-the-way-the-fed-needs-to-make-this-clearer-before-it-raises-rates-142c6884?mod=mw_rss_topstories",
+                "date": "04.28 21:04",
+                "image": "https://images.mktw.net/im-28127124",
+                "publisher": "Finance",
+                "_timestamp": 1777410240
             },
             {
                 "title": "거품이 많지만 1999년과는 다릅니다. 이 새로운 가치 평가 지표에는 주식이 인플레이션을 능가합니다.",
                 "summary": "Shiller CAPE 비율은 잃어버린 10년을 예측하지만 이 우수한 모델은 긍정적인 실질 수익률을 향한 길을 보여줍니다.",
                 "link": "https://www.marketwatch.com/story/frothy-but-not-like-1999-this-new-valuation-indicator-has-stocks-beating-inflation-40482dd5?mod=mw_rss_topstories",
-                "date": "04.28 15:54",
+                "date": "04.28 21:03",
                 "image": "https://images.mktw.net/im-60291504",
                 "publisher": "Finance",
-                "_timestamp": 1777391640
+                "_timestamp": 1777410180
             },
             {
-                "title": "가능한 최고의 대학에 입학하고 최소한의 비용을 지불하는 방법",
-                "summary": "MarketWatch의 \"Don't Short Yourself\"에 대한 입학 상담사 Andy Lockwood의 8가지 팁",
-                "link": "https://www.marketwatch.com/story/how-to-get-into-the-best-college-possible-and-pay-the-least-for-it-2bc4e23c?mod=mw_rss_topstories",
-                "date": "04.28 15:49",
-                "image": "https://images.mktw.net/im-94725201",
+                "title": "이러한 자문 수수료는 귀하의 포트폴리오에 큰 타격을 줍니다. 이를 막기 위한 2가지 질문이 있습니다.",
+                "summary": "수익 공유 '리베이트'부터 유휴 현금에 대한 이자까지 숨겨진 비용이 조용히 수익을 잠식할 수 있습니다.",
+                "link": "https://www.marketwatch.com/story/how-to-spot-the-silent-fees-and-hidden-costs-your-adviser-isnt-mentioning-c821812a?mod=mw_rss_topstories",
+                "date": "04.28 20:52",
+                "image": "https://images.mktw.net/im-759801",
                 "publisher": "Finance",
-                "_timestamp": 1777391340
-            },
-            {
-                "title": "알파벳이 수익을 준비하면서 중심이 될 내용은 다음과 같습니다.",
-                "summary": "Alphabet은 AI에 대한 막대한 투자가 수익 성장을 주도하고 있음을 입증해야 합니다. 가장 큰 보상은 클라우드에 있을 수 있습니다.",
-                "link": "https://www.marketwatch.com/story/heres-what-will-take-center-stage-as-alphabet-gears-up-for-earnings-cfba47c3?mod=mw_rss_topstories",
-                "date": "04.28 15:42",
-                "image": "https://images.mktw.net/im-79837334",
-                "publisher": "Finance",
-                "_timestamp": 1777390920
-            },
-            {
-                "title": "Shark Tank가 지원하는 스타트업 Scholly의 설립자, 인수자인 Sallie Mae를 고소",
-                "summary": "Chris Gray는 자신의 스타트업 인수자인 Sallie Mae를 부당 해고 및 자회사를 통해 학생 데이터를 판매했다고 주장하며 고소했습니다. Sallie Mae는 혐의를 부인하고 싸울 것을 맹세합니다.",
-                "link": "https://techcrunch.com/2026/04/28/founder-of-shark-tank-backed-startup-scholly-sues-his-acquirer-sallie-mae/",
-                "date": "04.28 15:33",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777390407
-            },
-            {
-                "title": "미국인들은 휘발유 가격과 이란 전쟁에 불안해하지만 자신들의 삶을 살아가고 있다",
-                "summary": "지난 4월 소비자 신뢰도 조사는 올해 최고 수준으로 소폭 상승했지만, 역사적 기준으로는 여전히 낮은 수준입니다.",
-                "link": "https://www.marketwatch.com/story/americans-are-uneasy-about-gas-prices-and-the-iran-war-but-theyre-getting-on-with-their-lives-2b98ee6f?mod=mw_rss_topstories",
-                "date": "04.28 15:21",
-                "image": "https://images.mktw.net/im-50274132",
-                "publisher": "Finance",
-                "_timestamp": 1777389660
-            },
-            {
-                "title": "U.A.E. OPEC 탈퇴: 유가와 경제에 미치는 영향은 다음과 같습니다.",
-                "summary": "화요일 아랍에미리트가 석유수출국기구(OPEC)를 탈퇴하기로 결정한 것은 카르텔이 전 세계 석유 공급과 가격을 통제할 능력을 상실하고 있다는 신호다.",
-                "link": "https://www.marketwatch.com/story/uae-quits-opec-heres-what-it-means-for-the-oil-prices-and-the-economy-12a79677?mod=mw_rss_topstories",
-                "date": "04.28 15:13",
-                "image": "https://images.mktw.net/im-46721833",
-                "publisher": "Finance",
-                "_timestamp": 1777389180
-            },
-            {
-                "title": "대량 해고가 일자리를 위협함에 따라 자신을 보호하기 위한 4가지 현명한 조치는 다음과 같습니다.",
-                "summary": "직업이 있더라도 지금 이 일을 하십시오.",
-                "link": "https://www.marketwatch.com/story/as-mass-layoffs-threaten-jobs-here-are-4-smart-moves-to-protect-yourself-2b7544a2?mod=mw_rss_topstories",
-                "date": "04.28 15:04",
-                "image": "https://images.mktw.net/im-04140794",
-                "publisher": "Finance",
-                "_timestamp": 1777388640
-            },
-            {
-                "title": "Apple, App Store 구독을 위한 더 저렴한 옵션 출시",
-                "summary": "Apple은 앱 개발자가 12개월 약정 대신 더 낮은 월별 가격을 제공할 수 있는 새로운 구독 옵션을 추가하고 있습니다.",
-                "link": "https://techcrunch.com/2026/04/28/apple-introduces-a-cheaper-option-for-app-store-subscriptions/",
-                "date": "04.28 14:46",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777387575
-            },
-            {
-                "title": "GM의 AI 이야기는 자동차 제조업체가 Tesla와 같은 경쟁업체와 차별화를 목표로 함에 따라 구체화되고 있습니다.",
-                "summary": "소비자의 자동차 구매 행태가 바뀌는 데는 시간이 걸리지만, 이란 분쟁이 장기화될 경우 전기차에 대한 선호도가 높아질 수 있습니다.",
-                "link": "https://www.marketwatch.com/story/gm-is-weathering-the-storm-of-higher-gas-prices-for-now-0d3a20a9?mod=mw_rss_topstories",
-                "date": "04.28 14:39",
-                "image": "https://images.mktw.net/im-54495550",
-                "publisher": "Finance",
-                "_timestamp": 1777387140
-            },
-            {
-                "title": "주식시장을 두려워하는 사람들을 위한 두 가지 투자 전략",
-                "summary": "보호 기능을 갖춘 ETF는 위험을 회피하는 투자자가 시장 폭풍을 헤쳐나가면서 수익을 높이는 데 도움이 될 수 있습니다.",
-                "link": "https://www.marketwatch.com/story/two-investment-strategies-for-people-who-are-afraid-of-the-stock-market-a68bbe15?mod=mw_rss_topstories",
-                "date": "04.28 14:12",
-                "image": "https://images.mktw.net/im-97153907",
-                "publisher": "Finance",
-                "_timestamp": 1777385520
-            },
-            {
-                "title": "'OpenAI 복합체'가 압박을 받으면서 Oracle, Nvidia 및 기타 인기 있는 기술 주식이 하락합니다.",
-                "summary": "Wall Street Journal 보고서에 따르면 ChatGPT 제조업체는 재정적 목표를 달성하지 못했습니다.",
-                "link": "https://www.marketwatch.com/story/after-report-of-openai-missing-targets-one-company-sees-its-worst-share-price-decline-in-six-months-f552fe04?mod=mw_rss_topstories",
-                "date": "04.28 14:11",
-                "image": "https://images.mktw.net/im-77911889",
-                "publisher": "Finance",
-                "_timestamp": 1777385460
+                "_timestamp": 1777409520
             }
         ],
         "MACRO": [
+            {
+                "title": "Hormel Foods의 수익 발표에 앞서 알아야 할 사항",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/know-ahead-hormel-foods-earnings-133929464.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/345c520a74ac181779aad01a07f51cd2",
+                "publisher": "Barchart",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "1분기에 견고한 결과가 나왔습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/robust-results-lifted-figs-figs-133924777.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/6e2eaf3b3281edcc3f95ea7c4c298a99",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "Baron 집중 성장 펀드는 투자자 낙관론이 높아지면서 Hyatt Hotels Corporation의 (H) 할인이 줄어들 것으로 예상합니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/baron-focused-growth-fund-expects-133757736.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/317006e7731be9b6101f4fe2a8ab3f12",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "HawkEye 360, 미국 IPO에서 24억 달러 가치 평가 목표",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/hawkeye-360-targets-2-4-133638357.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/quartz_855/dc7ed581f15810e137fda0692a00fe8e",
+                "publisher": "Quartz",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "AI 에이전트는 Palantir의 날개를 잘라 PLTR 주식에 대한 중요한 테스트를 만들 가능성이 높습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/ai-agents-likely-clip-palantir-133505578.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/dab763ed4e03384ec407c6c01b4184a8",
+                "publisher": "Barchart",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "수익 미리보기: Best Buy 보고서에서 기대할 수 있는 사항",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-best-buys-133700236.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/6fb106aef5e5f08cebe9aab88df7ee30",
+                "publisher": "Barchart",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "AI에 대한 우려의 증가로 1분기 CoStar Group(CSGP)에 타격",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/rising-ai-fears-hurt-costar-133425968.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/017174cc5c9e8720a5075e82fe7b59ea",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "lululemon Athletica의 2026년 1분기 수익 보고서에서 기대할 사항",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/expect-lululemon-athleticas-q1-2026-133516772.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/04f65634c68d0c3589ab960b31ca64c0",
+                "publisher": "Barchart",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "Cathie Wood의 Ark가 AMD 주식을 매각합니다. 구입한 제품은 다음과 같습니다.",
+                "summary": "",
+                "link": "https://www.barrons.com/articles/amd-stock-amazon-cathie-wood-ark-b3a4d25e?siteid=yhoof2&yptr=yahoo",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/Barrons.com/e55fdb61614e35a3f728655a878597d6",
+                "publisher": "Barrons.com",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "Choice Hotels International(CHH)은 꾸준한 성장 프로필을 통해 이익을 얻었습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/choice-hotels-international-chh-gains-134031185.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/b543f677da78a65442e55e72457d2323",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "엔비디아의 폭발적인 랠리가 곧 끝날 것인가?",
+                "summary": "",
+                "link": "https://finance.yahoo.com/news/will-nvidias-explosive-rally-end-soon-133429771.html",
+                "date": "04.28 22:02",
+                "image": "https://s.yimg.com/os/creatr-uploaded-images/2026-04/50b19ac0-4236-11f1-b6e7-68b5dadcc156",
+                "publisher": "Yahoo Finance",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "Real Brokerage, Re/Max를 5억 5천만 달러에 인수",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/real-brokerage-buy-max-550m-134156989.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/the_real_deal_435/6700697ce0974cd3b810233e11e98c26",
+                "publisher": "The Real Deal",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "BP, 이란 전쟁 이후 점유율 20% 상승, 모든 슈퍼메이저 선두",
+                "summary": "",
+                "link": "https://finance.yahoo.com/sectors/energy/articles/bp-shares-20-since-iran-133000793.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/oilprice.com/19285a48100a50a504ddf744780f7d3b",
+                "publisher": "Oilprice.com",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "골드만삭스는 '호르무즈 쇼크'로 석유 전망 다시 인상",
+                "summary": "",
+                "link": "https://finance.yahoo.com/sectors/energy/articles/goldman-hikes-oil-forecasts-again-as-hormuz-shock-builds-064448538.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/bloomberg_holding_pen_162/3186970a10fd8fc4096cef66bf2f4d42",
+                "publisher": "Bloomberg",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "Brown-Forman의 수익 발표에 앞서 알아야 할 사항",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/know-ahead-brown-formans-earnings-134159957.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/e670d860916c3c62811e47d949065dd8",
+                "publisher": "Barchart",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "수익 미리보기: Lennar의 보고서에서 기대할 수 있는 사항",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-lennars-report-134214762.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/6c24f4d2a9670deb320818fe6d6212ce",
+                "publisher": "Barchart",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "On Holding AG (ONON)는 여러 역풍으로 인해 미끄러졌습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/holding-ag-onon-slipped-due-132847118.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/250360aeed9f5fcdd509a09bf9890410",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "Strategy는 홀딩스의 상위 800,000개 토큰으로 2억 5500만 달러 규모의 비트코인을 구매합니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/crypto/articles/strategy-buys-255-million-bitcoin-132400203.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/cryptoprowl_304/63237ad213bf73d32f7c0e168ce84051",
+                "publisher": "CryptoProwl",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "수자생명, IPO 수익 목표 공개",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/suja-life-reveals-ipo-proceeds-133800312.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/just_drinks_442/98f2c07e34115e6e1d9792cd8d534497",
+                "publisher": "Just Drinks",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "Broadcom의 2026년 2분기 수익: 기대할 수 있는 것",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/broadcoms-q2-2026-earnings-expect-134429722.html",
+                "date": "04.28 22:02",
+                "image": "https://media.zenfs.com/en/barchart_com_477/38df1e8f799572a3028bacbddc159392",
+                "publisher": "Barchart",
+                "_timestamp": 1777413775
+            },
+            {
+                "title": "이세돌·허사비스, 오늘 10년 만에 만난다…AI 미래 대담",
+                "summary": "",
+                "link": "https://www.hankyung.com/article/2026042938687",
+                "date": "04.28 21:26",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777411614
+            },
+            {
+                "title": "국제유가, UAE의 OPEC 탈퇴에도 3%↑…WTI 장중 100달러 위로",
+                "summary": "",
+                "link": "https://www.hankyung.com/article/2026042938537",
+                "date": "04.28 21:14",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777410882
+            },
+            {
+                "title": "서울대·아산·세브란스병원 등 바이오코리아 ‘불참’",
+                "summary": "서울대·아산·세브란스병원 등 바이오코리아 ‘불참’ 데일리메디바이오코리아 2026 뉴시스'BIO KOREA 2026' 개막…\"혁신과 돌파, 더 나은 미래로\" v.daum.netJ&J 인큐베이터 올라탄 'K-바이오'…\"공동개발·IPO 성과 가시화\" - 머니투데이 머니투데이우정규 유안타 상무 “바이오 데스밸리 넘을 자금 구조 필요…선순환 생태계 구축해야” 이투데",
+                "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Ob1M4MlFYVV91OVc1dkF0dVJud0tJN3pzYXNFZTFjdGJWck1jWHZSb2VnQ3ZrNDQyWERjYy1QZDdvQ2ZpdVhRWmtzRFVVa2R3UE1hVjFEVDBCSFNjcU45UnZGQW1XQm5i?oc=5",
+                "date": "04.28 20:17",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "데일리메디",
+                "_timestamp": 1777407420
+            },
+            {
+                "title": "\"오픈AI 내부서 실적 우려\"…나스닥 중심으로 뉴욕 증시 하락",
+                "summary": "\"오픈AI 내부서 실적 우려\"…나스닥 중심으로 뉴욕 증시 하락 조선일보\"오픈AI 부진\" 소식에 기술주 흔들…뉴욕증시 혼조세 한국경제[뉴욕증시] 반도체 약세에 일제히 하락…엔비디아, 1.6%↓ v.daum.net[속보]美 뉴욕증시, 오픈AI 파동·이란 휴전전망 안개속 일제 하락 마감 나스닥 0.9%↓ 뉴시스뉴욕 증시, 협상 부진·오픈AI 성장 우려에 하락 마",
+                "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaXJRZmt0NHZoZFZDQl8xQ21PUnRsbXV0eTdKc0xzeE00c09yNWNLRV9NdTRqNVFhVE5UZUxPRHFpdEdWNDZ0Q29EQUx5N3NldE1FMlNKelhLS1M5QmgyZHJ0TXYtMkprMEFheTdOTXduNXNjSUlheHVKNUh2bTljb2ZZTTlqOE43U0FOcUc2X0stYlF6MnhmRnNvRjFiZw?oc=5",
+                "date": "04.28 20:05",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "조선일보",
+                "_timestamp": 1777406700
+            },
+            {
+                "title": "미국",
+                "summary": "미국-이란 협상 안갯속…WTI 장중 다시 100달러 돌파 마켓인국제유가, UAE의 OPEC 탈퇴에도 3%↑…WTI 다시 100달러 KBS 뉴스미국 내 휘발유 가격 3년 8개월만에 최고 v.daum.net종전 협상 불확실에…브렌트유 다시 110달러, 3주 만에 최고 뉴시스미국이 일으킨 전쟁에 전 세계 경제 비명...미국만 평온 조선일보",
+                "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IV01iZ0xINjluMkstcW1SdG13ZldVQXJrcXdHckVsVE1pMUJReldDbjVfazVfRDJ3QmxUSkM5MlU1UXcxeURtWFFPOUpibzFKV2htODhlMjIxRElpZFJ5LV82TUR1UktybW9zVXlsRHNVR0E?oc=5",
+                "date": "04.28 16:20",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "마켓인",
+                "_timestamp": 1777393209
+            },
             {
                 "title": "Galaxy, 암호화폐 가격 하락으로 1분기 2억 1600만 달러 손실 기록",
                 "summary": "",
@@ -859,247 +1084,94 @@ const newsData = {
                 "image": "https://media.zenfs.com/en/insidermonkey.com/4ef0bf0d70c14c7d9ca3d34bcf332ab4",
                 "publisher": "Insider Monkey",
                 "_timestamp": 1777391930
-            },
-            {
-                "title": "기술적 평가: 중기 강세",
-                "summary": "",
-                "link": "https://finance.yahoo.com/research/reports/ARGUS_46868_TechnicalAnalysis_1777374135000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-                "date": "04.28 15:58",
-                "image": "https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
-                "publisher": "Argus Research",
-                "_timestamp": 1777391930
-            },
-            {
-                "title": "회사가 가입자 전망에 대한 분석가 추정치를 놓치면서 Spotify 주식 탱크",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/article/spotify-stock-tanks-as-company-misses-analyst-estimates-on-subscriber-outlook-145211593.html",
-                "date": "04.28 15:58",
-                "image": "https://s.yimg.com/uu/api/res/1.2/z.lYlukPbjesp.ZgzmgOGQ--~B/aD0yOTI1O3c9NDM4NzthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/b9101d62-1ec8-4eaa-b925-4d2b1dc02516",
-                "publisher": "Yahoo Finance",
-                "_timestamp": 1777391930
-            },
-            {
-                "title": "Thermo Fisher는 미생물학 사업을 Astorg에 10억 달러에 매각하기로 합의했습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/healthcare/articles/thermo-fisher-agrees-sell-microbiology-153801098.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/medical_device_network_744/433ec5339c4e913e2dd1258f727fd5f0",
-                "publisher": "Medical Device Network",
-                "_timestamp": 1777391930
-            },
-            {
-                "title": "중기적인 어려움 속에서도 장기적인 마진 개선을 위한 ELV(Elevance Health) 위치",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/elevance-health-elv-positioned-long-144830642.html",
-                "date": "04.28 15:58",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/a7c1a5f21b4e9e905a9c3115375db4b8",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1777391930
-            },
-            {
-                "title": "Oracle, AMD 및 CoreWeave 주식은 OpenAI가 판매, 사용자 목표를 놓쳤다는 보고서 이후 하락합니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/article/oracle-amd-and-coreweave-stocks-sink-after-report-says-openai-missed-sales-user-targets-130600628.html",
-                "date": "04.28 15:58",
-                "image": "https://s.yimg.com/uu/api/res/1.2/iV7eGg6LFofvjNsjW9srtw--~B/aD0zMzIyO3c9NDk4NDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/68a0a0fb-2a1d-4499-96ba-da60234b148c",
-                "publisher": "Yahoo Finance",
-                "_timestamp": 1777391930
-            },
-            {
-                "title": "\"금융규제당국,강력한 AI 위험 대응해 에이전트형AI기능 도입해야\"",
-                "summary": "",
-                "link": "https://www.hankyung.com/article/202604293782i",
-                "date": "04.28 15:37",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777390625
-            },
-            {
-                "title": "[포토] 수출입은행, 핵심광물 공급망 라운드테이블",
-                "summary": "",
-                "link": "https://www.hankyung.com/article/2026042832191",
-                "date": "04.28 15:08",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777388934
-            },
-            {
-                "title": "美, 고용시장 안정에 '4월 소비자신뢰지수' 예상밖 상승",
-                "summary": "",
-                "link": "https://www.hankyung.com/article/202604283765i",
-                "date": "04.28 14:39",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777387183
-            },
-            {
-                "title": "아랍에미리트 “5월1일 오펙 탈퇴” 발표",
-                "summary": "아랍에미리트 “5월1일 오펙 탈퇴” 발표 한겨레UAE, 내달 OPEC 탈퇴... 독자적 ‘석유 증산’ 나선다 조선일보UAE, 다음달 1일 OPEC·OPEC+ 전격 탈퇴 연합뉴스[분석] UAE의 OPEC 전격 탈퇴, 트럼프 외교의 승리 v.daum.netUAE 탈퇴, 美 셰일오일 등장으로 위축된 OPEC 영향력에 큰 타격 뉴시스",
-                "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RRVIxbWxhQjlYM3pxQzNhQ2Z6X3ZWMmU2VW5CVjN3dWhBYVBEZEcwZ29RSGREM0FQTFh3bm5IWDdzS2lXRU04M2JlVWxXZEx0NVloWTVNajNCRnZjWkl2QVNLZVE4NV8wQXVvdjdURV9Dekk?oc=5",
-                "date": "04.28 14:27",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "한겨레",
-                "_timestamp": 1777386420
-            },
-            {
-                "title": "\"오픈AI 부진\" 소식에 기술주 흔들…뉴욕증시 혼조세",
-                "summary": "",
-                "link": "https://www.hankyung.com/article/202604283734i",
-                "date": "04.28 14:13",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777385638
-            },
-            {
-                "title": "트럼프 주니어 방한…정용진 회장 부인 콘서트 간다",
-                "summary": "",
-                "link": "https://www.hankyung.com/article/2026042837171",
-                "date": "04.28 14:11",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777385496
-            },
-            {
-                "title": "AI의 미래에 영향 줄 '머스크 VS 오픈AI' 소송 시작됐다",
-                "summary": "",
-                "link": "https://www.hankyung.com/article/202604283646i",
-                "date": "04.28 13:29",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777382961
-            },
-            {
-                "title": "Neutonic은 글로벌 소매 확장을 통해 매출을 3배로 늘리는 것을 목표로 합니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/neutonic-aims-triple-revenue-global-125758222.html",
-                "date": "04.28 13:15",
-                "image": "https://media.zenfs.com/en/just_drinks_442/bd67531015cec1204ce77280ac89d1b2",
-                "publisher": "Just Drinks",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "Universal Technical Institute(UTI)가 성장을 위한 장기적인 활주로를 제공하는 것은 무엇입니까?",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/offers-universal-technical-institute-uti-125628783.html",
-                "date": "04.28 13:15",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/25de2fe5952ff8182e87fea194da49d2",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "이란 전쟁이 지속되고 미국 유가가 상승하면서 BP의 이익은 1분기에 두 배 이상 증가했습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/energy/articles/bps-profit-more-doubles-1q-125629443.html",
-                "date": "04.28 13:15",
-                "image": "https://media.zenfs.com/en/ap.org/61ee40a9d61a444b525c673a65e1413e",
-                "publisher": "Associated Press",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "주식시장 사상 최고치는 투자자들이 생각하는 위험지대가 아니다: 오늘의 차트",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/article/stock-market-all-time-highs-are-not-the-danger-zone-investors-think-they-are-chart-of-the-day-125437756.html",
-                "date": "04.28 13:15",
-                "image": "https://s.yimg.com/uu/api/res/1.2/3WEJeksqhIPbrzlgVSRJFg--~B/aD0zNzQzO3c9NTYxNTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/85ad9f7a-9d38-43f2-912b-22f52ad1dfa6",
-                "publisher": "Yahoo Finance",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "Coca-Cola Europacific 파트너 Q1 실적 발표 하이라이트",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-europacific-partners-q1-125344279.html",
-                "date": "04.28 13:15",
-                "image": "https://media.zenfs.com/en/marketbeat_955/a207488aeb2721502f1740e956f19e62",
-                "publisher": "MarketBeat",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "강력한 촉매가 Artivion(AORT)을 유도합니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/strong-catalysts-drive-artivion-aort-125338939.html",
-                "date": "04.28 13:15",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/1da801b499b47a2bb3042f775e54a80c",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "이란의 교착 상태로 인해 호르무즈가 폐쇄되면서 미국 석유는 100달러를 돌파했습니다. S&P 500 선물 하락",
-                "summary": "",
-                "link": "https://www.investors.com/news/oil-prices-100-barrel-us-iran-hormuz-strait-nuke-stalemate-sp-500/?src=A00220&yptr=yahoo",
-                "date": "04.28 13:15",
-                "image": "https://media.zenfs.com/en/ibd.com/82b02e9f963b4ecae4902ee6b7eb99e3",
-                "publisher": "Investor's Business Daily",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "애널리스트들이 턴어라운드 노력이 힘을 얻기를 희망함에 따라 스타벅스는 2분기 실적을 보고할 예정입니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/news/starbucks-to-report-q2-earnings-as-analysts-hope-turnaround-efforts-gained-steam-204259466.html",
-                "date": "04.28 13:15",
-                "image": "https://s.yimg.com/os/creatr-uploaded-images/2026-04/bafe4210-4278-11f1-bfaf-ebf65d65199a",
-                "publisher": "Yahoo Finance",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "Commvault 수익은 추정치를 능가합니다. CFO는 AI가 사이버 탄력성 수요를 촉진한다고 말합니다.",
-                "summary": "",
-                "link": "https://www.investors.com/news/technology/commvault-stock-cvlt-q4-earnings-march-2026/?src=A00220&yptr=yahoo",
-                "date": "04.28 13:15",
-                "image": "https://media.zenfs.com/en/ibd.com/1744970de6249f26845f613dfec983e7",
-                "publisher": "Investor's Business Daily",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "분석가 보고서: Blackstone Inc",
-                "summary": "",
-                "link": "https://finance.yahoo.com/research/reports/ARGUS_2797_AnalystReport_1777373480000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
-                "date": "04.28 13:15",
-                "image": "https://s.yimg.com/uc/fin/img/non-sub-report-thumb.png",
-                "publisher": "Argus Research",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "American Electric Power 주주들은 모든 제안을 승인하고 연례 회의에서 이사를 재선합니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/energy/articles/american-electric-power-shareholders-approve-125345703.html",
-                "date": "04.28 13:15",
-                "image": "https://media.zenfs.com/en/marketbeat_955/5b2197d7f2cb01dd975a8c6ce426c11f",
-                "publisher": "MarketBeat",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "ESCO Technologies (ESE)는 명확한 수요 변곡점에 따라 급등했습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/esco-technologies-ese-surged-following-124021650.html",
-                "date": "04.28 13:15",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/ca6745177caacd2275b68ad8fccf7712",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1777382139
-            },
-            {
-                "title": "빌 마허(Bill Maher)는 미국의 5조 달러 세금 괴물을 비난합니다. 그의 소득 중 '거의 60%'는 가난한 사람들이 여전히 고통받는 동안 엉클 샘(Uncle Sam)에게 돌아갑니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/economy/policy/articles/bill-maher-blasts-america-5t-123000929.html",
-                "date": "04.28 13:15",
-                "image": "https://media.zenfs.com/en/moneywise_ecomm_711/99b3490e88fa4086968b90423e626de4",
-                "publisher": "Moneywise",
-                "_timestamp": 1777382139
             }
         ],
         "INDUSTRY": [
             {
-                "title": "Amazon의 컬러 화면 Kindle이 마침내 시스템 전체에 어두운 모드를 추가했습니다.",
-                "summary": "흑백 E Ink 화면을 갖춘 대부분의 최신 Kindle 장치는 전체 사용자 인터페이스에서 검정색 배경에 흰색 텍스트가 있는 대체 반전 다크 모드를 제공합니다. 오늘 Amazon은 Kindle Colorsoft 및 Kindle Scribe Colorsoft에 동일한 기능이 제공될 것이라고 발표했습니다.",
-                "link": "https://www.theverge.com/tech/919597/amazon-kindle-colorsoft-scribe-dark-mode-system-wide-software-update",
-                "date": "04.28 15:59",
+                "title": "제임스 코미, 트럼프 협박한 인스타그램 조개껍데기 사진으로 기소",
+                "summary": "미국 법무부는 CNN이 앞서 보도한 바와 같이 인스타그램에서 도널드 트럼프 대통령을 위협한 혐의로 제임스 코미를 이번에 다시 기소했습니다. DOJ는 화요일 노스캐롤라이나 연방법원에 제출한 기소장에서 현재 삭제된 내용을 인용했습니다.",
+                "link": "https://www.theverge.com/policy/920131/james-comey-indicted-over-instagram-seashell-photo-that-allegedly-threatened-trump",
+                "date": "04.28 22:03",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1777391940
+                "_timestamp": 1777413795
+            },
+            {
+                "title": "Taylor Swift는 AI 모방범에 대한 법적 전쟁을 강화하고 있습니다.",
+                "summary": "테일러 스위프트(Taylor Swift)는 수년 동안 AI 모방 논란의 중심에 있었고, 이제 그녀는 AI 모방자로부터 자신을 보호하려는 시도를 확대하는 최신 유명인이 되었습니다. 그러나 평소와 같이 법률 시스템은 복잡한 방식으로 기술과 교차하며 Swift의 노력은 오래 걸릴 수 있습니다.",
+                "link": "https://www.theverge.com/ai-artificial-intelligence/919827/taylor-swift-trademarks-ai-copycats",
+                "date": "04.28 22:03",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413795
+            },
+            {
+                "title": "이제 YouTube TV를 통해 원하는 모든 채널을 다중 시청할 수 있습니다.",
+                "summary": "유튜브 CEO 닐 모한(Neal Mohan)은 화요일 유튜브 TV가 '완전히 맞춤설정 가능한' 멀티뷰를 제공한다고 발표했습니다. 사용자는 \"라이브 스트림을 혼합하고 일치시킬 수 있는 모든 권한\"을 가지며 \"당신이 요구했던 개인화된 시청 경험을 구축할 수 있습니다\"라고 Mohan은 말합니다. 멀티뷰 창에서 최대 4개의 스트림을 고정할 수 있습니다.",
+                "link": "https://www.theverge.com/streaming/919958/youtube-tv-custom-multiview-channel",
+                "date": "04.28 22:03",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413795
+            },
+            {
+                "title": "FCC는 디즈니가 소유한 ABC 방송국의 방송 라이센스를 추적하고 있습니다.",
+                "summary": "앞서 뉴욕타임스가 보도한 바와 같이 연방통신위원회는 디즈니가 소유하고 운영하는 ABC 방송국에 조기 면허 갱신을 신청하도록 명령했습니다. FCC는 화요일 제출한 서류에서 디즈니의 다양성 정책에 대한 조사의 일환으로 이러한 결정을 내렸다고 주장했습니다.",
+                "link": "https://www.theverge.com/policy/919739/fcc-disney-abc-broadcast-licenses-threat",
+                "date": "04.28 22:03",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413795
             },
             {
                 "title": "OpenAI의 미래를 놓고 Elon Musk와 Sam Altman의 법정 싸움에 대한 실시간 업데이트",
-                "summary": "Sam Altman과 Elon Musk는 기술 분야를 선도하는 AI 스타트업인 OpenAI의 미래를 바꿀 수 있는 고위험 재판에서 대결할 예정입니다. 2024년 머스크는 OpenAI가 인류에게 이익이 되는 AI 개발이라는 창립 사명을 포기하고 대신 이익 증대에 초점을 맞추고 있다고 비난하는 소송을 제기했습니다.",
+                "summary": "Sam Altman과 Elon Musk는 OpenAI와 가장 잘 알려진 제품인 ChatGPT의 미래를 바꿀 수 있는 고위험 시험에서 대결하고 있습니다. 머스크는 2024년 오픈AI가 인류에게 이익이 되는 AI 개발이라는 창립 사명을 포기하고 이익 증대에 초점을 맞추고 있다고 비난하는 소송을 제기했다.",
                 "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+                "date": "04.28 22:03",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413795
+            },
+            {
+                "title": "Elon Musk, OpenAI에 대한 세간의 이목을 끄는 재판에서 입장을 취하다",
+                "summary": "Elon Musk는 OpenAI CEO Sam Altman과 회사 사장 Greg Brockman을 상대로 제기한 재판에서 공식적으로 증언을 시작했습니다. 세 사람은 OpenAI의 초기 창립 팀에 속해 있었으며, 머스크는 공동 창립자의 관계가 불일치로 인해 악화되기 전에 초기에 최대 3,800만 달러를 투자했습니다.",
+                "link": "https://www.theverge.com/ai-artificial-intelligence/917052/elon-musk-takes-stand-trial-openai-sam-altman",
+                "date": "04.28 22:03",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413795
+            },
+            {
+                "title": "근접성만으로도 경찰 수사에 휘말릴 수 있다 - 당분간은",
+                "summary": "수년간의 은행 강도 사건은 곧 휴대폰을 소유한 모든 미국인에게 중대한 개인 정보 보호 영향을 미칠 수 있습니다. 월요일, 대법원은 20세 청소년 용의자인 오켈로 채트리(Okello Chatrie)를 찾아 체포하기 위해 경찰이 논란의 여지가 있는 \"지오펜스 영장\"을 사용한 사건인 채트리 대 미국(Chatri v. United States)의 주장을 들었습니다",
+                "link": "https://www.theverge.com/report/919664/chatrie-v-united-states-supreme-court-arguments-fourth-amendment-geofence-warrants",
+                "date": "04.28 22:03",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413795
+            },
+            {
+                "title": "Google Home을 사용하면 기기가 작동하지 않는 이유를 더 쉽게 이해할 수 있습니다.",
+                "summary": "Google Home의 최신 업데이트 덕분에 사용자는 더 적은 문제해결 과정을 거쳐 오프라인 기기를 다시 작동시킬 수 있습니다. 이제 기기가 오프라인 상태가 될 때마다 사용자는 앱의 기기 컨트롤러 페이지에서 \"즉각적인 계정 재연결 메시지\"를 받을 수 있으며, 이를 통해 파트너가 만료된 경우 즉시 사용자에게 알릴 수 있습니다.",
+                "link": "https://www.theverge.com/tech/919787/google-home-instant-account-relinking-update",
+                "date": "04.28 22:03",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413795
+            },
+            {
+                "title": "이번 주 Nex Playground 게임 콘솔이 60달러 할인됩니다",
+                "summary": "겨울 방학 동안 가장 잘 팔린 게임 콘솔 중 하나는 주로 어린이를 위해 제작된 모션 제어 게임을 실행하는 카메라가 장착된 작은 큐브인 Nex Playground였습니다. 이번 달에는 가격이 249달러에서 299달러로 50달러 인상되었지만 쇼핑객은 Amazon 기간 동안 잠시 할인을 받을 수 있습니다.",
+                "link": "https://www.theverge.com/gadgets/919736/nex-playground-amazon-gaming-week-deal-sale",
+                "date": "04.28 22:03",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1777413795
+            },
+            {
+                "title": "Amazon의 컬러 화면 Kindle이 마침내 시스템 전체에 어두운 모드를 추가했습니다.",
+                "summary": "흑백 E Ink 화면을 갖춘 대부분의 최신 Kindle 장치는 전체 사용자 인터페이스에서 검정색 배경에 흰색 텍스트가 있는 대체 반전 다크 모드를 제공합니다. 오늘 Amazon은 Kindle Colorsoft 및 Kindle Scribe Colorsoft에 동일한 기능이 제공될 것이라고 발표했습니다.",
+                "link": "https://www.theverge.com/tech/919597/amazon-kindle-colorsoft-scribe-dark-mode-system-wide-software-update",
                 "date": "04.28 15:59",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
@@ -1374,81 +1446,9 @@ const newsData = {
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
                 "_timestamp": 1777295215
-            },
-            {
-                "title": "Skylight의 15인치 스마트 캘린더가 현재까지 최저가로 떨어졌습니다.",
-                "summary": "자신의 캘린더보다 더 많은 것을 저글링하는 경우 체계적으로 정리하는 것이 압도적일 수 있습니다. 다행스럽게도 Skylight Calendar 2는 여러 달력을 한 곳에서 동기화하여 작업을 단순화하는 데 도움이 될 수 있으며 현재 5월 7일까지 Skylight에서 $259.99($40 할인)에 직접 구입할 수 있습니다.",
-                "link": "https://www.theverge.com/gadgets/918544/skylight-15-inch-smart-calendar-2-mothers-day-deal-2026-sale",
-                "date": "04.27 13:06",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777295215
-            },
-            {
-                "title": "Linux를 사용한 지 3개월이 지났지만 Windows가 전혀 그리워지지 않습니다.",
-                "summary": "1월에 나는 데스크탑에 Linux를 설치하겠다는 위협/약속을 마침내 이행했습니다. 사전에 많은 조사를 하거나 나중에 문제를 해결하지 않고도 Linux PC를 주 컴퓨터로 사용할 수 있는 방법을 확인하고 싶었습니다. 그 이후로 저는 정확히 두 번 Windows로 부팅했습니다. 한 번은 컴퓨터를 스캔할 때였습니다.",
-                "link": "https://www.theverge.com/tech/918797/switched-to-linux-dont-miss-windows",
-                "date": "04.27 13:06",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777295215
-            },
-            {
-                "title": "Coyote v. Acme를 조용히 죽이려는 계획이 David Zaslav의 얼굴에 터졌습니다.",
-                "summary": "이것은 기술 세계의 한 가지 핵심적인 이야기를 분석하는 주간 뉴스레터인 The Stepback입니다. 할리우드 트렌드와 스트리밍 문화에 대한 자세한 내용을 보려면 Charles Pulliam-Moore를 팔로우하세요. Stepback은 일요일 오전 8시(ET)에 구독자의 받은 편지함에 도착합니다. 여기에서 The Stepback을 선택하세요. 어떻게 시작됐",
-                "link": "https://www.theverge.com/column/918079/david-zaslav-warner-bros-discovery-coyote-v-acme-batgirl-tax-writeoffs",
-                "date": "04.27 11:24",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777289056
-            },
-            {
-                "title": "트럼프, 국가과학위원회 전체 해고",
-                "summary": "여러 소식통은 트럼프 행정부가 국가과학위원회(NSB) 전체를 해산했다고 보도하고 있다. NSB는 이미 역사적으로 낮은 수준으로 연구 자금을 지원해 왔고 상당히 지연된 국립과학재단(NSF)에 대해 대통령과 의회에 조언합니다.",
-                "link": "https://www.theverge.com/science/918769/trump-fires-the-entire-national-science-board",
-                "date": "04.27 11:24",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777289056
-            },
-            {
-                "title": "중고 EV의 유입으로 인해 가격이 하락할 수 있음",
-                "summary": "전기 자동차를 방해하는 요인 중 하나는 비용이었습니다. 그러나 향후 3년 동안 중고차가 유입되면 가격이 극적으로 하락할 수 있습니다. 2025년에는 EV 임대 계약이 123,000건만 만료되었습니다. 이는 2026년에 두 배 이상 증가한 300,000명, 2027년에는 다시 두 배인 600,000명으로 증가할 것으로 예상됩니다.",
-                "link": "https://www.theverge.com/tech/918765/an-influx-of-used-evs-could-drive-down-prices",
-                "date": "04.27 11:24",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777289056
-            },
-            {
-                "title": "연구자들은 우리가 그 어느 때보다 말을 덜 하고 있다고 말합니다",
-                "summary": "미주리대학교 캔자스시티 캠퍼스와 애리조나대학교 연구진은 2005년부터 2019년까지 우리가 다른 사람에게 큰 소리로 말하는 단어 수가 거의 28% 감소했다고 밝혔습니다. 그리고 그것은 전염병 이후 더욱 악화되었을 가능성이 높습니다. 연구자들은 실제로 t를 세었다.",
-                "link": "https://www.theverge.com/science/918753/researchers-talking-less",
-                "date": "04.27 09:05",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777280759
-            },
-            {
-                "title": "Sharge의 빠른 Qi2.2 MagSafe 배터리는 무료 USB-C 케이블을 사용하면 70달러까지 저렴합니다.",
-                "summary": "저는 다가오는 구매 가이드를 위해 휴대폰에 장착할 수 있는 소형 자석 Qi2 보조 배터리를 테스트해 왔습니다. 가방의 무게를 무겁게 하는 거대한 배터리를 가지고 다니는 것보다 훨씬 쉽게 재충전할 수 있습니다. 지금까지 제가 가장 좋아하는 것 중 하나는 무선으로 더 많은 성능을 발휘할 수 있는 10,000mAh 모델인 Sharge Icemag 3입니다.",
-                "link": "https://www.theverge.com/gadgets/918410/sharge-icemag-3-qi2-usb-c-wireless-power-bank-battery-deal-sale",
-                "date": "04.27 09:05",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777280759
-            },
-            {
-                "title": "Govee 스마트 램프가 내 방을 밝혀주었고 내 삶도 밝아졌습니다.",
-                "summary": "깨진 Ikea 램프의 빛을 차단하기 위해 수건을 덮어야 했을 때 상황이 아주 좋지 않다는 것을 알았습니다. 내가 어떻게 여기까지 왔지? 나는 멋지고 유능한 기술을 다루는 일을 직업으로 삼고 있지만, 낡고 망가진 이케아 한 쌍을 없애는 데 2년이 걸렸습니다. […",
-                "link": "https://www.theverge.com/gadgets/913854/govee-uplighter-floor-lamps-caregiving-parkinsons-disease",
-                "date": "04.26 14:50",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1777215041
             }
         ]
     },
     "indices": [],
-    "last_updated": "2026-04-29 00:59:07 KST"
+    "last_updated": "2026-04-29 07:03:38 KST"
 };
