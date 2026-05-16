@@ -2,6 +2,15 @@ const newsData = {
     "categories": {
         "K-MARKET": [
             {
+                "title": "“경주 지하 130m 동굴에 드럼통 10만개”…‘원전 폐기물 무덤’ 가보니 [르포]",
+                "summary": "지상 제어실에서 크레인 조정해 6개 사일로에 방폐물 원격 처분 총 10만 드럼 규모 처리 가능지난 13일 경상북도 경주시 문무대왕면에 위치한 1단계 방사성폐기물(방폐물) 동굴처분시..",
+                "link": "https://www.mk.co.kr/news/economy/12050066",
+                "date": "05.16 19:17",
+                "image": "https://pimg.mk.co.kr/news/cms/202605/16/news-p.v1.20260515.9e578b1969af4adcbb79d7fcbd9a9b39_R.png",
+                "publisher": "Finance",
+                "_timestamp": 1778959052
+            },
+            {
                 "title": "“신용 낮아 발급도 거절당했는데”…벼랑 끝 사장님 살리는 ‘무이자 카드’, 무엇?",
                 "summary": "지역신보 보증 기반 ‘최대 1000만원’ 한도 지원 無연회비·無이자·캐시백까지…지원대상 확대 운영 자금 부담 완화…금융 사각지대 해소 기대# 서울에서 소규모 개인카페를 운영하는 자..",
                 "link": "https://www.mk.co.kr/news/economy/12050043",
@@ -290,20 +299,20 @@ const newsData = {
                 "_timestamp": 1778867496
             },
             {
-                "title": "DB손보, 순익 40% 급감…현대해상 10% 증가 '선방'",
-                "summary": "장기보험 판매와 대형 사고 발생 여부 등에 따라 주요 손해보험사의 올해 1분기 실적 희비가 엇갈렸다. 15일 DB손해보험은 올 1분기 당기순이익이 2685억원으로 1년 전보다 39..",
-                "link": "https://www.mk.co.kr/news/economy/12049404",
-                "date": "05.15 17:51",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778867495
-            },
-            {
                 "title": "\"홍콩ELS 과징금 1조 아래로\" 이찬진, 은행 부담 완화 시사",
                 "summary": "이찬진 금융감독원장(사진)이 홍콩H지수 주가연계증권(ELS) 불완전판매와 관련된 은행권의 과징금 규모가 1조원 아래로 내려갈 것이라고 밝혔다. 이 원장은 15일 서울 중구 은행회관..",
                 "link": "https://www.mk.co.kr/news/economy/12049405",
                 "date": "05.15 17:51",
                 "image": "https://pimg.mk.co.kr/news/cms/202605/16/20260516_01170109000001_M00.jpg",
+                "publisher": "Finance",
+                "_timestamp": 1778867495
+            },
+            {
+                "title": "DB손보, 순익 40% 급감…현대해상 10% 증가 '선방'",
+                "summary": "장기보험 판매와 대형 사고 발생 여부 등에 따라 주요 손해보험사의 올해 1분기 실적 희비가 엇갈렸다. 15일 DB손해보험은 올 1분기 당기순이익이 2685억원으로 1년 전보다 39..",
+                "link": "https://www.mk.co.kr/news/economy/12049404",
+                "date": "05.15 17:51",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
                 "_timestamp": 1778867495
             },
@@ -351,26 +360,287 @@ const newsData = {
                 "image": "https://pimg.mk.co.kr/news/cms/202605/15/news-p.v1.20260515.7f0b957fff6048e29ce1fdbc978c2b96_R.jpg",
                 "publisher": "Finance",
                 "_timestamp": 1778865314
-            },
-            {
-                "title": "에이플러스에셋, 1분기 매출액 1866억원…분기 사상 최대 기록",
-                "summary": "에이플러스에셋어드바이저는 분기보고서 공시를 통해 올해 1분기 연결재무제표 기준 매출액은 1866억원, 영업이익 159억원, 당기순이익 131억 원을 기록했다고 15일 밝혔다. 이는..",
-                "link": "https://www.mk.co.kr/news/economy/12049282",
-                "date": "05.15 16:55",
-                "image": "https://pimg.mk.co.kr/news/cms/202605/15/news-p.v1.20260515.9ad4554bfaca43efbb8d179e6c311063_R.jpg",
-                "publisher": "Finance",
-                "_timestamp": 1778864155
             }
         ],
         "GLOBAL": [
             {
+                "title": "삼성전자 노조, 월요일 임금협상 재개",
+                "summary": "",
+                "link": "https://www.investing.com/news/stock-market-news/samsung-elec-south-korea-union-to-resume-pay-talks-on-monday-union-says-4694441",
+                "date": "05.16 10:46",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1778928393
+            },
+            {
+                "title": "미국 CEO들, 베이징 외교로 트럼프의 뒤를 잇다",
+                "summary": "",
+                "link": "https://www.investing.com/news/stock-market-news/chinese-officials-meet-citigroup-goldman-chiefs-in-beijing-4694426",
+                "date": "05.16 10:46",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1778928393
+            },
+            {
+                "title": "Ackman은 Alphabet 탈퇴가 자신의 새로운 Microsoft 직책에 대한 자금 출처임을 밝혔습니다.",
+                "summary": "",
+                "link": "https://www.investing.com/news/stock-market-news/ackman-clarifies-alphabet-exit-was-funding-source-for-his-new-microsoft-position-4694437",
+                "date": "05.16 10:46",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1778928393
+            },
+            {
+                "title": "빌 애크먼은 알파벳 지분 매각은 회사에 대한 내기가 아니라고 말했다.",
+                "summary": "",
+                "link": "https://www.investing.com/news/stock-market-news/bill-ackman-says-alphabet-stake-sale-not-a-bet-against-the-company-4694431",
+                "date": "05.16 10:46",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1778928393
+            },
+            {
+                "title": "SpaceX 주주들은 IPO를 앞두고 5대 1 주식 분할을 승인했다고 Bloomberg가 보도했습니다.",
+                "summary": "",
+                "link": "https://www.investing.com/news/stock-market-news/spacex-shareholders-approve-5for1-stock-split-ahead-of-ipo-reports-bloomberg-4694429",
+                "date": "05.16 10:46",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1778928393
+            },
+            {
+                "title": "SpaceX 주주들이 5:1 주식 분할을 승인했다고 Bloomberg News가 보도했습니다.",
+                "summary": "",
+                "link": "https://www.investing.com/news/stock-market-news/spacex-shareholders-approve-5for1-stock-split--bloomberg-news-reports-4694416",
+                "date": "05.16 10:46",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1778928393
+            },
+            {
+                "title": "독점 - 삼성에서는 글로벌 AI 붐이 다가오는 파업과 깊은 분열을 촉발했습니다.",
+                "summary": "",
+                "link": "https://www.investing.com/news/stock-market-news/exclusiveat-samsung-the-global-ai-boom-spurred-a-looming-strike-and-deep-divisions-4691543",
+                "date": "05.16 10:46",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1778928393
+            },
+            {
+                "title": "YouTube, Snap 및 TikTok, 학군의 소셜 미디어 중독 주장 해결",
+                "summary": "",
+                "link": "https://www.investing.com/news/stock-market-news/youtube-snap-settle-school-districts-social-media-addiction-claims-4694344",
+                "date": "05.16 10:46",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1778928393
+            },
+            {
+                "title": "Arm Holdings, 칩 기술 관련 미국 독점금지 조사에 직면",
+                "summary": "",
+                "link": "https://www.investing.com/news/stock-market-news/arm-holdings-to-face-us-antitrust-probe-over-chip-tech-bloomberg-news-reports-4694244",
+                "date": "05.16 10:46",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1778928393
+            },
+            {
+                "title": "소비자들은 트럼프 관세 비용을 환불하지 않았다는 이유로 아마존을 고소했습니다.",
+                "summary": "",
+                "link": "https://www.investing.com/news/stock-market-news/consumers-sue-amazon-for-not-refunding-trump-tariff-costs-4694313",
+                "date": "05.16 10:46",
+                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+                "publisher": "Finance",
+                "_timestamp": 1778928393
+            },
+            {
                 "title": "테슬라·도요타, 자동차 업계의 놀라운 진실 폭로",
                 "summary": "",
                 "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-toyota-expose-surprising-auto-043700448.html",
-                "date": "05.16 09:12",
+                "date": "05.16 10:46",
                 "image": "https://media.zenfs.com/en/thestreet_881/d31d6b1ab70ce83310d4580362aa77f8",
                 "publisher": "TheStreet",
-                "_timestamp": 1778922757
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "68세에 평생 동안 IRA에 95만 달러를 적립하려면 어떻게 해야 합니까?",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/options/articles/im-68-950k-ira-sure-110000971.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/smartasset_475/1330b0f635640c96783c946537b0ba45",
+                "publisher": "SmartAsset",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "미국의 인플레이션이 급여보다 더 빠르게 상승하고 있습니다. 전문가들은 2026년 남은 기간은 '벨트 강화'에 관한 것이라고 경고합니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/economy/articles/inflation-america-rising-faster-paychecks-091500126.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/moneywise_327/98f65c1b744b9781fd103db8f3b81181",
+                "publisher": "Moneywise",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "Bernstein에서 Exxon Mobil(XOM) 목표 가격을 13달러 낮췄습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/sectors/energy/articles/exxon-mobil-xom-price-target-084549375.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/6bdc2ede5a5af8dd602fea07f05b2bad",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "억만장자들이 애플(AAPL)을 투자하기에 가장 좋은 미국 주식 중 하나로 꼽습니까?",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-one-best-us-084500391.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/410ac07c4c90786d8592963501a2ed84",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "AI 데이터 센터에는 극소수의 인력만 고용합니다. 숫자는 어떻게 되나요?",
+                "summary": "",
+                "link": "https://finance.yahoo.com/sectors/technology/articles/ai-data-centers-employ-very-165832949.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/quartz_855/4750c76901219c8aa1d8db05adca3eae",
+                "publisher": "Quartz",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "애널리스트들은 1분기 실적 부진에도 불구하고 맥도날드(MCD) 가격 목표를 낮췄습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/analysts-lower-mcdonald-mcd-price-084427222.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/e7426704f564c6fb6fbdc3de867a28ce",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "애널리스트, 1분기 보고서에 따라 Eli Lilly(LLY) 목표 가격을 52달러 인상",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-raises-eli-lilly-lly-084527260.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/860932d32d923713fdffa5b1d444d8a3",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "월트 디즈니 컴퍼니(DIS)의 목표 가격은 2분기 실적 호조에 따라 상향 조정되었습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-company-dis-price-084411380.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/08a5b46e1c45b127ac43b43d13593a3c",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "DoorDash(DASH) 목표 가격은 엇갈린 1분기 결과에 따라 30달러 낮아졌습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/doordash-dash-price-target-lowered-084258477.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/9d29eeccc8d759d9dff0b6795a07d8d3",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "Casey의 새로운 메뉴 항목은 스톡 날개를 줄 수 있습니다",
+                "summary": "",
+                "link": "https://www.barrons.com/articles/caseys-stock-pizza-gas-wings-fb6be6c4?siteid=yhoof2&yptr=yahoo",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/Barrons.com/8cb27e312b33b594a551d0800118e86c",
+                "publisher": "Barrons.com",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "AMD(Advanced Micro Devices) 목표 가격은 1분기 강세에 이어 110달러 인상되었습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-price-084240490.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/78ee81d4d8cbe53924c848faf9b29aa4",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "Tesla, 베를린 Gigafactory에 2억 5천만 달러 투자",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-invest-250-million-berlin-084341890.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/3f65dbb005b4ed8d7d2944bf11706e67",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "Google, SpaceX와 대화하여 우주에 데이터 센터 출시",
+                "summary": "",
+                "link": "https://finance.yahoo.com/sectors/technology/articles/google-talks-spacex-launch-data-084134109.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/b37705cc559a18e5d7c905152c29378c",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "Microsoft(MSFT) – 억만장자가 투자해야 할 미국 주식 10대 중",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-among-10-best-084118955.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/52d1772a91e0b074c5496ca25de5811e",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "Paul Wells, 2027년에 Protection Life CEO로 취임",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/paul-wells-over-protective-life-091203846.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/life_insurance_international_186/d99b2652349c66aae6b4edc5ec377294",
+                "publisher": "Life Insurance International",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "롤린스 주식: 분석가 추정 및 등급",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/rollins-stock-analyst-estimates-ratings-092107212.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/barchart_com_477/8f4786b6a7b7a4b12ac66bfe82a8cf09",
+                "publisher": "Barchart",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "애크먼의 퍼싱 스퀘어(Pershing Square), 마이크로소프트 지분 인수하고 구글 모기업 알파벳에서 퇴출",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/ackmans-pershing-square-takes-stake-092754300.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/reuters-finance.com/2ac0d2a355a549b1453e54a13fa305fe",
+                "publisher": "Reuters",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "프로그레시브 코퍼레이션(PGR)은 지금 당장 매수할 수 있는 최고의 52주 최저주 중 하나입니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/progressive-corporation-pgr-one-best-092902791.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/784ffd8b2624818ce52f65fed1531704",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "수익과 긍정적인 분석가 감정으로 인해 Ecolab Inc.(ECL)가 2026년 하반기에 매력적이게 됩니다",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-positive-analyst-sentiment-ecolab-092911314.html",
+                "date": "05.16 10:46",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/57f9677bf9b059689ed12e51738ad1ba",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928392
+            },
+            {
+                "title": "'은퇴했다': 남편이 62세에 사회보장을 받아 투자해야 할까?",
+                "summary": "“내가 일하는 동안 그는 집에서 아이들과 함께 있었기 때문에 그의 사회보장 혜택은 한 달에 1,600달러가 될 것입니다.”",
+                "link": "https://www.marketwatch.com/story/he-is-retired-should-my-husband-take-his-social-security-at-62-and-invest-it-c7b74368?mod=mw_rss_topstories",
+                "date": "05.16 10:17",
+                "image": "https://images.mktw.net/im-59353437",
+                "publisher": "Finance",
+                "_timestamp": 1778926620
             },
             {
                 "title": "유가에 대한 우려가 채권 시장을 뒤흔들면서 전 세계 주식 시장은 사상 최고 수준으로 떨어졌습니다.",
@@ -406,15 +676,6 @@ const newsData = {
                 "date": "05.16 09:12",
                 "image": "https://media.zenfs.com/en/the_daily_upside_435/cd885dec4611b5f419acfe6a25b7c614",
                 "publisher": "The Daily Upside",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "AI 데이터 센터에는 극소수의 인력만 고용합니다. 숫자는 어떻게 되나요?",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/technology/articles/ai-data-centers-employ-very-165832949.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/quartz_855/4750c76901219c8aa1d8db05adca3eae",
-                "publisher": "Quartz",
                 "_timestamp": 1778922757
             },
             {
@@ -461,267 +722,6 @@ const newsData = {
                 "image": "https://media.zenfs.com/en/insidermonkey.com/dcf08a9dbb7c3de961dd78d32a01adf8",
                 "publisher": "Insider Monkey",
                 "_timestamp": 1778922757
-            },
-            {
-                "title": "POET Technologies(POET)가 5억 달러 규모의 거래를 성사시키고 사상 최고치를 기록했습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/poet-technologies-poet-bags-500-033633740.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/6e5862677150786b241bf9004a80f85b",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "Ondas (ONDS)는 이익 창출로 26% 상승했습니다. 수익이 1,000% 이상 급증",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/ondas-onds-jumps-26-swing-033315107.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/e942a5e91b08fe2f7ca61aaffb58123b",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "Microsoft(MSFT) – 억만장자가 투자해야 할 미국 주식 10대 중",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-among-10-best-084118955.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/52d1772a91e0b074c5496ca25de5811e",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "Archer 대 Joby: eVTOL 경쟁이 현실화되었습니다. 어떤 주식이 승리하는지 알려드리겠습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/archer-vs-joby-evtol-race-062500997.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/motleyfool.com/95b7cc3bc170b78f81809c0ab628ce34",
-                "publisher": "Motley Fool",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "Google, SpaceX와 대화하여 우주에 데이터 센터 출시",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/technology/articles/google-talks-spacex-launch-data-084134109.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/b37705cc559a18e5d7c905152c29378c",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "AMD(Advanced Micro Devices) 목표 가격은 1분기 강세에 이어 110달러 인상되었습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-price-084240490.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/78ee81d4d8cbe53924c848faf9b29aa4",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "DoorDash(DASH) 목표 가격은 엇갈린 1분기 결과에 따라 30달러 낮아졌습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/doordash-dash-price-target-lowered-084258477.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/9d29eeccc8d759d9dff0b6795a07d8d3",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "Fermi (FRMI), 회사가 새로운 임대 계약을 체결하면서 22% 상승",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/fermi-frmi-jumps-22-firm-033118904.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/ba5b1ba630301ecaedd8c45c8515a4a1",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "Ackman은 Alphabet 탈퇴가 자신의 새로운 Microsoft 직책에 대한 자금 출처임을 밝혔습니다.",
-                "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/ackman-clarifies-alphabet-exit-was-funding-source-for-his-new-microsoft-position-4694437",
-                "date": "05.16 09:12",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "빌 애크먼 “알파벳 지분 매각은 회사에 대한 베팅이 아니다”",
-                "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/bill-ackman-says-alphabet-stake-sale-not-a-bet-against-the-company-4694431",
-                "date": "05.16 09:12",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "SpaceX 주주들은 IPO를 앞두고 5대 1 주식 분할을 승인했다고 Bloomberg가 보도했습니다.",
-                "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/spacex-shareholders-approve-5for1-stock-split-ahead-of-ipo-reports-bloomberg-4694429",
-                "date": "05.16 09:12",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "중국 관리들, 베이징에서 씨티그룹, 골드만삭스 회장들과 만나",
-                "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/chinese-officials-meet-citigroup-goldman-chiefs-in-beijing-4694426",
-                "date": "05.16 09:12",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "SpaceX 주주들이 5:1 주식 분할을 승인했다고 Bloomberg News가 보도했습니다.",
-                "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/spacex-shareholders-approve-5for1-stock-split--bloomberg-news-reports-4694416",
-                "date": "05.16 09:12",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "독점 - 삼성에서는 글로벌 AI 붐이 다가오는 파업과 깊은 분열을 촉발했습니다.",
-                "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/exclusiveat-samsung-the-global-ai-boom-spurred-a-looming-strike-and-deep-divisions-4691543",
-                "date": "05.16 09:12",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "YouTube, Snap 및 TikTok, 학군의 소셜 미디어 중독 주장 해결",
-                "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/youtube-snap-settle-school-districts-social-media-addiction-claims-4694344",
-                "date": "05.16 09:12",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "Arm Holdings, 칩 기술 관련 미국 독점금지 조사에 직면",
-                "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/arm-holdings-to-face-us-antitrust-probe-over-chip-tech-bloomberg-news-reports-4694244",
-                "date": "05.16 09:12",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "소비자들은 트럼프 관세 비용을 환불하지 않았다는 이유로 아마존을 고소했습니다.",
-                "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/consumers-sue-amazon-for-not-refunding-trump-tariff-costs-4694313",
-                "date": "05.16 09:12",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "Ackman과 Loeb는 2026년 초 기술 베팅에 대해 다른 경로를 택합니다.",
-                "summary": "",
-                "link": "https://www.investing.com/news/stock-market-news/ackman-loeb-take-different-routes-on-tech-bets-in-early-2026-4694302",
-                "date": "05.16 09:12",
-                "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-                "publisher": "Finance",
-                "_timestamp": 1778922757
-            },
-            {
-                "title": "'큰 실수를 할 뻔했습니다.': 70세가 아닌 64세에 사회보장 혜택을 청구했습니다. 그 이유는 다음과 같습니다.",
-                "summary": "\"얼마나 많은 사람들이 자신의 금융 생활에서 소외되고 있는지는 놀랍고 실망스럽습니다.\"",
-                "link": "https://www.marketwatch.com/story/i-nearly-made-a-major-misstep-i-claimed-my-social-security-benefits-at-64-instead-of-70-heres-why-e0d0edfe?mod=mw_rss_topstories",
-                "date": "05.16 09:00",
-                "image": "https://images.mktw.net/im-85716378",
-                "publisher": "Finance",
-                "_timestamp": 1778922000
-            },
-            {
-                "title": "남편은 딸을 위해 100,000달러의 Parent PLUS 대출을 받았습니다. 그녀는 정신 건강 문제를 이유로 중퇴했습니다. 재융자를 해야 할까요?",
-                "summary": "“그녀가 이 대출금을 갚을 가능성은 거의 또는 전혀 없습니다.”",
-                "link": "https://www.marketwatch.com/story/my-husband-took-out-a-100-000-parent-plus-loan-for-his-daughter-she-dropped-out-should-we-refinance-bea7dc6e?mod=mw_rss_topstories",
-                "date": "05.16 07:55",
-                "image": "https://images.mktw.net/im-33756905",
-                "publisher": "Finance",
-                "_timestamp": 1778918100
-            },
-            {
-                "title": "Fermi는 1분기 확장 비용으로 인한 손실이 확대됨에 따라 AI 파워 푸시를 표시합니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/energy/articles/fermi-flags-ai-power-push-022103140.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/oilprice.com/c61398738f4a236ef4ae52f993343f71",
-                "publisher": "Oilprice.com",
-                "_timestamp": 1778915900
-            },
-            {
-                "title": "베스트 바이 주식: 월스트리트는 강세인가, 약세인가?",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/best-buy-stock-wall-street-020310314.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/barchart_com_477/40f3ce17721f1f4257755e8b5b07d2ef",
-                "publisher": "Barchart",
-                "_timestamp": 1778915900
-            },
-            {
-                "title": "중국 SMIC는 외국 고객들이 주문을 다시 중국으로 옮기고 있다고 밝혔습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/technology/articles/chinas-smic-says-foreign-clients-030806144.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/reuters-finance.com/2116c6527329c354acc16c81f530947e",
-                "publisher": "Reuters",
-                "_timestamp": 1778915900
-            },
-            {
-                "title": "Molson Coors Beverage 주식에 대한 월스트리트 분석가들의 목표 가격은 얼마입니까?",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-031158772.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/barchart_com_477/046fc5d33abf3b8030fcc61e6f372188",
-                "publisher": "Barchart",
-                "_timestamp": 1778915900
-            },
-            {
-                "title": "Knight-Swift(KNX)가 배당금을 앞두고 사상 최고치를 기록했습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/knighft-swift-knx-notches-time-031319399.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/c767b6847887865d1af5d3ce36790af4",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778915900
-            },
-            {
-                "title": "Lightwave Logic, Inc. 2026년 1분기 실적 요약",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/lightwave-logic-inc-q1-2026-004439419.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/moby_896/e82eba37160dd531ed437011b76f453b",
-                "publisher": "Moby",
-                "_timestamp": 1778915900
-            },
-            {
-                "title": "Enphase(ENPH), 세금 공제 마감일을 앞두고 수요 급증으로 14% 급증",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/enphase-enph-soars-14-demand-031706338.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/370e55e69a659aa31312c24eaaa986ae",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778915900
-            },
-            {
-                "title": "Upexi, Inc. 2026년 3분기 실적 요약",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/upexi-inc-q3-2026-earnings-003507732.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/moby_896/59f674639fff81aa35bd5725e3883691",
-                "publisher": "Moby",
-                "_timestamp": 1778915900
-            },
-            {
-                "title": "포커 프로 Annie Duke는 시장 과열을 포착하기 위한 3단계 전략과 결과가 단지 기술이나 행운에 관한 것이 아닌 이유를 공개합니다. '출발점은...'",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/poker-pro-annie-duke-reveals-023103441.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/benzinga_79/e7f30f7dec8562096ccf85bc65211301",
-                "publisher": "Benzinga",
-                "_timestamp": 1778915900
             }
         ],
         "MACRO": [
@@ -729,10 +729,181 @@ const newsData = {
                 "title": "테슬라·도요타, 자동차 업계의 놀라운 진실 폭로",
                 "summary": "",
                 "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-toyota-expose-surprising-auto-043700448.html",
-                "date": "05.16 09:12",
+                "date": "05.16 10:47",
                 "image": "https://media.zenfs.com/en/thestreet_881/d31d6b1ab70ce83310d4580362aa77f8",
                 "publisher": "TheStreet",
-                "_timestamp": 1778922772
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "롤린스 주식: 분석가 추정 및 등급",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/rollins-stock-analyst-estimates-ratings-092107212.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/barchart_com_477/8f4786b6a7b7a4b12ac66bfe82a8cf09",
+                "publisher": "Barchart",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "미국의 인플레이션이 급여보다 더 빠르게 상승하고 있습니다. 전문가들은 2026년 남은 기간은 '벨트 조임'에 관한 것이라고 경고합니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/economy/articles/inflation-america-rising-faster-paychecks-091500126.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/moneywise_327/98f65c1b744b9781fd103db8f3b81181",
+                "publisher": "Moneywise",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "68세에 평생 동안 IRA에 95만 달러를 적립하려면 어떻게 해야 합니까?",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/options/articles/im-68-950k-ira-sure-110000971.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/smartasset_475/1330b0f635640c96783c946537b0ba45",
+                "publisher": "SmartAsset",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "애크먼의 퍼싱 스퀘어(Pershing Square), 마이크로소프트 지분 인수하고 구글 모기업 알파벳에서 퇴출",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/ackmans-pershing-square-takes-stake-092754300.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/reuters-finance.com/2ac0d2a355a549b1453e54a13fa305fe",
+                "publisher": "Reuters",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "AI 데이터 센터에는 극소수의 인력만 고용합니다. 숫자는 어떻게 되나요?",
+                "summary": "",
+                "link": "https://finance.yahoo.com/sectors/technology/articles/ai-data-centers-employ-very-165832949.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/quartz_855/4750c76901219c8aa1d8db05adca3eae",
+                "publisher": "Quartz",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "Google, SpaceX와 대화하여 우주에 데이터 센터 출시",
+                "summary": "",
+                "link": "https://finance.yahoo.com/sectors/technology/articles/google-talks-spacex-launch-data-084134109.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/b37705cc559a18e5d7c905152c29378c",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "애널리스트, 1분기 보고서에 따라 Eli Lilly(LLY) 목표 가격을 52달러 인상",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-raises-eli-lilly-lly-084527260.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/860932d32d923713fdffa5b1d444d8a3",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "Bernstein에서 Exxon Mobil(XOM) 목표 가격을 13달러 낮췄습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/sectors/energy/articles/exxon-mobil-xom-price-target-084549375.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/6bdc2ede5a5af8dd602fea07f05b2bad",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "AMD(Advanced Micro Devices) 목표 가격은 1분기 강세에 이어 110달러 인상되었습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-price-084240490.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/78ee81d4d8cbe53924c848faf9b29aa4",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "모든 투자자들에게 지금 주식 시장에 대해 한 가지 말할 수 있다면 그것은 이것입니다",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/could-tell-investors-1-thing-092000214.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/motleyfool.com/18dea25ef73c58e10403acc3fc917730",
+                "publisher": "Motley Fool",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "억만장자들이 애플(AAPL)을 투자하기에 가장 좋은 미국 주식 중 하나로 꼽습니까?",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-one-best-us-084500391.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/410ac07c4c90786d8592963501a2ed84",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "DoorDash(DASH) 목표 가격은 엇갈린 1분기 결과에 따라 30달러 낮아졌습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/doordash-dash-price-target-lowered-084258477.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/9d29eeccc8d759d9dff0b6795a07d8d3",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "Microsoft(MSFT) – 억만장자가 투자해야 할 미국 주식 10대 중",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-among-10-best-084118955.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/52d1772a91e0b074c5496ca25de5811e",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "월트 디즈니 컴퍼니(DIS)의 목표 가격은 2분기 실적 호조에 따라 상향 조정되었습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-company-dis-price-084411380.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/08a5b46e1c45b127ac43b43d13593a3c",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "더 나은 슈퍼 반도체 주식: AMD(Advanced Micro Devices) 또는 Broadcom?",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/better-super-semiconductor-stock-advanced-091900973.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/motleyfool.com/98329666c699083470eb97fa819fd02f",
+                "publisher": "Motley Fool",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "IBM Think 2026 이벤트 이후 IBM(International Business Machines) 주주들에게는 상승 여력이 없습니다",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/no-upside-international-business-machines-092909600.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/6f4d0438b76af3198f528a295ebb225b",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "분석가들은 실적 개선 후 Aon Plc (AON) 목표 가격을 인상했습니다.",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/analysts-raise-aon-plc-aon-092906253.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/01155ab0384fe4945ffc6eb2433bc5d0",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "Toast Inc.(TOST), 실적 후 성장 계획 공개",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/toast-inc-tost-reveals-growth-092908519.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/7210dfe2a2fa500c052d881542c69fac",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
+            },
+            {
+                "title": "빌더스 퍼스트소스(BLDR) 실적 부진 이후 하락세 지속",
+                "summary": "",
+                "link": "https://finance.yahoo.com/markets/stocks/articles/builders-firstsource-bldr-downtrend-continues-092901467.html",
+                "date": "05.16 10:47",
+                "image": "https://media.zenfs.com/en/insidermonkey.com/b92cb49950f78426e9697b870a547dcd",
+                "publisher": "Insider Monkey",
+                "_timestamp": 1778928434
             },
             {
                 "title": "장수 위험이 생각보다 은퇴 계획에 미치는 영향",
@@ -768,15 +939,6 @@ const newsData = {
                 "date": "05.16 09:12",
                 "image": "https://media.zenfs.com/en/the_daily_upside_435/cd885dec4611b5f419acfe6a25b7c614",
                 "publisher": "The Daily Upside",
-                "_timestamp": 1778922772
-            },
-            {
-                "title": "AI 데이터 센터에는 극소수의 인력만 고용합니다. 숫자는 어떻게 되나요?",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/technology/articles/ai-data-centers-employ-very-165832949.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/quartz_855/4750c76901219c8aa1d8db05adca3eae",
-                "publisher": "Quartz",
                 "_timestamp": 1778922772
             },
             {
@@ -816,42 +978,6 @@ const newsData = {
                 "_timestamp": 1778922772
             },
             {
-                "title": "Microsoft(MSFT) – 억만장자가 투자해야 할 미국 주식 10대 중",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-among-10-best-084118955.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/52d1772a91e0b074c5496ca25de5811e",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922772
-            },
-            {
-                "title": "Google, SpaceX와 대화하여 우주에 데이터 센터 출시",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/technology/articles/google-talks-spacex-launch-data-084134109.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/b37705cc559a18e5d7c905152c29378c",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922772
-            },
-            {
-                "title": "DoorDash(DASH) 목표 가격은 엇갈린 1분기 결과에 따라 30달러 낮아졌습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/doordash-dash-price-target-lowered-084258477.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/9d29eeccc8d759d9dff0b6795a07d8d3",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922772
-            },
-            {
-                "title": "AMD(Advanced Micro Devices) 목표 가격은 1분기 강세에 이어 110달러 인상되었습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-price-084240490.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/78ee81d4d8cbe53924c848faf9b29aa4",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922772
-            },
-            {
                 "title": "Archer 대 Joby: eVTOL 경쟁이 현실화되었습니다. 어떤 주식이 승리하는지 알려드리겠습니다.",
                 "summary": "",
                 "link": "https://finance.yahoo.com/markets/stocks/articles/archer-vs-joby-evtol-race-062500997.html",
@@ -870,29 +996,11 @@ const newsData = {
                 "_timestamp": 1778922772
             },
             {
-                "title": "월트 디즈니 컴퍼니(DIS)의 목표 가격은 2분기 실적 호조에 따라 상향 조정되었습니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-company-dis-price-084411380.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/08a5b46e1c45b127ac43b43d13593a3c",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922772
-            },
-            {
                 "title": "애널리스트들은 1분기 실적 부진에도 불구하고 맥도날드(MCD) 가격 목표를 낮췄습니다.",
                 "summary": "",
                 "link": "https://finance.yahoo.com/markets/stocks/articles/analysts-lower-mcdonald-mcd-price-084427222.html",
                 "date": "05.16 09:12",
                 "image": "https://media.zenfs.com/en/insidermonkey.com/e7426704f564c6fb6fbdc3de867a28ce",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778922772
-            },
-            {
-                "title": "억만장자들이 애플(AAPL)을 투자하기에 가장 좋은 미국 주식 중 하나로 꼽습니까?",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-one-best-us-084500391.html",
-                "date": "05.16 09:12",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/410ac07c4c90786d8592963501a2ed84",
                 "publisher": "Insider Monkey",
                 "_timestamp": 1778922772
             },
@@ -916,7 +1024,7 @@ const newsData = {
             },
             {
                 "title": "삼성전자 노사 대화 재개… 사측 대표교섭위원 교체",
-                "summary": "삼성전자 노사 대화 재개… 사측 대표교섭위원 교체 조선일보이재용 ‘삼전 성과급’ 첫 사과... “내부 문제로 심려 끼쳐 죄송” 조선일보삼성전자 노사, 18일 중노위서 교섭 재개...사측 대표교섭위원 교체 지디넷코리아이재용 회장 \"회사 내부 문제로 심려끼쳐 사죄‥한 방향으로 나아가야\" MBC 뉴스[속보]삼전 노조, 파업 강행 결의 “사측과 6월7일 이후 협의",
+                "summary": "삼성전자 노사 대화 재개… 사측 대표교섭위원 교체 조선일보이재용 회장, 대국민 사과…노조에는 \"우리는 한 몸, 힘 모아 나아가야 할 때\" 노컷뉴스[속보] 파업 위기에 고개 숙인 이재용 “비바람 제가 맞겠다···지혜롭게 힘모아 한 방향으로 나아가야” 경향신문삼성전자 노사, 18일 협상 재개…파업 'D-3' 최대 분수령(종합2보) v.daum.net삼성전자 노",
                 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOTNtZXdFMDFmRHlDUGVfNzRwUmk5TnR1YmV0NlNBWlRCYUtsU2hHZDd6NnItd1Q1VXFldGlXbll6QmZzaFZpWVJ1T05XZ1NxajE0ak5EdUptdS1iSDZCUVBGcDVFcExNbWE3c0FKa25LaU56WlgxOXZ0MUJobmlCNGl4bTVlNF94N2wyTmFVSQ?oc=5",
                 "date": "05.16 07:36",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
@@ -976,114 +1084,6 @@ const newsData = {
                 "image": "https://media.zenfs.com/en/insidermonkey.com/c767b6847887865d1af5d3ce36790af4",
                 "publisher": "Insider Monkey",
                 "_timestamp": 1778915927
-            },
-            {
-                "title": "Lightwave Logic, Inc. 2026년 1분기 실적 요약",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/lightwave-logic-inc-q1-2026-004439419.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/moby_896/e82eba37160dd531ed437011b76f453b",
-                "publisher": "Moby",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "Enphase(ENPH), 세금 공제 마감일을 앞두고 수요 급증으로 14% 급증",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/enphase-enph-soars-14-demand-031706338.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/370e55e69a659aa31312c24eaaa986ae",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "Upexi, Inc. 2026년 3분기 실적 요약",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/upexi-inc-q3-2026-earnings-003507732.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/moby_896/59f674639fff81aa35bd5725e3883691",
-                "publisher": "Moby",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "포커 프로 Annie Duke는 시장 과열을 포착하기 위한 3단계 전략과 결과가 단지 기술이나 행운에 관한 것이 아닌 이유를 공개합니다. '출발점은...'",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/poker-pro-annie-duke-reveals-023103441.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/benzinga_79/e7f30f7dec8562096ccf85bc65211301",
-                "publisher": "Benzinga",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "SolarEdge(SEDG), 세금 공제 마감일을 앞두고 수요 성장 희망에 따라 17.5% 상승",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/solaredge-sedg-climbs-17-5-031927384.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/a4bc102aa4c6231b5d39a729c02b1411",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "Fed의 Barr는 Fed 보유를 줄이기 위해 유동성 규칙을 낮추는 것이 잘못되었다고 말합니다.",
-                "summary": "",
-                "link": "https://finance.yahoo.com/economy/policy/articles/feds-barr-says-wrong-lower-230720951.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/reuters.com/57f0cf14601057466a0481458cdfe0f1",
-                "publisher": "Reuters",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "Klarna Group(KLAR), 뛰어난 수익으로 20% 상승, 낙관적인 전망",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/klarna-group-klar-climbs-20-032209155.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/6d2c7bd3d155cfe05fdb1864ec472cb6",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "Journey Medical Corporation 2026년 1분기 실적 요약",
-                "summary": "",
-                "link": "https://finance.yahoo.com/sectors/healthcare/articles/journey-medical-corporation-q1-2026-002526409.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/moby_896/90995ddcd81373c9d6520a161ca5c5ab",
-                "publisher": "Moby",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "수상 경력에 빛나는 피자 레스토랑 체인, Chapter 11 파산 신청",
-                "summary": "",
-                "link": "https://finance.yahoo.com/economy/articles/award-winning-pizza-restaurant-chain-021919589.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/thestreet_881/ade66de05782cf86a6f9371cad6d7c80",
-                "publisher": "TheStreet",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "PureCycle(PCT)이 새로운 규제 이정표를 달성하고 21.5% 급증",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/purecycle-pct-hits-regulatory-milestone-032516103.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/a028332711cd60914ce7f38ea0c859c1",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "Redwire(RDW), 기술, 비즈니스 업데이트보다 22% 앞서",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/stocks/articles/redwire-rdw-soars-22-ahead-032833769.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/insidermonkey.com/5a2823455527cb3ddc415bc72e65286a",
-                "publisher": "Insider Monkey",
-                "_timestamp": 1778915927
-            },
-            {
-                "title": "2026년 인플레이션을 위한 최고의 ETF: TIPS, 원자재, 그 이상",
-                "summary": "",
-                "link": "https://finance.yahoo.com/markets/options/articles/best-etfs-inflation-2026-tips-001341000.html",
-                "date": "05.16 07:18",
-                "image": "https://media.zenfs.com/en/indexuniverse.com/dc3c854838baf8f40b1fffb1adc45d61",
-                "publisher": "etf.com",
-                "_timestamp": 1778915927
             }
         ],
         "INDUSTRY": [
@@ -1091,91 +1091,91 @@ const newsData = {
                 "title": "Xbox는 이제 XBOX입니다.",
                 "summary": "Xbox just allcapsmaxxed: XBOX를 만나보세요. 이것은 농담이 아닙니다. Microsoft는 실제로 Xbox를 XBOX로 브랜드를 바꾸는 것으로 보입니다. Xbox CEO인 Asha Sharma는 이번 주 초 X에 대해 설문 조사를 실시하여 팬들에게 Microsoft가 Xbox를 사용해야 하는지 아니면 XBOX를 사용해야 하는지 물었습니",
                 "link": "https://www.theverge.com/news/931918/microsoft-xbox-rebrand-caps",
-                "date": "05.16 09:13",
+                "date": "05.16 10:47",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1778922781
+                "_timestamp": 1778928451
             },
             {
                 "title": "YouTube는 AI 딥페이크 탐지 도구를 모든 성인 사용자에게 확대합니다.",
                 "summary": "YouTube는 AI 유사성 감지 프로그램을 18세 이상의 모든 사용자에게 확대하고 있습니다. 이는 거의 누구나 플랫폼에서 자신의 잠재적인 딥페이크를 찾아낼 수 있음을 의미합니다. 유사성 감지 기능은 셀카 스타일로 사람의 얼굴을 스캔하여 YouTube에서 유사성을 모니터링합니다. 만약 거기에",
                 "link": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
-                "date": "05.16 09:13",
+                "date": "05.16 10:47",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1778922781
+                "_timestamp": 1778928451
             },
             {
                 "title": "Windows 11은 조정 가능한 작업 표시줄과 크기 조정 가능한 시작 메뉴를 테스트합니다.",
-                "summary": "Microsoft의 최신 Windows 11 테스트를 통해 작업 표시줄의 위치를 ​​변경하고 시작 메뉴의 크기를 변경할 수 있습니다. 실험 채널의 Windows 11 Insiders에 배포되는 업데이트를 사용하면 작업 표시줄을 화면 하단, 상단, 왼쪽 또는 오른쪽에 배치할 수 있습니다. 마이크로소프트 퍼스트 테",
+                "summary": "Microsoft의 최신 Windows 11 테스트를 통해 작업 표시줄의 위치를 ​​변경하고 시작 메뉴의 크기를 변경할 수 있습니다. 실험 채널의 Windows 11 Insiders에 배포되는 업데이트를 사용하면 작업 표시줄을 화면의 하단, 상단, 왼쪽 또는 오른쪽에 배치할 수 있습니다. 마이크로소프트 퍼스트 테",
                 "link": "https://www.theverge.com/tech/931817/windows-11-movable-taskbar-start-button",
-                "date": "05.16 09:13",
+                "date": "05.16 10:47",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1778922781
+                "_timestamp": 1778928451
             },
             {
                 "title": "ArXiv는 AI slop으로 가득 찬 논문을 업로드하는 연구원을 금지합니다",
                 "summary": "인쇄 전 학술 연구를 위한 인기 플랫폼인 ArXiv가 AI 슬롭이 포함된 논문의 양을 줄이기 위해 새로운 조치를 취하고 있습니다. 논문에 환각적 참고문헌이나 \"메타 코멘트\" 등 \"저자가 LLM 생성 결과를 확인하지 않았다는 논란의 여지가 없는 증거\"가 있는 경우 l",
                 "link": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
-                "date": "05.16 09:13",
+                "date": "05.16 10:47",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1778922781
+                "_timestamp": 1778928451
             },
             {
                 "title": "Analogue 3D가 마침내 저장 상태를 갖게 되었습니다.",
-                "summary": "Analogue는 메모리 저장 상태 기능을 추가하는 Analogue 3D 콘솔용 새 펌웨어 업데이트를 출시했습니다. 휴대용 아날로그 포켓으로 처음 소개된 메모리즈는 특정 지점에 도달할 필요 없이 언제든지 저장하고 나중에 정확한 지점에서 다시 시작할 수 있도록 해줍니다.",
+                "summary": "Analogue는 메모리 저장 상태 기능을 추가하는 Analogue 3D 콘솔용 새로운 펌웨어 업데이트를 출시했습니다. 휴대용 아날로그 포켓으로 처음 선보인 메모리즈(Memories)를 사용하면 언제든지 저장하고 특정 지점에 도달할 필요 없이 나중에 정확한 지점에서 다시 시작할 수 있습니다.",
                 "link": "https://www.theverge.com/tech/931615/analogue-3d-nintendo-64-console-memories-save-state",
-                "date": "05.16 09:13",
+                "date": "05.16 10:47",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1778922781
+                "_timestamp": 1778928451
             },
             {
                 "title": "OpenAI는 AI 에이전트 전투에서 승리하기 위해 경영진을 계속 섞습니다.",
-                "summary": "OpenAI는 금요일에 또 다른 조직 개편을 발표하여 특정 영역을 통합하고 회사 사장 Greg Brockman을 모든 제품의 공식 리더로 만들었습니다. The Verge가 본 메모에서 Brockman은 OpenAI의 올해 제품 전략이 AI 에이전트에 올인하는 것이기 때문에 OpenAI는",
+                "summary": "OpenAI는 금요일에 또 다른 조직 개편을 발표하여 특정 영역을 통합하고 회사 사장인 Greg Brockman을 모든 제품의 공식 리더로 만들었습니다. The Verge가 본 메모에서 Brockman은 OpenAI의 올해 제품 전략이 AI 에이전트에 올인하는 것이기 때문에 OpenAI는",
                 "link": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
-                "date": "05.16 09:13",
+                "date": "05.16 10:47",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1778922781
+                "_timestamp": 1778928451
             },
             {
                 "title": "Intel의 가장 빠른 데스크탑 CPU 중 하나가 $50 할인됩니다.",
                 "summary": "Intel Core Ultra 7 270K Plus는 3월 말 회사에서 \"역대 가장 빠른 게임용 데스크탑 프로세서\" 중 하나로 광고했습니다. Gamers Nexus가 수행한 벤치마크에 따르면 프로세서가 AMD의 값비싼 X3D 캐시 장착 Ryzen 9000 시리즈 CPU에 돈을 주고 있는 것으로 나타났습니다.",
                 "link": "https://www.theverge.com/gadgets/931495/intel-ultra-7-270k-plus-cpu-deal-sale",
-                "date": "05.16 09:13",
+                "date": "05.16 10:47",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1778922781
+                "_timestamp": 1778928451
             },
             {
                 "title": "AI 라디오 진행자가 AI를 단독으로 신뢰할 수 없는 이유를 보여줍니다.",
                 "summary": "Andon Labs는 AI 에이전트가 인간의 개입 없이 비즈니스를 운영하는 일련의 실험을 진행해 왔습니다. 최신 버전은 가장 인기 있는 AI 모델 중 일부가 운영하는 4중주 라디오 방송국입니다. \"Thinking Frequency\"는 Claude가 운영하고, \"OpenAIR\"는 ChatGPT가, \"Backlink Broadcast\"는 Goog가 운영합니다.",
                 "link": "https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies",
-                "date": "05.16 09:13",
+                "date": "05.16 10:47",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1778922781
+                "_timestamp": 1778928451
             },
             {
-                "title": "Trump Mobile은 미국 국기에 몇 개의 줄무늬가 있는지 알고 있나요?",
+                "title": "Trump Mobile은 미국 국기에 줄무늬가 몇 개 있는지 알고 있나요?",
                 "summary": "트럼프 전화는 어디에 있나요? 우리는 매주 그것에 대해 계속 이야기할 것입니다. 우리는 늘 그렇듯이 트럼프 휴대폰의 행방에 대해 문의하기 위해 연락했습니다. 이번 주에는 우리의 최선의 희망에도 불구하고 여전히 휴대폰이 없습니다. 그러나 회사의 애국심에 대한 새로운 의구심이 생겼습니다. 이것은 b를 갖는다",
                 "link": "https://www.theverge.com/gadgets/931347/trump-mobile-t1-phone-logo-flag-stars-stripes",
-                "date": "05.16 09:13",
+                "date": "05.16 10:47",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1778922781
+                "_timestamp": 1778928451
             },
             {
                 "title": "Google은 AI를 '조작'하려는 시도를 포함하도록 스팸 규칙을 업데이트합니다.",
                 "summary": "Google은 AI 개요 또는 검색의 AI 모드 결과를 포함하여 검색 결과에서 AI 모델을 \"조작\"하려는 시도를 스팸으로 표시하기 위해 스팸 정책을 업데이트했습니다. Search Engine Land는 다음과 같이 보고합니다. \"Google 검색의 맥락에서 스팸은 사용자를 속이거나 검색 시스템을 조작하는 데 사용되는 기술을 말합니다.",
                 "link": "https://www.theverge.com/tech/931416/google-ai-search-spam-policy",
-                "date": "05.16 09:13",
+                "date": "05.16 10:47",
                 "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
                 "publisher": "Finance",
-                "_timestamp": 1778922781
+                "_timestamp": 1778928451
             },
             {
                 "title": "OpenAI는 이제 ChatGPT가 귀하의 은행 계좌에 액세스하기를 원합니다.",
@@ -1450,5 +1450,5 @@ const newsData = {
         ]
     },
     "indices": [],
-    "last_updated": "2026-05-16 18:13:04 KST"
+    "last_updated": "2026-05-16 19:47:36 KST"
 };
